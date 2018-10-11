@@ -1,5 +1,5 @@
 alias assignments on rzansel
-Wed Oct 10 17:59:52 PDT 2018
+Wed Oct 10 19:41:26 PDT 2018
 
 alias __contents_cpu='echo "write proc/cpuinfo to \${my_log} = ${my_log}"'
 alias __contents_mem='echo "write proc/meminfo to \${my_log} = ${my_log}"'
