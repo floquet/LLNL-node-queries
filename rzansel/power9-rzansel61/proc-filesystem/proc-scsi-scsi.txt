@@ -1,6 +1,6 @@
 cat /proc/scsi/scsi for rzansel, node rzansel61
 list of every recognized SCSI device
-Thu Oct 11 15:27:08 PDT 2018
+Thu Oct 11 15:28:39 PDT 2018
 
 Attached devices:
 Host: scsi0 Channel: 00 Id: 00 Lun: 00
