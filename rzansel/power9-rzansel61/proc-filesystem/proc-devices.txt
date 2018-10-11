@@ -1,6 +1,6 @@
 cat /proc/devices for rzansel, node rzansel61
 displays the various character and block devices currently configured
-Wed Oct 10 17:59:52 PDT 2018
+Wed Oct 10 19:41:25 PDT 2018
 
 Character devices:
   1 mem

@@ -1,6 +1,6 @@
 cat /proc/mdstat for rzansel, node rzansel61
 current information for multiple-disk, RAID configurations
-Wed Oct 10 17:59:52 PDT 2018
+Wed Oct 10 19:41:25 PDT 2018
 
 Personalities : 
 unused devices: <none>
