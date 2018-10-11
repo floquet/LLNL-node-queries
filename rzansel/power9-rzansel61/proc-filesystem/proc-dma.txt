@@ -1,0 +1,5 @@
+cat /proc/dma for rzansel, node rzansel61
+registered ISA DMA channels in use
+Wed Oct 10 17:14:15 PDT 2018
+
+ 4: cascade

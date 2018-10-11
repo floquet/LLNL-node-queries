@@ -1,0 +1,11 @@
+cat /proc/scsi/scsi for rzansel, node rzansel61
+list of every recognized SCSI device
+Wed Oct 10 17:14:15 PDT 2018
+
+Attached devices:
+Host: scsi0 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: ST2000NX0253     Rev: BE35
+  Type:   Direct-Access                    ANSI  SCSI revision: 05
+Host: scsi1 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: ST2000NX0253     Rev: BE35
+  Type:   Direct-Access                    ANSI  SCSI revision: 05
