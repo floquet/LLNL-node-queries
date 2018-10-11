@@ -1,9 +1,9 @@
 cat /proc/buddyinfo for rzansel, node rzansel61
 used primarily for diagnosing memory fragmentation issues
-Wed Oct 10 17:14:15 PDT 2018
+Wed Oct 10 17:59:51 PDT 2018
 
-Node 0, zone      DMA    911   1507   4251   2742   1512   2520   5281   2862   8647 
-Node 8, zone      DMA   1394  13774  16845  13055   9489   5844   3073   1408  11291 
+Node 0, zone      DMA   4140   2071   5203   3525   2011   1919   5247   2861   8648 
+Node 8, zone      DMA   2151  13820  16691  13055   9489   5844   3073   1408  11291 
 Node 252, zone  Movable     14     14     14     14     14     14     14     12    995 
 Node 253, zone  Movable      4      4      4      4      4      4      4      2   1005 
 Node 254, zone  Movable      0      0      0      0      0      0      0      0   1008 
