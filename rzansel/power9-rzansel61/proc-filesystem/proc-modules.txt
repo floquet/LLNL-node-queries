@@ -1,6 +1,6 @@
 cat /proc/modules for rzansel, node rzansel61
 all modules loaded into the kernel
-Thu Oct 11 15:28:39 PDT 2018
+Thu Oct 11 15:28:41 PDT 2018
 
 mmfs26 2563452 2 - Live 0xc008000012880000 (OE)
 mmfslinux 645652 20 mmfs26, Live 0xc008000010c40000 (OE)
