@@ -30,3 +30,11 @@ cat /proc/sys/vm/panic_on_oom
 Wed Oct 10 19:53:18 PDT 2018
 cat /proc/sys/vm/panic_on_oom
 0
+
+Wed Oct 10 19:55:49 PDT 2018
+cat /proc/sys/vm/panic_on_oom
+0
+
+Wed Oct 10 19:55:49 PDT 2018
+cat /proc/sys/vm/panic_on_oom
+0
