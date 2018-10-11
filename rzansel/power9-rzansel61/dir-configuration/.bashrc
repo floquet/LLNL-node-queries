@@ -42,3 +42,7 @@ source "${core}/master.sh"
 alias  gohypre="cd ${mySpack}/spack.power9.hypre;  pwd"
 alias gozoltan="cd ${mySpack}/spack.power9.zoltan; pwd"
 
+alias quick="source ${lap_scripts}/develop/patch-zoltan-config.sh"
+
+
+

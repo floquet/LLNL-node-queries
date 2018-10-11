@@ -1,12 +1,14 @@
 modules available 
-Thu Oct 11 11:02:18 PDT 2018
+Thu Oct 11 15:27:05 PDT 2018
 
 
---------------- /usr/tce/modulefiles/Compiler/xl/beta-2018.09.26 ---------------
-   spectrum-mpi/rolling-release (L,D)    spectrum-mpi/2018.07.12
-   spectrum-mpi/2018.04.27               spectrum-mpi/2018.08.02
-   spectrum-mpi/2018.06.01               spectrum-mpi/2018.08.13
-   spectrum-mpi/2018.06.07               spectrum-mpi/2018.08.30
+ /p/gpfs1/topa1/spack/spack.power9.zoltan/share/spack/modules/linux-rhel7-ppc64le 
+   cmake/3.12.2-gcc-4.9.3        metis/5.1.0-xl-16.1                    (D)
+   cmake/3.12.2-gcc-8.2.0        numactl/2.0.11-gcc-8.2.0
+   cmake/3.12.2-xl-16.1   (D)    openmpi/3.1.2-gcc-8.2.0
+   gcc/8.2.0-gcc-4.9.3    (L)    parmetis/4.0.3-gcc-8.2.0-openmpi@3.1.2
+   hwloc/1.11.9-gcc-8.2.0        pkgconf/1.4.2-gcc-4.9.3
+   metis/5.1.0-gcc-8.2.0         pkgconf/1.4.2-xl-16.1                  (D)
 
 ------------------------- /usr/tcetmp/modulefiles/Core -------------------------
    StdEnv                     (L)      lapack/3.8.0-P8-gcc-4.9.3
@@ -22,7 +24,7 @@ Thu Oct 11 11:02:18 PDT 2018
    clang/upstream-2018.10.02           pgi/17.4
    clang/6.0.0                         pgi/17.7
    cmake/3.7.2                         pgi/17.9
-   cmake/3.9.2                (D)      pgi/17.10
+   cmake/3.9.2                         pgi/17.10
    coredump/cuda_fullcore              pgi/18.1
    coredump/cuda_lwcore                pgi/18.3
    coredump/fullcore                   pgi/18.4
@@ -48,14 +50,14 @@ Thu Oct 11 11:02:18 PDT 2018
    gsl/2.3                             xl/beta-2018.02.05
    gsl/2.4                             xl/beta-2018.02.22
    gsl/2.5                    (D)      xl/beta-2018.03.21
-   hwloc/1.11.10-cuda                  xl/beta-2018.04.06
+   hwloc/1.11.10-cuda         (D)      xl/beta-2018.04.06
    ibmppt/alpha-2.4.0                  xl/beta-2018.06.01
    ibmppt/beta-2.4.0                   xl/beta-2018.06.27
    ibmppt/beta2-2.4.0                  xl/beta-2018.07.17
    ibmppt/2.3                          xl/beta-2018.08.08
    ibmppt/2.4.0                        xl/beta-2018.08.24
    ibmppt/2.4.0.1             (D)      xl/beta-2018.09.13
-   lalloc/1.0                          xl/beta-2018.09.26            (L,D)
+   lalloc/1.0                          xl/beta-2018.09.26            (D)
    lalloc/2.0                 (D)      xl/2018.04.29
    lapack/3.8.0-gcc-4.9.3              xl/2018.05.18
    lapack/3.8.0-xl-2018.08.24 (D)

@@ -1,38 +1,38 @@
 cat /proc/meminfo for rzansel, node rzansel61
 valuable information about the system's RAM usage
-Thu Oct 11 15:27:05 PDT 2018
+Thu Oct 11 15:27:08 PDT 2018
 
 MemTotal:       598037696 kB
-MemFree:        438648320 kB
-MemAvailable:   522633344 kB
+MemFree:        438556864 kB
+MemAvailable:   522545600 kB
 Buffers:          608064 kB
-Cached:         84286080 kB
+Cached:         84289728 kB
 SwapCached:         1536 kB
-Active:         82441088 kB
-Inactive:       51309568 kB
-Active(anon):   48934784 kB
+Active:         82544512 kB
+Inactive:       51310016 kB
+Active(anon):   49034944 kB
 Inactive(anon):    48320 kB
-Active(file):   33506304 kB
-Inactive(file): 51261248 kB
+Active(file):   33509568 kB
+Inactive(file): 51261696 kB
 Unevictable:    16777216 kB
 Mlocked:        16777216 kB
 SwapTotal:       4194240 kB
 SwapFree:        4080576 kB
-Dirty:              1984 kB
+Dirty:              1920 kB
 Writeback:             0 kB
-AnonPages:      65629696 kB
-Mapped:          1784960 kB
+AnonPages:      65713088 kB
+Mapped:          1787264 kB
 Shmem:            126720 kB
-Slab:            4244416 kB
+Slab:            4244608 kB
 SReclaimable:    1805312 kB
-SUnreclaim:      2439104 kB
-KernelStack:       51104 kB
-PageTables:       176512 kB
+SUnreclaim:      2439296 kB
+KernelStack:       50608 kB
+PageTables:       171648 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:    303213056 kB
-Committed_AS:   68729664 kB
+Committed_AS:   68762240 kB
 VmallocTotal:   549755813888 kB
 VmallocUsed:           0 kB
 VmallocChunk:          0 kB
