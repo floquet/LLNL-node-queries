@@ -1,7 +1,9 @@
 cat /proc/modules for rzansel, node rzansel61
 all modules loaded into the kernel
-Thu Oct 11 15:28:41 PDT 2018
+Sat Oct 13 15:02:18 PDT 2018
 
+iptable_filter 3596 1 - Live 0xc008000030880000
+ip_tables 26459 1 iptable_filter, Live 0xc008000030820000
 mmfs26 2563452 2 - Live 0xc008000012880000 (OE)
 mmfslinux 645652 20 mmfs26, Live 0xc008000010c40000 (OE)
 tracedev 52649 3 mmfs26,mmfslinux, Live 0xc008000010320000 (OE)
@@ -30,9 +32,8 @@ xt_LOG 3162 4 - Live 0xc008000011020000
 xt_multiport 4044 9 - Live 0xc008000010c00000
 mlx4_core 436281 2 mlx4_en,mlx4_ib, Live 0xc0080000118a0000 (OE)
 kvm_hv 139485 0 - Live 0xc008000010880000
-nvidia_uvm 963954 0 - Live 0xc0080000108e0000 (POE)
+nvidia_uvm 963954 2 - Live 0xc0080000108e0000 (POE)
 kvm 259190 1 kvm_hv, Live 0xc0080000107e0000
-iptable_filter 3596 1 - Live 0xc008000010640000
 i2c_dev 13822 0 - Live 0xc008000010420000
 sg 49058 0 - Live 0xc008000010340000
 shpchp 43264 0 - Live 0xc008000010000000
@@ -51,7 +52,6 @@ knem 43564 0 - Live 0xc00800000e770000 (OE)
 sch_fq_codel 14133 66 - Live 0xc00800000e700000
 auth_rpcgss 75761 0 - Live 0xc00800000e690000
 sunrpc 510879 81 nfsv3,nfs_acl,nfs,lockd,auth_rpcgss, Live 0xc00800000e590000
-ip_tables 26459 1 iptable_filter, Live 0xc00800000e440000
 ext4 843323 2 - Live 0xc00800000e310000
 mbcache 10510 1 ext4, Live 0xc00800000e170000
 jbd2 144938 1 ext4, Live 0xc00800000e0f0000
@@ -60,7 +60,7 @@ ib_core 365252 11 nv_peer_mem,rdma_ucm,ib_ucm,rdma_cm,iw_cm,ib_ipoib,ib_cm,ib_uv
 sd_mod 55031 4 - Live 0xc00800001fb90000
 nvidia_drm 50539 0 - Live 0xc00800001f4f0000 (POE)
 nvidia_modeset 1264774 1 nvidia_drm, Live 0xc00800001f330000 (POE)
-nvidia 17513183 93 nv_peer_mem,nvidia_uvm,nvidia_modeset, Live 0xc00800001a0f0000 (POE)
+nvidia 17513183 144 nv_peer_mem,nvidia_uvm,nvidia_modeset, Live 0xc00800001a0f0000 (POE)
 ast 98742 1 - Live 0xc008000015330000
 i2c_algo_bit 11175 1 ast, Live 0xc008000015270000
 bnx2x 1012877 0 - Live 0xc008000014f90000

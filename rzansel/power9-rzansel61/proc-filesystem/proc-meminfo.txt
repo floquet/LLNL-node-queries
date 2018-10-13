@@ -1,38 +1,38 @@
 cat /proc/meminfo for rzansel, node rzansel61
 valuable information about the system's RAM usage
-Thu Oct 11 15:28:41 PDT 2018
+Sat Oct 13 15:02:18 PDT 2018
 
 MemTotal:       598037696 kB
-MemFree:        436382720 kB
-MemAvailable:   520383808 kB
-Buffers:          608064 kB
-Cached:         84301568 kB
-SwapCached:         1536 kB
-Active:         84691072 kB
-Inactive:       51318976 kB
-Active(anon):   51178688 kB
-Inactive(anon):    48320 kB
-Active(file):   33512384 kB
-Inactive(file): 51270656 kB
+MemFree:        542562048 kB
+MemAvailable:   567174912 kB
+Buffers:          595392 kB
+Cached:         25494528 kB
+SwapCached:         6016 kB
+Active:         14504064 kB
+Inactive:       15942528 kB
+Active(anon):    4350656 kB
+Inactive(anon):   157056 kB
+Active(file):   10153408 kB
+Inactive(file): 15785472 kB
 Unevictable:    16777216 kB
 Mlocked:        16777216 kB
 SwapTotal:       4194240 kB
-SwapFree:        4080576 kB
-Dirty:              1344 kB
+SwapFree:        4068096 kB
+Dirty:               448 kB
 Writeback:             0 kB
-AnonPages:      67886784 kB
-Mapped:          1786304 kB
-Shmem:            126720 kB
-Slab:            4244608 kB
-SReclaimable:    1805312 kB
-SUnreclaim:      2439296 kB
-KernelStack:       51808 kB
-PageTables:       179264 kB
+AnonPages:      21134976 kB
+Mapped:          1687552 kB
+Shmem:            151040 kB
+Slab:            3610816 kB
+SReclaimable:    1196992 kB
+SUnreclaim:      2413824 kB
+KernelStack:       52480 kB
+PageTables:        82816 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:    303213056 kB
-Committed_AS:   70921792 kB
+Committed_AS:   24721792 kB
 VmallocTotal:   549755813888 kB
 VmallocUsed:           0 kB
 VmallocChunk:          0 kB
@@ -41,7 +41,7 @@ AnonHugePages:    262144 kB
 ShmemHugePages:        0 kB
 ShmemPmdMapped:        0 kB
 CmaTotal:       26853376 kB
-CmaFree:        26847488 kB
+CmaFree:        26838400 kB
 HugePages_Total:       0
 HugePages_Free:        0
 HugePages_Rsvd:        0
