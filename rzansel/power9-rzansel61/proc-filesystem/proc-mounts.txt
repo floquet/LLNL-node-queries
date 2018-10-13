@@ -1,6 +1,6 @@
 cat /proc/mounts for rzansel, node rzansel61
 all mounts in use
-Sat Oct 13 15:02:18 PDT 2018
+Sat Oct 13 15:04:18 PDT 2018
 
 sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
 proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
