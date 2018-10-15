@@ -1,5 +1,5 @@
 cat /proc/uptime for rzansel, node rzansel61
 uptime since restart
-Mon Oct 15 12:25:46 PDT 2018
+Mon Oct 15 12:25:49 PDT 2018
 
-1735982.48 219718644.83
+1735985.58 219719080.03

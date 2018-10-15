@@ -1,6 +1,6 @@
 cat /proc/modules for rzansel, node rzansel61
 all modules loaded into the kernel
-Mon Oct 15 12:25:44 PDT 2018
+Mon Oct 15 12:25:49 PDT 2018
 
 iptable_filter 3596 1 - Live 0xc008000030880000
 ip_tables 26459 1 iptable_filter, Live 0xc008000030820000
