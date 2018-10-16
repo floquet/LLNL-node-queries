@@ -1,6 +1,6 @@
 cat /proc/partitions for rzansel, node rzansel61
 partition block allocation information
-Tue Oct 16 15:10:50 PDT 2018
+Tue Oct 16 15:10:53 PDT 2018
 
 major minor  #blocks  name
 
