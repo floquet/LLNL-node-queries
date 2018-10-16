@@ -1,4 +1,4 @@
 cat /proc/ioports for rzansel, node rzansel61
 currently registered port regions used for input or output communication
-Tue Oct 16 15:10:43 PDT 2018
+Tue Oct 16 15:10:50 PDT 2018
 
