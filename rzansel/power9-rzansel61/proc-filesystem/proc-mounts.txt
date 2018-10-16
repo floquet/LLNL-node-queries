@@ -1,6 +1,6 @@
 cat /proc/mounts for rzansel, node rzansel61
 all mounts in use
-Mon Oct 15 12:25:49 PDT 2018
+Tue Oct 16 15:10:43 PDT 2018
 
 sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
 proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
@@ -12,19 +12,19 @@ tmpfs /run tmpfs rw,nosuid,nodev,size=265988672k,nr_inodes=4156073,mode=755 0 0
 tmpfs /sys/fs/cgroup tmpfs ro,nosuid,nodev,noexec,size=265988672k,nr_inodes=4156073,mode=755 0 0
 cgroup /sys/fs/cgroup/systemd cgroup rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd 0 0
 pstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0
-cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
 cgroup /sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0
-cgroup /sys/fs/cgroup/pids cgroup rw,nosuid,nodev,noexec,relatime,pids 0 0
-cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
-cgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb 0 0
-cgroup /sys/fs/cgroup/memory cgroup rw,nosuid,nodev,noexec,relatime,memory 0 0
 cgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0
 cgroup /sys/fs/cgroup/net_cls,net_prio cgroup rw,nosuid,nodev,noexec,relatime,net_cls,net_prio 0 0
+cgroup /sys/fs/cgroup/memory cgroup rw,nosuid,nodev,noexec,relatime,memory 0 0
+cgroup /sys/fs/cgroup/pids cgroup rw,nosuid,nodev,noexec,relatime,pids 0 0
+cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
 cgroup /sys/fs/cgroup/cpuset cgroup rw,nosuid,nodev,noexec,relatime,cpuset 0 0
+cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
 cgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
+cgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb 0 0
 configfs /sys/kernel/config configfs rw,relatime 0 0
 /dev/mapper/system-root / ext4 rw,relatime,data=ordered 0 0
-systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=26,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=30865 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=22,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=22599 0 0
 mqueue /dev/mqueue mqueue rw,relatime 0 0
 debugfs /sys/kernel/debug debugfs rw,relatime 0 0
 hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
@@ -71,5 +71,3 @@ rz-nfs2-nfs.llnl.gov:/rz_mic_bdiv /usr/mic/bdiv nfs rw,nosuid,relatime,vers=3,rs
 rz-nfs2-nfs.llnl.gov:/rz_mic_dvsviz /usr/mic/dvsviz nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.4,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.4 0 0
 pepe2-nfs.llnl.gov:/rz_wsc /usr/workspace/wsrzc nfs rw,nosuid,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.2,mountvers=3,mountport=4048,mountproto=tcp,local_lock=none,addr=134.9.13.2 0 0
 pepe1-nfs.llnl.gov:/rz_wsd /usr/workspace/wsrzd nfs rw,nosuid,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.1,mountvers=3,mountport=4048,mountproto=tcp,local_lock=none,addr=134.9.13.1 0 0
-gpfs1 /p/gpfs1 gpfs rw,relatime 0 0
-rz-nfs1-nfs.llnl.gov:/rz_g17/langer1/.snapshot/2_per_day.2018-10-05_1200 /g/g17/langer1/.snapshot/2_per_day.2018-10-05_1200 nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,local_lock=none,addr=134.9.13.3 0 0

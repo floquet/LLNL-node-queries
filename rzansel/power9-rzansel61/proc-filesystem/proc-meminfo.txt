@@ -1,47 +1,47 @@
 cat /proc/meminfo for rzansel, node rzansel61
 valuable information about the system's RAM usage
-Mon Oct 15 12:25:49 PDT 2018
+Tue Oct 16 15:10:43 PDT 2018
 
 MemTotal:       598037696 kB
-MemFree:        318089280 kB
-MemAvailable:   388684864 kB
-Buffers:          762688 kB
-Cached:         69135936 kB
-SwapCached:         5952 kB
-Active:         210484928 kB
-Inactive:       41688192 kB
-Active(anon):   182267840 kB
-Inactive(anon):   182144 kB
-Active(file):   28217088 kB
-Inactive(file): 41506048 kB
-Unevictable:    16777216 kB
-Mlocked:        16777216 kB
+MemFree:        591734336 kB
+MemAvailable:   591743744 kB
+Buffers:          330304 kB
+Cached:          1430208 kB
+SwapCached:            0 kB
+Active:          1416000 kB
+Inactive:         671296 kB
+Active(anon):     332672 kB
+Inactive(anon):    25408 kB
+Active(file):    1083328 kB
+Inactive(file):   645888 kB
+Unevictable:           0 kB
+Mlocked:               0 kB
 SwapTotal:       4194240 kB
-SwapFree:        4073408 kB
-Dirty:               832 kB
+SwapFree:        4194240 kB
+Dirty:               448 kB
 Writeback:             0 kB
-AnonPages:      199053888 kB
-Mapped:          1713984 kB
-Shmem:            175616 kB
-Slab:            5973120 kB
-SReclaimable:    3460288 kB
-SUnreclaim:      2512832 kB
-KernelStack:       55488 kB
-PageTables:       439424 kB
+AnonPages:        335680 kB
+Mapped:            98816 kB
+Shmem:             31360 kB
+Slab:            1382976 kB
+SReclaimable:     409472 kB
+SUnreclaim:       973504 kB
+KernelStack:       24912 kB
+PageTables:        11456 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:    303213056 kB
-Committed_AS:   202938112 kB
+Committed_AS:    1069888 kB
 VmallocTotal:   549755813888 kB
 VmallocUsed:           0 kB
 VmallocChunk:          0 kB
 HardwareCorrupted:     0 kB
-AnonHugePages:    262144 kB
+AnonHugePages:         0 kB
 ShmemHugePages:        0 kB
 ShmemPmdMapped:        0 kB
 CmaTotal:       26853376 kB
-CmaFree:        26839360 kB
+CmaFree:        26853376 kB
 HugePages_Total:       0
 HugePages_Free:        0
 HugePages_Rsvd:        0

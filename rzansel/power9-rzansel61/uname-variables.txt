@@ -1,14 +1,14 @@
 uname variables
-Mon Oct 15 12:25:49 PDT 2018
+Tue Oct 16 15:10:43 PDT 2018
 
 -m   machine name:          ppc64le
 -n   network node hostname: rzansel61
 -i   hardware platform:     ppc64le
 -p   processor type:        ppc64le
 -o   operating system:      GNU/Linux
--svr kernel name:           Linux 4.14.0-49.11.1.2.bl6.ppc64le #1 SMP Thu Aug 16 18:25:03 PDT 2018
+-svr kernel name:           Linux 4.14.0-49.15.1.bl6.ppc64le #1 SMP Mon Sep 24 15:31:30 PDT 2018
 
 uname -a:
-Linux rzansel61 4.14.0-49.11.1.2.bl6.ppc64le #1 SMP Thu Aug 16 18:25:03 PDT 2018 ppc64le ppc64le ppc64le GNU/Linux
+Linux rzansel61 4.14.0-49.15.1.bl6.ppc64le #1 SMP Mon Sep 24 15:31:30 PDT 2018 ppc64le ppc64le ppc64le GNU/Linux
 
 ${BASH_SOURCE[0]} = /usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash/core-scripts/uname.sh
