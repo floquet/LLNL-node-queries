@@ -1,5 +1,5 @@
 cat /proc/cmdline for rzansel, node rzansel61
 parameters passed to the kernel when it is started
-Tue Oct 16 15:10:53 PDT 2018
+Mon Oct 22 14:33:13 PDT 2018
 
 root=/dev/mapper/system-root ro crashkernel=auto rd.lvm.lv=system/root nouveau.modeset=0 rd.driver.blacklist=nouveau video=vesa:off SYSFONT=latarcyrheb-sun16 LANG=en_US.UTF-8

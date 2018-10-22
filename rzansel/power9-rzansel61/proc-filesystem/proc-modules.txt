@@ -1,7 +1,11 @@
 cat /proc/modules for rzansel, node rzansel61
 all modules loaded into the kernel
-Tue Oct 16 15:10:53 PDT 2018
+Mon Oct 22 14:33:13 PDT 2018
 
+fuse 141383 1 - Live 0xc0080000100f0000
+mmfs26 2564017 2 - Live 0xc0080000194b0000 (OE)
+mmfslinux 645652 16 mmfs26, Live 0xc008000017d30000 (OE)
+tracedev 52649 3 mmfs26,mmfslinux, Live 0xc008000014b40000 (OE)
 xt_owner 3008 7 - Live 0xc00800000f330000
 nfsv3 56418 6 - Live 0xc00800000f230000
 nfs_acl 4893 1 nfsv3, Live 0xc00800000ef50000
@@ -16,7 +20,7 @@ rdma_cm 72406 1 rdma_ucm, Live 0xc008000012cb0000 (OE)
 iw_cm 43539 1 rdma_cm, Live 0xc008000012b50000 (OE)
 ib_ipoib 201917 0 - Live 0xc008000012c10000 (OE)
 ib_cm 53494 3 ib_ucm,rdma_cm,ib_ipoib, Live 0xc0080000126e0000 (OE)
-ib_uverbs 126526 2 rdma_ucm,ib_ucm, Live 0xc008000012660000 (OE)
+ib_uverbs 126526 34 rdma_ucm,ib_ucm, Live 0xc008000012660000 (OE)
 ib_umad 21415 0 - Live 0xc0080000124c0000 (OE)
 mlx5_fpga_tools 13476 0 - Live 0xc0080000122a0000 (OE)
 mlx4_en 176739 0 - Live 0xc0080000125b0000 (OE)
@@ -26,7 +30,7 @@ nf_log_ipv4 6700 4 - Live 0xc008000011b80000
 nf_log_common 6014 1 nf_log_ipv4, Live 0xc008000011b20000
 xt_LOG 3162 4 - Live 0xc008000011810000
 xt_multiport 4044 9 - Live 0xc008000011600000
-nvidia_uvm 963954 0 - Live 0xc0080000112a0000 (POE)
+nvidia_uvm 963954 12 - Live 0xc0080000112a0000 (POE)
 iptable_filter 3596 1 - Live 0xc0080000110b0000
 kvm_hv 139485 0 - Live 0xc008000010f00000
 kvm 259190 1 kvm_hv, Live 0xc008000010dc0000
@@ -57,7 +61,7 @@ ib_core 365252 11 nv_peer_mem,rdma_ucm,ib_ucm,rdma_cm,iw_cm,ib_ipoib,ib_cm,ib_uv
 sd_mod 55031 4 - Live 0xc00800001fc20000
 nvidia_drm 50539 0 - Live 0xc00800001e6e0000 (POE)
 nvidia_modeset 1264774 1 nvidia_drm, Live 0xc00800001e360000 (POE)
-nvidia 17513183 93 nv_peer_mem,nvidia_uvm,nvidia_modeset, Live 0xc00800001a510000 (POE)
+nvidia 17513183 399 nv_peer_mem,nvidia_uvm,nvidia_modeset, Live 0xc00800001a510000 (POE)
 ast 98742 1 - Live 0xc008000019ef0000
 i2c_algo_bit 11175 1 ast, Live 0xc008000019d20000
 bnx2x 1012877 0 - Live 0xc008000017fb0000

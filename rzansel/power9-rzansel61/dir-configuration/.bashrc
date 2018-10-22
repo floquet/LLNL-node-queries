@@ -43,6 +43,6 @@ alias  gohypre="cd ${mySpack}/spack.power9.hypre;  pwd"
 alias gozoltan="cd ${mySpack}/spack.power9.zoltan; pwd"
 
 alias quick="source ${lap}/library/patch-zoltan-config.sh"
-
+alias gomirror="cd /p/gpfs1/topa1/spack/spack.mirror; pwd"
 
 
