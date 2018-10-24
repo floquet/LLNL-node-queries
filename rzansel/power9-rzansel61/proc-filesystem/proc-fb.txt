@@ -1,5 +1,5 @@
 cat /proc/fb for rzansel, node rzansel61
 frame buffer devices
-Wed Oct 24 13:27:58 PDT 2018
+Wed Oct 24 13:28:21 PDT 2018
 
 0 astdrmfb
