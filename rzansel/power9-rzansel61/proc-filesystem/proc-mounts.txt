@@ -1,6 +1,6 @@
 cat /proc/mounts for rzansel, node rzansel61
 all mounts in use
-Mon Oct 22 14:33:13 PDT 2018
+Wed Oct 24 13:27:33 PDT 2018
 
 sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
 proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
@@ -73,3 +73,4 @@ pepe2-nfs.llnl.gov:/rz_wsc /usr/workspace/wsrzc nfs rw,nosuid,relatime,vers=3,rs
 pepe1-nfs.llnl.gov:/rz_wsd /usr/workspace/wsrzd nfs rw,nosuid,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.1,mountvers=3,mountport=4048,mountproto=tcp,local_lock=none,addr=134.9.13.1 0 0
 gpfs1 /p/gpfs1 gpfs rw,relatime 0 0
 fusectl /sys/fs/fuse/connections fusectl rw,relatime 0 0
+gvfsd-fuse /g/g14/gambhir1/.gvfs fuse.gvfsd-fuse rw,nosuid,nodev,relatime,user_id=26663,group_id=26663 0 0
