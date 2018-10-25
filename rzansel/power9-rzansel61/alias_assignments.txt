@@ -1,5 +1,5 @@
 alias assignments on rzansel
-Thu Oct 25 14:44:09 PDT 2018
+Thu Oct 25 14:48:13 PDT 2018
 
 alias again='cd ../; rm -rf build; mkdir build;  cd build'
 alias bcat='cat    /g/g13/topa1/.bashrc'
@@ -50,7 +50,7 @@ alias godotspack='cd ~/.spack;               pwd'
 alias goego='cd /usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel;                 pwd'
 alias gogithub='cd /usr/workspace/wsrzc/topa1/repos/Github; pwd'
 alias gohome='cd /g/g13/topa1;                pwd'
-alias gohypre='cd /p/gpfs1/topa1/spack/spack.power9.hypre;  pwd'
+alias gohypre='cd /usr/workspace/wsrzc/topa1/spack-home/spack.power9.hypre;  pwd'
 alias goid='cd /usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel61;                  pwd'
 alias golap='cd /usr/workspace/wsrzc/topa1/repos/Bitbucket/LLNL-lap; pwd'
 alias gomanta='echo '\''ssh -l topa1 -X rzmanta: <password><pin>'\'';          ssh -l topa1 -X rzmanta'
@@ -68,7 +68,7 @@ alias gosweep='cd /usr/workspace/wsrzc/topa1/repos/Github/node-queries/control/s
 alias gotopa='cd /usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking/topa/spack/bash; pwd'
 alias govault='cd /usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel61/dir-configuration;               pwd'
 alias gowsdb='cd /usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking/topa/wsdb; pwd'
-alias gozoltan='cd /p/gpfs1/topa1/spack/spack.power9.zoltan; pwd'
+alias gozoltan='cd /usr/workspace/wsrzc/topa1/spack-home/spack.power9.zoltan; pwd'
 alias gpg_check='git verify-commit HEAD~0; export GPG_SIGNED=$?; echo "verify-commit exit code = \$GPG_SIGNED = $GPG_SIGNED"'
 alias grep='grep --color=auto'
 alias ihpc='echo '\''ssh -l dantopa -XY    ihpc-gate.lanl.gov <crypto card>'\'';  ssh -l dantopa -XY    ihpc-gate.lanl.gov'

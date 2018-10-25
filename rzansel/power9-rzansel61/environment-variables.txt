@@ -1,5 +1,5 @@
 environment variables
-Thu Oct 25 14:44:09 PDT 2018
+Thu Oct 25 14:48:13 PDT 2018
 
 shell = -bash
 
@@ -41,7 +41,7 @@ targetDirectory=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmark
 vault=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel61/dir-configuration
 QTDIR=/usr/lib64/qt-3.3
 LSF_SERVERDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/etc
-OLDPWD=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking/topa/wsdb/spack-installs/rzansel/linux-rhel7-ppc64le
+OLDPWD=/usr/workspace/wsrzc/topa1
 dir_yaml=/p/gpfs1/topa1/spack/spack.power9.hypre/etc/spack/defaults
 node_queries=/usr/workspace/wsrzc/topa1/repos/Github/node-queries
 LMOD_VERSION=6.5.1
@@ -60,7 +60,6 @@ QT_GRAPHICSSYSTEM_CHECKED=1
 LSF_LIBDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/lib
 dirTargetHPC=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking/topa/wsdb/hpc/rzansel/linux-rhel7-ppc64le/hypre/hypre-2.15.1/pgi/pgi@18.7
 normal=(B[m
-OPAL_PREFIX=/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-rolling-release
 CUDA_HOME=/usr/tce/packages/cuda/cuda-9.2.148
 USER=topa1
 tpl_path=hypre/hypre-2.15.1
@@ -98,7 +97,7 @@ myLog=screen-log.txt
 LMOD_SETTARG_CMD=:
 dirTargetCompiler=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking/topa/wsdb/compiler/pgi/pgi@18.7/rzansel/linux-rhel7-ppc64le/hypre/hypre-2.15.1
 INPUTRC=/etc/inputrc
-PWD=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking
+PWD=/usr/workspace/wsrzc/topa1/arXive
 mySpack=/usr/workspace/wsrzc/topa1/spack-home
 _LMFILES_=/usr/tcetmp/modulefiles/Core/xl/beta-2018.10.10.lua:/usr/tce/modulefiles/Compiler/xl/beta-2018.10.10/spectrum-mpi/rolling-release.lua:/usr/tcetmp/modulefiles/Core/cuda/9.2.148.lua:/usr/tcetmp/modulefiles/Core/StdEnv.lua
 EDITOR=/bin/vi
