@@ -1,5 +1,5 @@
 cat /proc/driver for rzansel, node rzansel61
 information for specific drivers in use by the kernel
-Wed Oct 24 13:28:21 PDT 2018
+Thu Oct 25 13:23:14 PDT 2018
 
 cat: /proc/driver: Is a directory

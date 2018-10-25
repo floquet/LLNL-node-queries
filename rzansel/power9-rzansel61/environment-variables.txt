@@ -1,5 +1,5 @@
 environment variables
-Wed Oct 24 13:27:59 PDT 2018
+Thu Oct 25 13:23:15 PDT 2018
 
 shell = -bash
 
@@ -25,7 +25,7 @@ LMOD_DEFAULT_MODULEPATH=/usr/tcetmp/modulefiles/Core:/usr/apps/modulefiles:/usr/
 LMOD_SYSTEM_DEFAULT_MODULES=StdEnv
 MODULEPATH_ROOT=/usr/share/modulefiles
 TMPDIR=/var/tmp
-SSH_CLIENT=134.9.48.238 42724 22
+SSH_CLIENT=134.9.48.244 51582 22
 fortran_compiler_caf=caf
 dir_performance=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking
 llnl_bash=/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash
@@ -33,13 +33,12 @@ LMOD_PKG=/usr/share/lmod/lmod
 vault=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel61/dir-configuration
 QTDIR=/usr/lib64/qt-3.3
 LSF_SERVERDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/etc
-OLDPWD=/g/g13/topa1
 node_queries=/usr/workspace/wsrzc/topa1/repos/Github/node-queries
 LMOD_VERSION=6.5.1
 QTINC=/usr/lib64/qt-3.3/include
 LMOD_SHORT_TIME=60
 os=linux
-SSH_TTY=/dev/pts/6
+SSH_TTY=/dev/pts/13
 lap=/usr/workspace/wsrzc/topa1/repos/Bitbucket/LLNL-lap
 nagflags=-g -C=all -colour -compatible -f2008 -free -gc -gline -info -nan -O2 -pg -time -v -V
 LC_ALL=C
@@ -67,7 +66,7 @@ bitbucket=/usr/workspace/wsrzc/topa1/repos/Bitbucket
 LMOD_PREPEND_BLOCK=normal
 host_name=rzansel
 gflags45=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens 
-_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09NCxiYXNlTXBhdGhBPXsiL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvYXBwcy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsiY19yZWJ1aWxkVGltZSJdPTMwMCxbImNfc2hvcnRUaW1lIl09MC4yNjU1NzIwNzEwNzU0NCxmYW1pbHk9e1siY29tcGlsZXIiXT0ieGwiLFsiY3VkYSJdPSJjdWRhIixbIm1waSJdPSJzcGVjdHJ1bS1tcGkiLH0saW5hY3RpdmU9e30sbVQ9e1N0ZEVudj17WyJGTiJdPSIvdXNyL3RjZXRtcC9tb2R1bGVmaWxlcy9Db3Jl
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09NCxiYXNlTXBhdGhBPXsiL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvYXBwcy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsiY19yZWJ1aWxkVGltZSJdPTMwMCxbImNfc2hvcnRUaW1lIl09MC40ODU0MzY5MTYzNTEzMixmYW1pbHk9e1siY29tcGlsZXIiXT0ieGwiLFsiY3VkYSJdPSJjdWRhIixbIm1waSJdPSJzcGVjdHJ1bS1tcGkiLH0saW5hY3RpdmU9e30sbVQ9e1N0ZEVudj17WyJGTiJdPSIvdXNyL3RjZXRtcC9tb2R1bGVmaWxlcy9Db3Jl
 MAIL=/usr/spool/mail/topa1
 PATH=/usr/tce/packages/cuda/cuda-9.2.148/bin:/usr/tce/packages/spectrum-mpi/spectrum-mpi-rolling-release-xl-beta-2018.10.10/bin:/usr/tce/packages/xl/xl-beta-2018.10.10/bin:/usr/tcetmp/bin:/usr/lib64/qt-3.3/bin:/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/etc:/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibm/spectrum_mpi/jsm_pmix/bin:/opt/ibm/bb/bin:/opt/ibm/flightlog/bin:/opt/ibutils/bin:.
 scratch=/p/gpfs1/topa1
@@ -122,7 +121,7 @@ CVS_RSH=ssh
 core=/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash/core-scripts
 XLSF_UIDDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/lib/uid
 XDG_DATA_DIRS=/g/g13/topa1/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
-SSH_CONNECTION=134.9.48.238 42724 134.9.48.65 22
+SSH_CONNECTION=134.9.48.244 51582 134.9.48.65 22
 crayflags=-g -fbacktrace
 node_name=rzansel61
 MODULESHOME=/usr/share/lmod/lmod
@@ -134,7 +133,7 @@ gflags5=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing
 LMOD_FAMILY_COMPILER=xl
 LMOD_FULL_SETTARG_SUPPORT=no
 gflags6=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra
-DISPLAY=192.168.64.61:13.0
+DISPLAY=192.168.64.61:11.0
 gflags7=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
 QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
 TACC_FAMILY_CUDA=cuda
