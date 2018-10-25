@@ -1,5 +1,5 @@
 environment variables
-Thu Oct 25 14:16:19 PDT 2018
+Thu Oct 25 14:55:52 PDT 2018
 
 shell = -bash
 
@@ -32,6 +32,7 @@ LMOD_PKG=/usr/share/lmod/lmod
 vault=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzmanta23/dir-configuration
 QTDIR=/usr/lib64/qt-3.3
 LSF_SERVERDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le/etc
+OLDPWD=/p/gscratchrzm/topa1/Master/rzmanta/power8/linux-rhel7-ppc64le/trilinos-12.10.1/gcc@8.1.0/2018-05-23
 node_queries=/usr/workspace/wsrzc/topa1/repos/Github/node-queries
 LMOD_VERSION=6.5
 QTINC=/usr/lib64/qt-3.3/include
@@ -46,7 +47,6 @@ myssh=ssh -l dantopa -XY
 QT_GRAPHICSSYSTEM_CHECKED=1
 LSF_LIBDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le/lib
 normal=(B[m
-OPAL_PREFIX=/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-rolling-release
 CUDA_HOME=/usr/tce/packages/cuda/cuda-9.2.148
 USER=topa1
 LMOD_sys=Linux
@@ -69,14 +69,14 @@ gflags45=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasin
 _ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09NCxiYXNlTXBhdGhBPXsiL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvYXBwcy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsiY19yZWJ1aWxkVGltZSJdPTMwMCxbImNfc2hvcnRUaW1lIl09MC43NjA1Mjk5OTQ5NjQ2LGZhbWlseT17WyJjb21waWxlciJdPSJ4bCIsWyJjdWRhIl09ImN1ZGEiLFsibXBpIl09InNwZWN0cnVtLW1waSIsfSxpbmFjdGl2ZT17fSxtVD17U3RkRW52PXtbIkZOIl09Ii91c3IvdGNldG1wL21vZHVsZWZpbGVzL0NvcmUv
 MAIL=/usr/spool/mail/topa1
 PATH=/usr/tce/packages/cuda/cuda-9.2.148/bin:/usr/tce/packages/spectrum-mpi/spectrum-mpi-rolling-release-xl-beta-2018.10.10/bin:/usr/tce/packages/xl/xl-beta-2018.10.10/bin:/usr/tcetmp/bin:/usr/lib64/qt-3.3/bin:/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le/etc:/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibm/spectrum_mpi/jsm_pmix/bin:/opt/ibm/flightlog/bin:/opt/ibutils/bin:.
-scratch=/p/gpfs1/topa1
+scratch=/p/gscratchrzm/topa1
 LCSCHEDCLUSTER=rzmanta
 dir_control=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/control
 gflags47=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination
 LMOD_SETTARG_CMD=:
 INPUTRC=/etc/inputrc
 PWD=/g/g13/topa1
-mySpack=/p/gpfs1/topa1/spack
+mySpack=/usr/workspace/wsrzc/topa1/spack-home
 _LMFILES_=/usr/tcetmp/modulefiles/Core/xl/beta-2018.10.10.lua:/usr/tce/modulefiles/Compiler/xl/beta-2018.10.10/spectrum-mpi/rolling-release.lua:/usr/tcetmp/modulefiles/Core/cuda/9.2.148.lua:/usr/tcetmp/modulefiles/Core/StdEnv.lua
 EDITOR=/bin/vi
 dir_batch_output=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/control/batch-output

@@ -1,6 +1,6 @@
 cat /proc/iomem for rzansel, node rzmanta23
 current map of the system's memory for each physical device
-Thu Oct 25 14:55:51 PDT 2018
+Thu Oct 25 15:02:11 PDT 2018
 
 00000000-1fffffffff : System RAM
 2000000000-3fffffffff : System RAM

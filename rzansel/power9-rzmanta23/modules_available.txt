@@ -1,5 +1,5 @@
 modules available 
-Thu Oct 25 14:16:18 PDT 2018
+Thu Oct 25 14:55:51 PDT 2018
 
 
 --------------- /usr/tce/modulefiles/Compiler/xl/beta-2018.10.10 ---------------

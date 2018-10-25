@@ -1,6 +1,6 @@
 cat /proc/buddyinfo for rzansel, node rzmanta23
 used primarily for diagnosing memory fragmentation issues
-Thu Oct 25 14:55:51 PDT 2018
+Thu Oct 25 15:02:11 PDT 2018
 
-Node 0, zone      DMA   4067    202     39      3      1      0      0      0      0 
-Node 8, zone      DMA  32629   3849    845    266     79      4      2      3      0 
+Node 0, zone      DMA   4625    190     37      4      0      0      0      0      0 
+Node 8, zone      DMA  29869   4178    844    265     80      4      2      3      0 

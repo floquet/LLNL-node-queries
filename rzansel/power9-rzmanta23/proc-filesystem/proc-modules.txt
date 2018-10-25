@@ -1,6 +1,6 @@
 cat /proc/modules for rzansel, node rzmanta23
 all modules loaded into the kernel
-Thu Oct 25 14:55:51 PDT 2018
+Thu Oct 25 15:02:11 PDT 2018
 
 cve_2017_18344 93716 0 - Live 0xd000000091b30000 (OE)
 mmfs26 2451390 2 - Live 0xd000000027450000 (OE)
