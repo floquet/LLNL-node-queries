@@ -19,7 +19,7 @@ export host_name="rzansel"
 
 # # D A T A  L O C K E R S
 export      data="/usr/workspace/wsrzc/${USER}"
-export   scratch="/p/gpfs1/${USER}"
+export   scratch="/p/gscratchrzm/${USER}"
 
 # # B A S I C  D I R E C T O R I E S
 export        repos="${data}/repos"
@@ -28,7 +28,7 @@ export bash_scripts="${github}/LLNL-bash"
 export         core="${bash_scripts}/core-scripts"
 export node_queries="${github}/node-queries"
 
-export mySpack="${scratch}/spack"
+export mySpack="${data}/spack-home"
 
 export gcc_system_compiler="gcc@4.9.3"
 
@@ -39,10 +39,13 @@ source "${core}/master.sh"
 
 # **  **  **  **  **  **  **  **
 
+unset OPAL_PREFIX
+
 alias  gohypre="cd ${mySpack}/spack.power9.hypre;  pwd"
 alias gozoltan="cd ${mySpack}/spack.power9.zoltan; pwd"
 
 alias quick="source ${lap}/library/patch-zoltan-config.sh"
 alias gomirror="cd /p/gpfs1/topa1/spack/spack.mirror; pwd"
+
 
 
