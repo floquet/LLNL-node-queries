@@ -1,0 +1,45 @@
+cat /proc/meminfo for rzansel, node rzmanta23
+valuable information about the system's RAM usage
+Thu Oct 25 14:16:18 PDT 2018
+
+MemTotal:       263654912 kB
+MemFree:         1721920 kB
+MemAvailable:   228048768 kB
+Buffers:               0 kB
+Cached:         226182784 kB
+SwapCached:       199744 kB
+Active:         116262144 kB
+Inactive:       114716544 kB
+Active(anon):    4591040 kB
+Inactive(anon):  3175232 kB
+Active(file):   111671104 kB
+Inactive(file): 111541312 kB
+Unevictable:    16777216 kB
+Mlocked:        16777216 kB
+SwapTotal:       4194240 kB
+SwapFree:         652736 kB
+Dirty:               640 kB
+Writeback:             0 kB
+AnonPages:      21325440 kB
+Mapped:          1899840 kB
+Shmem:           2970176 kB
+Slab:            9160832 kB
+SReclaimable:    4555840 kB
+SUnreclaim:      4604992 kB
+KernelStack:       82704 kB
+PageTables:        40832 kB
+NFS_Unstable:          0 kB
+Bounce:                0 kB
+WritebackTmp:          0 kB
+CommitLimit:    136021696 kB
+Committed_AS:   35219392 kB
+VmallocTotal:   8589934592 kB
+VmallocUsed:     2205184 kB
+VmallocChunk:   8587483584 kB
+HardwareCorrupted:     0 kB
+AnonHugePages:         0 kB
+HugePages_Total:       0
+HugePages_Free:        0
+HugePages_Rsvd:        0
+HugePages_Surp:        0
+Hugepagesize:      16384 kB

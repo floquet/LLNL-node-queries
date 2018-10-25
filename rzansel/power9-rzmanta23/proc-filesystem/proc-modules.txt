@@ -1,0 +1,99 @@
+cat /proc/modules for rzansel, node rzmanta23
+all modules loaded into the kernel
+Thu Oct 25 14:16:18 PDT 2018
+
+cve_2017_18344 93716 0 - Live 0xd000000091b30000 (OE)
+mmfs26 2451390 2 - Live 0xd000000027450000 (OE)
+mmfslinux 607386 30 mmfs26, Live 0xd000000026fc0000 (OE)
+tracedev 47697 3 mmfs26,mmfslinux, Live 0xd000000026eb0000 (OE)
+xt_owner 2000 14 - Live 0xd0000000262e0000
+nfsv3 54123 6 - Live 0xd0000000261a0000
+nfs 342394 39 nfsv3, Live 0xd0000000260d0000
+fscache 83939 1 nfs, Live 0xd000000025fe0000
+rdma_ucm 23281 0 - Live 0xd000000023000000 (OE)
+ib_ucm 17861 0 - Live 0xd000000022fa0000 (OE)
+rdma_cm 59012 1 rdma_ucm, Live 0xd000000022f40000 (OE)
+iw_cm 38142 1 rdma_cm, Live 0xd000000022ed0000 (OE)
+ib_ipoib 160763 0 - Live 0xd000000022b80000 (OE)
+ib_cm 48813 3 ib_ucm,rdma_cm,ib_ipoib, Live 0xd000000022ae0000 (OE)
+ib_uverbs 87029 13 rdma_ucm,ib_ucm, Live 0xd000000022a60000 (OE)
+ib_umad 21066 0 - Live 0xd0000000229e0000 (OE)
+nf_conntrack_ftp 14649 0 - Live 0xd000000022980000
+ipt_REJECT 2128 2 - Live 0xd0000000228e0000
+nf_reject_ipv4 4533 1 ipt_REJECT, Live 0xd000000022880000
+nf_log_ipv4 6060 6 - Live 0xd000000022820000
+nf_log_common 4748 1 nf_log_ipv4, Live 0xd0000000227c0000
+xt_LOG 2578 6 - Live 0xd000000022760000
+ipmi_devintf 13619 0 - Live 0xd000000022720000
+xt_limit 2881 2 - Live 0xd0000000226a0000
+nf_conntrack_ipv4 14671 1 - Live 0xd000000022640000
+nf_defrag_ipv4 2276 1 nf_conntrack_ipv4, Live 0xd0000000225e0000
+xt_conntrack 7967 1 - Live 0xd000000022580000
+i2c_dev 12287 0 - Live 0xd000000022520000
+nf_conntrack 137236 3 nf_conntrack_ftp,nf_conntrack_ipv4,xt_conntrack, Live 0xd0000000224a0000
+xt_multiport 3364 9 - Live 0xd000000022410000
+iptable_filter 2570 1 - Live 0xd000000022390000
+mlx4_en 164103 0 - Live 0xd000000022310000 (OE)
+mlx4_ib 229907 0 - Live 0xd000000022240000 (OE)
+ib_sa 32580 5 rdma_ucm,rdma_cm,ib_ipoib,ib_cm,mlx4_ib, Live 0xd000000022190000 (OE)
+ib_mad 58645 4 ib_cm,ib_umad,mlx4_ib,ib_sa, Live 0xd000000021cf0000 (OE)
+mlx4_core 409369 2 mlx4_en,mlx4_ib, Live 0xd000000021c10000 (OE)
+sg 47751 0 - Live 0xd000000021260000
+shpchp 41321 0 - Live 0xd0000000210c0000
+ibmpowernv 6683 0 - Live 0xd000000020f90000
+ipmi_powernv 5611 0 - Live 0xd000000020f30000
+rtc_opal 5057 0 - Live 0xd000000020ed0000
+ipmi_msghandler 67617 2 ipmi_devintf,ipmi_powernv, Live 0xd000000020b60000
+at24 9027 0 - Live 0xd000000020af0000
+i2c_opal 5346 0 - Live 0xd000000020950000
+ofpart 3514 0 - Live 0xd000000020850000
+powernv_flash 5618 1 - Live 0xd0000000207f0000
+mtd 65641 5 ofpart,powernv_flash, Live 0xd000000020780000
+powernv_rng 2665 0 - Live 0xd000000020710000
+opal_prd 7162 1 - Live 0xd0000000206b0000
+nfsd 489316 1 - Live 0xd0000000205e0000
+nfs_acl 4245 2 nfsv3,nfsd, Live 0xd0000000204c0000
+lockd 125545 3 nfsv3,nfs,nfsd, Live 0xd000000020450000
+knem 42596 0 - Live 0xd000000020410000 (OE)
+binfmt_misc 11314 1 - Live 0xd00000001f740000
+grace 4077 2 nfsd,lockd, Live 0xd00000001f6e0000
+auth_rpcgss 75845 1 nfsd, Live 0xd00000001f670000
+sunrpc 478260 83 nfsv3,nfs,nfsd,nfs_acl,lockd,auth_rpcgss, Live 0xd00000001f570000
+ip_tables 26034 1 iptable_filter, Live 0xd00000001f460000
+xfs 1256632 2 - Live 0xd00000001ee90000
+mlx5_ib 214495 0 - Live 0xd00000001c5d0000 (OE)
+ib_core 173236 12 rdma_ucm,ib_ucm,rdma_cm,iw_cm,ib_ipoib,ib_cm,ib_uverbs,ib_umad,mlx4_ib,ib_sa,ib_mad,mlx5_ib, Live 0xd00000001c3b0000 (OE)
+ib_addr 13616 3 rdma_ucm,rdma_cm,ib_core, Live 0xd00000001c310000 (OE)
+ib_netlink 7108 3 rdma_cm,iw_cm,ib_addr, Live 0xd00000001c2b0000 (OE)
+sr_mod 23240 0 - Live 0xd00000001c130000
+cdrom 52461 1 sr_mod, Live 0xd00000001bfe0000
+sd_mod 53228 4 - Live 0xd00000001be10000
+crc_t10dif 1861 1 sd_mod, Live 0xd00000001bc20000
+crct10dif_generic 1998 1 - Live 0xd00000001bae0000
+crct10dif_common 1651 2 crc_t10dif,crct10dif_generic, Live 0xd00000001b9c0000
+bnx2x 984823 0 - Live 0xd00000001b460000
+mlx5_core 612228 1 mlx5_ib, Live 0xd00000001b2a0000 (OE)
+mdio 6321 1 bnx2x, Live 0xd00000001ab20000
+mlx_compat 12333 18 rdma_ucm,ib_ucm,rdma_cm,iw_cm,ib_ipoib,ib_cm,ib_uverbs,ib_umad,mlx4_en,mlx4_ib,ib_sa,ib_mad,mlx4_core,mlx5_ib,ib_core,ib_addr,ib_netlink,mlx5_core, Live 0xd00000001a720000 (OE)
+ptp 15840 3 mlx4_en,bnx2x,mlx5_core, Live 0xd00000001a6c0000
+ast 81768 1 - Live 0xd00000001a2a0000
+i2c_algo_bit 9837 1 ast, Live 0xd00000001a220000
+drm_kms_helper 185341 1 ast, Live 0xd00000001a1a0000
+syscopyarea 3793 1 drm_kms_helper, Live 0xd00000001a100000
+sysfillrect 4309 1 drm_kms_helper, Live 0xd00000001a0a0000
+sysimgblt 2640 1 drm_kms_helper, Live 0xd00000001a040000
+fb_sys_fops 1911 1 drm_kms_helper, Live 0xd000000019fe0000
+ttm 246480 1 ast, Live 0xd000000019f50000
+ahci 20232 3 - Live 0xd000000019ed0000
+drm 506485 4 ast,drm_kms_helper,ttm, Live 0xd000000019e10000
+libahci 43262 1 ahci, Live 0xd000000019db0000
+libata 377573 2 ahci,libahci, Live 0xd000000019ce0000
+uas 25810 0 - Live 0xd000000019c20000
+usb_storage 78042 1 uas, Live 0xd000000019ad0000
+i2c_core 60481 7 i2c_dev,at24,i2c_opal,ast,i2c_algo_bit,drm_kms_helper,drm, Live 0xd0000000199c0000
+libcrc32c 1614 2 xfs,bnx2x, Live 0xd0000000195b0000
+pps_core 14528 1 ptp, Live 0xd0000000194b0000
+dm_mirror 21288 0 - Live 0xd000000019430000
+dm_region_hash 14603 1 dm_mirror, Live 0xd0000000193d0000
+dm_log 13964 2 dm_mirror,dm_region_hash, Live 0xd000000019370000
+dm_mod 154450 5 dm_mirror,dm_log, Live 0xd0000000192f0000

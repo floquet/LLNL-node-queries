@@ -1,0 +1,64 @@
+cat /proc/devices for rzansel, node rzmanta23
+displays the various character and block devices currently configured
+Thu Oct 25 14:16:18 PDT 2018
+
+Character devices:
+  1 mem
+  4 /dev/vc/0
+  4 tty
+  4 ttyS
+  5 /dev/tty
+  5 /dev/console
+  5 /dev/ptmx
+  7 vcs
+ 10 misc
+ 13 input
+ 21 sg
+ 29 fb
+ 89 i2c
+ 90 mtd
+128 ptm
+136 pts
+162 raw
+180 usb
+188 ttyUSB
+189 usb_device
+226 drm
+229 hvc
+231 infiniband_mad
+231 infiniband_verbs
+231 infiniband_cm
+244 ss
+245 kdump
+246 trace
+247 ipmidev
+248 ptp
+249 pps
+250 hidraw
+251 usbmon
+252 bsg
+253 watchdog
+254 rtc
+
+Block devices:
+259 blkext
+  8 sd
+  9 md
+ 11 sr
+ 65 sd
+ 66 sd
+ 67 sd
+ 68 sd
+ 69 sd
+ 70 sd
+ 71 sd
+128 sd
+129 sd
+130 sd
+131 sd
+132 sd
+133 sd
+134 sd
+135 sd
+253 device-mapper
+254 mdp

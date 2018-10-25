@@ -1,0 +1,14 @@
+uname variables
+Thu Oct 25 14:16:18 PDT 2018
+
+-m   machine name:          ppc64le
+-n   network node hostname: rzmanta23
+-i   hardware platform:     ppc64le
+-p   processor type:        ppc64le
+-o   operating system:      GNU/Linux
+-svr kernel name:           Linux 3.10.0-514.26.2.2chaos.ch6_1.ppc64le #1 SMP Tue Oct 3 16:16:08 PDT 2017
+
+uname -a:
+Linux rzmanta23 3.10.0-514.26.2.2chaos.ch6_1.ppc64le #1 SMP Tue Oct 3 16:16:08 PDT 2017 ppc64le ppc64le ppc64le GNU/Linux
+
+${BASH_SOURCE[0]} = /usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash/core-scripts/uname.sh

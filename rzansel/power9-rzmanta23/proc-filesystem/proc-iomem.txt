@@ -1,0 +1,232 @@
+cat /proc/iomem for rzansel, node rzmanta23
+current map of the system's memory for each physical device
+Thu Oct 25 14:16:18 PDT 2018
+
+00000000-1fffffffff : System RAM
+2000000000-3fffffffff : System RAM
+200000000000-20feffffffff : <BAD>
+210000000000-21feffffffff : <BAD>
+  210000000000-2100ffffffff : PCI Bus 0001:01
+    210000000000-21001fffffff : 0001:01:00.0
+      210000000000-21001fffffff : mlx5_core
+    210020000000-21003fffffff : 0001:01:00.1
+      210020000000-21003fffffff : mlx5_core
+240000000000-24feffffffff : <BAD>
+250000000000-25feffffffff : <BAD>
+  250000000000-2500ffffffff : PCI Bus 0003:01
+    250000000000-2500ffffffff : PCI Bus 0003:02
+      250000000000-2500ffffffff : PCI Bus 0003:03
+        250000000000-2500007fffff : 0003:03:00.0
+          250000000000-2500007fffff : bnx2x
+        250000800000-250000ffffff : 0003:03:00.0
+          250000800000-250000ffffff : bnx2x
+        250001000000-2500017fffff : 0003:03:00.1
+          250001000000-2500017fffff : bnx2x
+        250001800000-250001ffffff : 0003:03:00.1
+          250001800000-250001ffffff : bnx2x
+        250002000000-2500027fffff : 0003:03:00.2
+          250002000000-2500027fffff : bnx2x
+        250002800000-250002ffffff : 0003:03:00.2
+          250002800000-250002ffffff : bnx2x
+        250003000000-2500037fffff : 0003:03:00.3
+          250003000000-2500037fffff : bnx2x
+        250003800000-250003ffffff : 0003:03:00.3
+          250003800000-250003ffffff : bnx2x
+        250004000000-25000400ffff : 0003:03:00.0
+          250004000000-25000400ffff : bnx2x
+        250004010000-25000401ffff : 0003:03:00.1
+          250004010000-25000401ffff : bnx2x
+        250004020000-25000402ffff : 0003:03:00.2
+          250004020000-25000402ffff : bnx2x
+        250004030000-25000403ffff : 0003:03:00.3
+          250004030000-25000403ffff : bnx2x
+260000000000-26feffffffff : <BAD>
+3fe000000000-3fe07ffeffff : /pciex@3fffe40000000
+3fe080000000-3fe0fffeffff : /pciex@3fffe40100000
+3fe800000000-3fe87ffeffff : /pciex@3fffe41000000
+3fe880000000-3fe8fffeffff : /pciex@3fffe41100000
+  3fe880000000-3fe8837fffff : PCI Bus 0003:01
+    3fe880000000-3fe882ffffff : PCI Bus 0003:02
+      3fe880000000-3fe8807fffff : PCI Bus 0003:03
+        3fe880000000-3fe88003ffff : 0003:03:00.0
+        3fe880040000-3fe88007ffff : 0003:03:00.1
+        3fe880080000-3fe8800bffff : 0003:03:00.2
+        3fe8800c0000-3fe8800fffff : 0003:03:00.3
+      3fe880800000-3fe880ffffff : PCI Bus 0003:09
+        3fe880800000-3fe88080ffff : 0003:09:00.0
+          3fe880800000-3fe88080ffff : xhci-hcd
+        3fe880810000-3fe880811fff : 0003:09:00.0
+      3fe881000000-3fe8817fffff : PCI Bus 0003:0a
+        3fe881000000-3fe88100ffff : 0003:0a:00.0
+        3fe881010000-3fe8810107ff : 0003:0a:00.0
+          3fe881010000-3fe8810107ff : ahci
+      3fe881800000-3fe882ffffff : PCI Bus 0003:0b
+        3fe881800000-3fe882ffffff : PCI Bus 0003:0c
+          3fe881800000-3fe88181ffff : 0003:0c:00.0
+          3fe882000000-3fe882ffffff : 0003:0c:00.0
+    3fe883000000-3fe88303ffff : 0003:01:00.0
+    3fe883040000-3fe883041fff : 0003:01:00.1
+    3fe883042000-3fe883043fff : 0003:01:00.2
+    3fe883044000-3fe883045fff : 0003:01:00.3
+    3fe883046000-3fe883047fff : 0003:01:00.4
+3fe900000000-3fe97ffeffff : /pciex@3fffe41200000
+3ffff80008000-3ffff80008fff : CPU 0 [0x8] Interrupt Presentation
+3ffff80009000-3ffff80009fff : CPU 1 [0x9] Interrupt Presentation
+3ffff8000a000-3ffff8000afff : CPU 2 [0xa] Interrupt Presentation
+3ffff8000b000-3ffff8000bfff : CPU 3 [0xb] Interrupt Presentation
+3ffff8000c000-3ffff8000cfff : CPU 4 [0xc] Interrupt Presentation
+3ffff8000d000-3ffff8000dfff : CPU 5 [0xd] Interrupt Presentation
+3ffff8000e000-3ffff8000efff : CPU 6 [0xe] Interrupt Presentation
+3ffff8000f000-3ffff8000ffff : CPU 7 [0xf] Interrupt Presentation
+3ffff80010000-3ffff80010fff : CPU 8 [0x10] Interrupt Presentation
+3ffff80011000-3ffff80011fff : CPU 9 [0x11] Interrupt Presentation
+3ffff80012000-3ffff80012fff : CPU 10 [0x12] Interrupt Presentation
+3ffff80013000-3ffff80013fff : CPU 11 [0x13] Interrupt Presentation
+3ffff80014000-3ffff80014fff : CPU 12 [0x14] Interrupt Presentation
+3ffff80015000-3ffff80015fff : CPU 13 [0x15] Interrupt Presentation
+3ffff80016000-3ffff80016fff : CPU 14 [0x16] Interrupt Presentation
+3ffff80017000-3ffff80017fff : CPU 15 [0x17] Interrupt Presentation
+3ffff80018000-3ffff80018fff : CPU 16 [0x18] Interrupt Presentation
+3ffff80019000-3ffff80019fff : CPU 17 [0x19] Interrupt Presentation
+3ffff8001a000-3ffff8001afff : CPU 18 [0x1a] Interrupt Presentation
+3ffff8001b000-3ffff8001bfff : CPU 19 [0x1b] Interrupt Presentation
+3ffff8001c000-3ffff8001cfff : CPU 20 [0x1c] Interrupt Presentation
+3ffff8001d000-3ffff8001dfff : CPU 21 [0x1d] Interrupt Presentation
+3ffff8001e000-3ffff8001efff : CPU 22 [0x1e] Interrupt Presentation
+3ffff8001f000-3ffff8001ffff : CPU 23 [0x1f] Interrupt Presentation
+3ffff80020000-3ffff80020fff : CPU 24 [0x20] Interrupt Presentation
+3ffff80021000-3ffff80021fff : CPU 25 [0x21] Interrupt Presentation
+3ffff80022000-3ffff80022fff : CPU 26 [0x22] Interrupt Presentation
+3ffff80023000-3ffff80023fff : CPU 27 [0x23] Interrupt Presentation
+3ffff80024000-3ffff80024fff : CPU 28 [0x24] Interrupt Presentation
+3ffff80025000-3ffff80025fff : CPU 29 [0x25] Interrupt Presentation
+3ffff80026000-3ffff80026fff : CPU 30 [0x26] Interrupt Presentation
+3ffff80027000-3ffff80027fff : CPU 31 [0x27] Interrupt Presentation
+3ffff80028000-3ffff80028fff : CPU 32 [0x28] Interrupt Presentation
+3ffff80029000-3ffff80029fff : CPU 33 [0x29] Interrupt Presentation
+3ffff8002a000-3ffff8002afff : CPU 34 [0x2a] Interrupt Presentation
+3ffff8002b000-3ffff8002bfff : CPU 35 [0x2b] Interrupt Presentation
+3ffff8002c000-3ffff8002cfff : CPU 36 [0x2c] Interrupt Presentation
+3ffff8002d000-3ffff8002dfff : CPU 37 [0x2d] Interrupt Presentation
+3ffff8002e000-3ffff8002efff : CPU 38 [0x2e] Interrupt Presentation
+3ffff8002f000-3ffff8002ffff : CPU 39 [0x2f] Interrupt Presentation
+3ffff80048000-3ffff80048fff : CPU 40 [0x48] Interrupt Presentation
+3ffff80049000-3ffff80049fff : CPU 41 [0x49] Interrupt Presentation
+3ffff8004a000-3ffff8004afff : CPU 42 [0x4a] Interrupt Presentation
+3ffff8004b000-3ffff8004bfff : CPU 43 [0x4b] Interrupt Presentation
+3ffff8004c000-3ffff8004cfff : CPU 44 [0x4c] Interrupt Presentation
+3ffff8004d000-3ffff8004dfff : CPU 45 [0x4d] Interrupt Presentation
+3ffff8004e000-3ffff8004efff : CPU 46 [0x4e] Interrupt Presentation
+3ffff8004f000-3ffff8004ffff : CPU 47 [0x4f] Interrupt Presentation
+3ffff80050000-3ffff80050fff : CPU 48 [0x50] Interrupt Presentation
+3ffff80051000-3ffff80051fff : CPU 49 [0x51] Interrupt Presentation
+3ffff80052000-3ffff80052fff : CPU 50 [0x52] Interrupt Presentation
+3ffff80053000-3ffff80053fff : CPU 51 [0x53] Interrupt Presentation
+3ffff80054000-3ffff80054fff : CPU 52 [0x54] Interrupt Presentation
+3ffff80055000-3ffff80055fff : CPU 53 [0x55] Interrupt Presentation
+3ffff80056000-3ffff80056fff : CPU 54 [0x56] Interrupt Presentation
+3ffff80057000-3ffff80057fff : CPU 55 [0x57] Interrupt Presentation
+3ffff80060000-3ffff80060fff : CPU 56 [0x60] Interrupt Presentation
+3ffff80061000-3ffff80061fff : CPU 57 [0x61] Interrupt Presentation
+3ffff80062000-3ffff80062fff : CPU 58 [0x62] Interrupt Presentation
+3ffff80063000-3ffff80063fff : CPU 59 [0x63] Interrupt Presentation
+3ffff80064000-3ffff80064fff : CPU 60 [0x64] Interrupt Presentation
+3ffff80065000-3ffff80065fff : CPU 61 [0x65] Interrupt Presentation
+3ffff80066000-3ffff80066fff : CPU 62 [0x66] Interrupt Presentation
+3ffff80067000-3ffff80067fff : CPU 63 [0x67] Interrupt Presentation
+3ffff80068000-3ffff80068fff : CPU 64 [0x68] Interrupt Presentation
+3ffff80069000-3ffff80069fff : CPU 65 [0x69] Interrupt Presentation
+3ffff8006a000-3ffff8006afff : CPU 66 [0x6a] Interrupt Presentation
+3ffff8006b000-3ffff8006bfff : CPU 67 [0x6b] Interrupt Presentation
+3ffff8006c000-3ffff8006cfff : CPU 68 [0x6c] Interrupt Presentation
+3ffff8006d000-3ffff8006dfff : CPU 69 [0x6d] Interrupt Presentation
+3ffff8006e000-3ffff8006efff : CPU 70 [0x6e] Interrupt Presentation
+3ffff8006f000-3ffff8006ffff : CPU 71 [0x6f] Interrupt Presentation
+3ffff80070000-3ffff80070fff : CPU 72 [0x70] Interrupt Presentation
+3ffff80071000-3ffff80071fff : CPU 73 [0x71] Interrupt Presentation
+3ffff80072000-3ffff80072fff : CPU 74 [0x72] Interrupt Presentation
+3ffff80073000-3ffff80073fff : CPU 75 [0x73] Interrupt Presentation
+3ffff80074000-3ffff80074fff : CPU 76 [0x74] Interrupt Presentation
+3ffff80075000-3ffff80075fff : CPU 77 [0x75] Interrupt Presentation
+3ffff80076000-3ffff80076fff : CPU 78 [0x76] Interrupt Presentation
+3ffff80077000-3ffff80077fff : CPU 79 [0x77] Interrupt Presentation
+3ffff80408000-3ffff80408fff : CPU 80 [0x408] Interrupt Presentation
+3ffff80409000-3ffff80409fff : CPU 81 [0x409] Interrupt Presentation
+3ffff8040a000-3ffff8040afff : CPU 82 [0x40a] Interrupt Presentation
+3ffff8040b000-3ffff8040bfff : CPU 83 [0x40b] Interrupt Presentation
+3ffff8040c000-3ffff8040cfff : CPU 84 [0x40c] Interrupt Presentation
+3ffff8040d000-3ffff8040dfff : CPU 85 [0x40d] Interrupt Presentation
+3ffff8040e000-3ffff8040efff : CPU 86 [0x40e] Interrupt Presentation
+3ffff8040f000-3ffff8040ffff : CPU 87 [0x40f] Interrupt Presentation
+3ffff80418000-3ffff80418fff : CPU 88 [0x418] Interrupt Presentation
+3ffff80419000-3ffff80419fff : CPU 89 [0x419] Interrupt Presentation
+3ffff8041a000-3ffff8041afff : CPU 90 [0x41a] Interrupt Presentation
+3ffff8041b000-3ffff8041bfff : CPU 91 [0x41b] Interrupt Presentation
+3ffff8041c000-3ffff8041cfff : CPU 92 [0x41c] Interrupt Presentation
+3ffff8041d000-3ffff8041dfff : CPU 93 [0x41d] Interrupt Presentation
+3ffff8041e000-3ffff8041efff : CPU 94 [0x41e] Interrupt Presentation
+3ffff8041f000-3ffff8041ffff : CPU 95 [0x41f] Interrupt Presentation
+3ffff80420000-3ffff80420fff : CPU 96 [0x420] Interrupt Presentation
+3ffff80421000-3ffff80421fff : CPU 97 [0x421] Interrupt Presentation
+3ffff80422000-3ffff80422fff : CPU 98 [0x422] Interrupt Presentation
+3ffff80423000-3ffff80423fff : CPU 99 [0x423] Interrupt Presentation
+3ffff80424000-3ffff80424fff : CPU 100 [0x424] Interrupt Presentation
+3ffff80425000-3ffff80425fff : CPU 101 [0x425] Interrupt Presentation
+3ffff80426000-3ffff80426fff : CPU 102 [0x426] Interrupt Presentation
+3ffff80427000-3ffff80427fff : CPU 103 [0x427] Interrupt Presentation
+3ffff80428000-3ffff80428fff : CPU 104 [0x428] Interrupt Presentation
+3ffff80429000-3ffff80429fff : CPU 105 [0x429] Interrupt Presentation
+3ffff8042a000-3ffff8042afff : CPU 106 [0x42a] Interrupt Presentation
+3ffff8042b000-3ffff8042bfff : CPU 107 [0x42b] Interrupt Presentation
+3ffff8042c000-3ffff8042cfff : CPU 108 [0x42c] Interrupt Presentation
+3ffff8042d000-3ffff8042dfff : CPU 109 [0x42d] Interrupt Presentation
+3ffff8042e000-3ffff8042efff : CPU 110 [0x42e] Interrupt Presentation
+3ffff8042f000-3ffff8042ffff : CPU 111 [0x42f] Interrupt Presentation
+3ffff80430000-3ffff80430fff : CPU 112 [0x430] Interrupt Presentation
+3ffff80431000-3ffff80431fff : CPU 113 [0x431] Interrupt Presentation
+3ffff80432000-3ffff80432fff : CPU 114 [0x432] Interrupt Presentation
+3ffff80433000-3ffff80433fff : CPU 115 [0x433] Interrupt Presentation
+3ffff80434000-3ffff80434fff : CPU 116 [0x434] Interrupt Presentation
+3ffff80435000-3ffff80435fff : CPU 117 [0x435] Interrupt Presentation
+3ffff80436000-3ffff80436fff : CPU 118 [0x436] Interrupt Presentation
+3ffff80437000-3ffff80437fff : CPU 119 [0x437] Interrupt Presentation
+3ffff80448000-3ffff80448fff : CPU 120 [0x448] Interrupt Presentation
+3ffff80449000-3ffff80449fff : CPU 121 [0x449] Interrupt Presentation
+3ffff8044a000-3ffff8044afff : CPU 122 [0x44a] Interrupt Presentation
+3ffff8044b000-3ffff8044bfff : CPU 123 [0x44b] Interrupt Presentation
+3ffff8044c000-3ffff8044cfff : CPU 124 [0x44c] Interrupt Presentation
+3ffff8044d000-3ffff8044dfff : CPU 125 [0x44d] Interrupt Presentation
+3ffff8044e000-3ffff8044efff : CPU 126 [0x44e] Interrupt Presentation
+3ffff8044f000-3ffff8044ffff : CPU 127 [0x44f] Interrupt Presentation
+3ffff80450000-3ffff80450fff : CPU 128 [0x450] Interrupt Presentation
+3ffff80451000-3ffff80451fff : CPU 129 [0x451] Interrupt Presentation
+3ffff80452000-3ffff80452fff : CPU 130 [0x452] Interrupt Presentation
+3ffff80453000-3ffff80453fff : CPU 131 [0x453] Interrupt Presentation
+3ffff80454000-3ffff80454fff : CPU 132 [0x454] Interrupt Presentation
+3ffff80455000-3ffff80455fff : CPU 133 [0x455] Interrupt Presentation
+3ffff80456000-3ffff80456fff : CPU 134 [0x456] Interrupt Presentation
+3ffff80457000-3ffff80457fff : CPU 135 [0x457] Interrupt Presentation
+3ffff80458000-3ffff80458fff : CPU 136 [0x458] Interrupt Presentation
+3ffff80459000-3ffff80459fff : CPU 137 [0x459] Interrupt Presentation
+3ffff8045a000-3ffff8045afff : CPU 138 [0x45a] Interrupt Presentation
+3ffff8045b000-3ffff8045bfff : CPU 139 [0x45b] Interrupt Presentation
+3ffff8045c000-3ffff8045cfff : CPU 140 [0x45c] Interrupt Presentation
+3ffff8045d000-3ffff8045dfff : CPU 141 [0x45d] Interrupt Presentation
+3ffff8045e000-3ffff8045efff : CPU 142 [0x45e] Interrupt Presentation
+3ffff8045f000-3ffff8045ffff : CPU 143 [0x45f] Interrupt Presentation
+3ffff80468000-3ffff80468fff : CPU 144 [0x468] Interrupt Presentation
+3ffff80469000-3ffff80469fff : CPU 145 [0x469] Interrupt Presentation
+3ffff8046a000-3ffff8046afff : CPU 146 [0x46a] Interrupt Presentation
+3ffff8046b000-3ffff8046bfff : CPU 147 [0x46b] Interrupt Presentation
+3ffff8046c000-3ffff8046cfff : CPU 148 [0x46c] Interrupt Presentation
+3ffff8046d000-3ffff8046dfff : CPU 149 [0x46d] Interrupt Presentation
+3ffff8046e000-3ffff8046efff : CPU 150 [0x46e] Interrupt Presentation
+3ffff8046f000-3ffff8046ffff : CPU 151 [0x46f] Interrupt Presentation
+3ffff80470000-3ffff80470fff : CPU 152 [0x470] Interrupt Presentation
+3ffff80471000-3ffff80471fff : CPU 153 [0x471] Interrupt Presentation
+3ffff80472000-3ffff80472fff : CPU 154 [0x472] Interrupt Presentation
+3ffff80473000-3ffff80473fff : CPU 155 [0x473] Interrupt Presentation
+3ffff80474000-3ffff80474fff : CPU 156 [0x474] Interrupt Presentation
+3ffff80475000-3ffff80475fff : CPU 157 [0x475] Interrupt Presentation
+3ffff80476000-3ffff80476fff : CPU 158 [0x476] Interrupt Presentation
+3ffff80477000-3ffff80477fff : CPU 159 [0x477] Interrupt Presentation

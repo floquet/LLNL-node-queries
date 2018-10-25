@@ -1,0 +1,50 @@
+cat /proc/scsi/scsi for rzansel, node rzmanta23
+list of every recognized SCSI device
+Thu Oct 25 14:16:18 PDT 2018
+
+Attached devices:
+Host: scsi2 Channel: 00 Id: 00 Lun: 00
+  Vendor: AMI      Model: Virtual HDisk0   Rev: 1.00
+  Type:   Direct-Access                    ANSI  SCSI revision: 00
+Host: scsi2 Channel: 00 Id: 00 Lun: 01
+  Vendor: AMI      Model: Virtual HDisk1   Rev: 1.00
+  Type:   Direct-Access                    ANSI  SCSI revision: 00
+Host: scsi2 Channel: 00 Id: 00 Lun: 02
+  Vendor: AMI      Model: Virtual HDisk2   Rev: 1.00
+  Type:   Direct-Access                    ANSI  SCSI revision: 00
+Host: scsi2 Channel: 00 Id: 00 Lun: 03
+  Vendor: AMI      Model: Virtual HDisk3   Rev: 1.00
+  Type:   Direct-Access                    ANSI  SCSI revision: 00
+Host: scsi2 Channel: 00 Id: 00 Lun: 04
+  Vendor: AMI      Model: Virtual HDisk4   Rev: 1.00
+  Type:   Direct-Access                    ANSI  SCSI revision: 00
+Host: scsi0 Channel: 00 Id: 00 Lun: 00
+  Vendor: AMI      Model: Virtual CDROM0   Rev: 1.00
+  Type:   CD-ROM                           ANSI  SCSI revision: 00
+Host: scsi0 Channel: 00 Id: 00 Lun: 01
+  Vendor: AMI      Model: Virtual CDROM1   Rev: 1.00
+  Type:   CD-ROM                           ANSI  SCSI revision: 00
+Host: scsi0 Channel: 00 Id: 00 Lun: 02
+  Vendor: AMI      Model: Virtual CDROM2   Rev: 1.00
+  Type:   CD-ROM                           ANSI  SCSI revision: 00
+Host: scsi0 Channel: 00 Id: 00 Lun: 03
+  Vendor: AMI      Model: Virtual CDROM3   Rev: 1.00
+  Type:   CD-ROM                           ANSI  SCSI revision: 00
+Host: scsi1 Channel: 00 Id: 00 Lun: 00
+  Vendor: AMI      Model: Virtual Floppy0  Rev: 1.00
+  Type:   Direct-Access                    ANSI  SCSI revision: 00
+Host: scsi1 Channel: 00 Id: 00 Lun: 01
+  Vendor: AMI      Model: Virtual Floppy1  Rev: 1.00
+  Type:   Direct-Access                    ANSI  SCSI revision: 00
+Host: scsi1 Channel: 00 Id: 00 Lun: 02
+  Vendor: AMI      Model: Virtual Floppy2  Rev: 1.00
+  Type:   Direct-Access                    ANSI  SCSI revision: 00
+Host: scsi1 Channel: 00 Id: 00 Lun: 03
+  Vendor: AMI      Model: Virtual Floppy3  Rev: 1.00
+  Type:   Direct-Access                    ANSI  SCSI revision: 00
+Host: scsi3 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: ST1000NX0313     Rev: BE33
+  Type:   Direct-Access                    ANSI  SCSI revision: 05
+Host: scsi4 Channel: 00 Id: 00 Lun: 00
+  Vendor: ATA      Model: ST1000NX0313     Rev: BE33
+  Type:   Direct-Access                    ANSI  SCSI revision: 05
