@@ -1,6 +1,6 @@
 cat /proc/modules for rzansel, node rzansel61
 all modules loaded into the kernel
-Thu Oct 25 13:23:14 PDT 2018
+Thu Oct 25 14:44:07 PDT 2018
 
 fuse 141383 1 - Live 0xc0080000100f0000
 mmfs26 2564017 2 - Live 0xc0080000194b0000 (OE)
