@@ -1,4 +1,4 @@
 cat /proc/ioports for rzansel, node rzmanta23
 currently registered port regions used for input or output communication
-Thu Oct 25 14:16:18 PDT 2018
+Thu Oct 25 14:55:51 PDT 2018
 

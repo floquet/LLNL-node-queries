@@ -1,6 +1,6 @@
 cat /proc/locks for rzansel, node rzmanta23
 files currently locked by the kernel
-Thu Oct 25 14:16:18 PDT 2018
+Thu Oct 25 14:55:51 PDT 2018
 
 1: FLOCK  ADVISORY  WRITE 6884 00:13:116099 0 EOF
 2: FLOCK  ADVISORY  WRITE 6848 00:13:21379 0 EOF

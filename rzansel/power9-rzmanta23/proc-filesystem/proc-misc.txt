@@ -1,6 +1,6 @@
 cat /proc/misc for rzansel, node rzmanta23
 miscellaneous drivers registered on the miscellaneous major device, which is device number 10
-Thu Oct 25 14:16:18 PDT 2018
+Thu Oct 25 14:55:51 PDT 2018
 
  56 rdma_cm
  57 opal-prd

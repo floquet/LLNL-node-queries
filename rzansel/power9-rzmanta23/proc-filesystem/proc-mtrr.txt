@@ -1,5 +1,5 @@
 cat /proc/mtrr for rzansel, node rzmanta23
 current Memory Type Range Registers (MTRRs) in use with the system
-Thu Oct 25 14:16:18 PDT 2018
+Thu Oct 25 14:55:51 PDT 2018
 
 cat: /proc/mtrr: No such file or directory
