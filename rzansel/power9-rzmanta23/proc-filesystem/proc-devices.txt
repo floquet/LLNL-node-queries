@@ -1,6 +1,6 @@
 cat /proc/devices for rzansel, node rzmanta23
 displays the various character and block devices currently configured
-Thu Oct 25 15:02:11 PDT 2018
+Thu Oct 25 15:02:12 PDT 2018
 
 Character devices:
   1 mem

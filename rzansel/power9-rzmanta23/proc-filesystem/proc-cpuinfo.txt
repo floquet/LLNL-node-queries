@@ -1,6 +1,6 @@
 cat /proc/cpuinfo for rzansel, node rzmanta23
 type of processor used
-Thu Oct 25 15:02:11 PDT 2018
+Thu Oct 25 15:02:12 PDT 2018
 
 processor	: 0
 cpu		: POWER8 (raw), altivec supported
@@ -324,482 +324,482 @@ revision	: 2.0 (pvr 004d 0200)
 
 processor	: 64
 cpu		: POWER8 (raw), altivec supported
-clock		: 2061.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 65
 cpu		: POWER8 (raw), altivec supported
-clock		: 2061.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 66
 cpu		: POWER8 (raw), altivec supported
-clock		: 2061.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 67
 cpu		: POWER8 (raw), altivec supported
-clock		: 2061.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 68
 cpu		: POWER8 (raw), altivec supported
-clock		: 2061.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 69
 cpu		: POWER8 (raw), altivec supported
-clock		: 2061.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 70
 cpu		: POWER8 (raw), altivec supported
-clock		: 2061.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 71
 cpu		: POWER8 (raw), altivec supported
-clock		: 2061.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 72
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 73
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 74
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 75
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 76
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 77
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 78
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 79
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2094.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 80
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2926.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 81
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2926.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 82
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2926.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 83
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2926.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 84
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2926.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 85
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2926.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 86
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2926.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 87
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2926.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 88
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 2826.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 89
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 2826.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 90
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 2826.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 91
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 2826.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 92
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 2826.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 93
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 2826.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 94
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 2826.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 95
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 2826.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 96
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 97
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 98
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 99
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 100
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 101
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 102
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 103
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 104
 cpu		: POWER8 (raw), altivec supported
-clock		: 2493.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 105
 cpu		: POWER8 (raw), altivec supported
-clock		: 2493.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 106
 cpu		: POWER8 (raw), altivec supported
-clock		: 2493.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 107
 cpu		: POWER8 (raw), altivec supported
-clock		: 2493.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 108
 cpu		: POWER8 (raw), altivec supported
-clock		: 2493.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 109
 cpu		: POWER8 (raw), altivec supported
-clock		: 2493.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 110
 cpu		: POWER8 (raw), altivec supported
-clock		: 2493.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 111
 cpu		: POWER8 (raw), altivec supported
-clock		: 2493.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 112
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 3192.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 113
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 3192.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 114
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 3192.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 115
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 3192.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 116
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 3192.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 117
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 3192.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 118
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 3192.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 119
 cpu		: POWER8 (raw), altivec supported
-clock		: 2227.000000MHz
+clock		: 3192.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 120
 cpu		: POWER8 (raw), altivec supported
-clock		: 2261.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 121
 cpu		: POWER8 (raw), altivec supported
-clock		: 2261.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 122
 cpu		: POWER8 (raw), altivec supported
-clock		: 2261.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 123
 cpu		: POWER8 (raw), altivec supported
-clock		: 2261.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 124
 cpu		: POWER8 (raw), altivec supported
-clock		: 2261.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 125
 cpu		: POWER8 (raw), altivec supported
-clock		: 2261.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 126
 cpu		: POWER8 (raw), altivec supported
-clock		: 2261.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 127
 cpu		: POWER8 (raw), altivec supported
-clock		: 2261.000000MHz
+clock		: 2892.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 128
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 129
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 130
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 131
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 132
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 133
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 134
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 135
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3025.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 136
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 137
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 138
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 139
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 140
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 141
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 142
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 143
 cpu		: POWER8 (raw), altivec supported
-clock		: 2161.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 144
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2992.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 145
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2992.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 146
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2992.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 147
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2992.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 148
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2992.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 149
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2992.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 150
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2992.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 151
 cpu		: POWER8 (raw), altivec supported
-clock		: 2194.000000MHz
+clock		: 2992.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 152
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 153
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 154
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 155
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 156
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 157
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 158
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 processor	: 159
 cpu		: POWER8 (raw), altivec supported
-clock		: 3491.000000MHz
+clock		: 3391.000000MHz
 revision	: 2.0 (pvr 004d 0200)
 
 timebase	: 512000000

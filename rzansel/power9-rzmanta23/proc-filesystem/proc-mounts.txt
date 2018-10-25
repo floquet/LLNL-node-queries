@@ -1,6 +1,6 @@
 cat /proc/mounts for rzansel, node rzmanta23
 all mounts in use
-Thu Oct 25 15:02:11 PDT 2018
+Thu Oct 25 15:02:12 PDT 2018
 
 rootfs / rootfs rw 0 0
 sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0

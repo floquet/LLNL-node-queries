@@ -1,6 +1,6 @@
 cat /proc/swaps for rzansel, node rzmanta23
 measures swap space and its utilization
-Thu Oct 25 15:02:11 PDT 2018
+Thu Oct 25 15:02:12 PDT 2018
 
 Filename				Type		Size	Used	Priority
 /dev/sdk3                               partition	4194240	3543296	-1

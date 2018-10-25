@@ -1,5 +1,5 @@
 cat /proc/uptime for rzansel, node rzmanta23
 uptime since restart
-Thu Oct 25 15:02:11 PDT 2018
+Thu Oct 25 15:02:12 PDT 2018
 
-13465333.19 2120755115.45
+13465333.68 2120755190.27
