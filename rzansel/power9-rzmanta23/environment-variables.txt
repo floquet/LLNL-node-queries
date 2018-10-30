@@ -1,5 +1,5 @@
 environment variables
-Thu Oct 25 14:55:52 PDT 2018
+Thu Oct 25 15:02:13 PDT 2018
 
 shell = -bash
 
@@ -32,7 +32,7 @@ LMOD_PKG=/usr/share/lmod/lmod
 vault=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzmanta23/dir-configuration
 QTDIR=/usr/lib64/qt-3.3
 LSF_SERVERDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le/etc
-OLDPWD=/p/gscratchrzm/topa1/Master/rzmanta/power8/linux-rhel7-ppc64le/trilinos-12.10.1/gcc@8.1.0/2018-05-23
+OLDPWD=/g/g13/topa1
 node_queries=/usr/workspace/wsrzc/topa1/repos/Github/node-queries
 LMOD_VERSION=6.5
 QTINC=/usr/lib64/qt-3.3/include
@@ -75,7 +75,7 @@ dir_control=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/control
 gflags47=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination
 LMOD_SETTARG_CMD=:
 INPUTRC=/etc/inputrc
-PWD=/g/g13/topa1
+PWD=/usr/workspace/wsrzc/topa1/spack-home
 mySpack=/usr/workspace/wsrzc/topa1/spack-home
 _LMFILES_=/usr/tcetmp/modulefiles/Core/xl/beta-2018.10.10.lua:/usr/tce/modulefiles/Compiler/xl/beta-2018.10.10/spectrum-mpi/rolling-release.lua:/usr/tcetmp/modulefiles/Core/cuda/9.2.148.lua:/usr/tcetmp/modulefiles/Core/StdEnv.lua
 EDITOR=/bin/vi

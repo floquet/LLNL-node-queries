@@ -41,11 +41,10 @@ source "${core}/master.sh"
 
 unset OPAL_PREFIX
 
-alias  gohypre="cd ${mySpack}/spack.power9.hypre;  pwd"
-alias gozoltan="cd ${mySpack}/spack.power9.zoltan; pwd"
+alias  gohypre="cd ${mySpack}/spack.rzansel.hypre;  pwd"
+alias gozoltan="cd ${mySpack}/spack.rzansel.zoltan; pwd"
 
 alias quick="source ${lap}/library/patch-zoltan-config.sh"
 alias gomirror="cd /p/gpfs1/topa1/spack/spack.mirror; pwd"
-
 
 

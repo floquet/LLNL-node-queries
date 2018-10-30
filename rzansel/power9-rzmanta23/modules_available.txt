@@ -1,3 +1,92 @@
 modules available 
 Thu Oct 25 15:02:12 PDT 2018
 
+
+--------------- /usr/tce/modulefiles/Compiler/xl/beta-2018.10.10 ---------------
+   spectrum-mpi/rolling-release (L,D)    spectrum-mpi/2018.08.02
+   spectrum-mpi/2018.04.27               spectrum-mpi/2018.08.13
+   spectrum-mpi/2018.06.01               spectrum-mpi/2018.08.30
+   spectrum-mpi/2018.06.07               spectrum-mpi/2018.10.10
+   spectrum-mpi/2018.07.12
+
+------------------------- /usr/tcetmp/modulefiles/Core -------------------------
+   StdEnv                      (L)      lalloc/1.0
+   clang/coral-2017.03.15               lalloc/2.0                    (D)
+   clang/coral-2017.03.29               lapack/3.6.0-xl-2018.06.27
+   clang/coral-2017.05.03               lapack/3.8.0-gcc-4.9.3
+   clang/coral-2017.05.19               lapack/3.8.0-xl-2018.06.27
+   clang/coral-2017.06.08               lapack/3.8.0-xl-2018.08.24    (D)
+   clang/coral-2017.06.12               lapack/3.8.0-P8-gcc-4.9.3
+   clang/coral-2017.06.14               lapack/3.8.0-P8-xl-2018.08.24
+   clang/coral-2017.06.27               lmod/7.4.17                   (D)
+   clang/coral-2017.06.29               makedepend/1.0.5
+   clang/coral-2017.08.31               memcheckview/3.13.0
+   clang/coral-2017.09.06               memcheckview/3.14.0           (D)
+   clang/coral-2017.09.13               mpifileutils/0.6
+   clang/coral-2017.09.18               mpifileutils/0.7              (D)
+   clang/coral-2017.10.06               petsc/3.8.3
+   clang/coral-2017.10.13               pgi/16.10
+   clang/coral-2017.11.09               pgi/17.1
+   clang/coral-2017.11.30               pgi/17.3
+   clang/coral-2017.12.06               pgi/17.4
+   clang/coral-2018.02.09               pgi/17.7
+   clang/coral-2018.04.17               pgi/17.9
+   clang/coral-2018.05.18               pgi/17.10
+   clang/coral-2018.05.22               pgi/18.1
+   clang/coral-2018.05.23               pgi/18.3
+   clang/coral-2018.08.08      (D)      pgi/18.4
+   clang/3.9.1                          pgi/18.5                      (D)
+   clang/4.0.0                          pgi/18.7
+   clang/6.0.0                          python/2.7.13
+   cmake/3.7.2                          python/2.7.14                 (D)
+   cmake/3.8.2                          python/3.6.4
+   cmake/3.9.2                 (D)      scorep/3.0.0
+   cmake/3.12.1                         tau/2.26.2
+   cuda/8.0                             totalview/2016.07.22
+   cuda/9.0.176                         totalview/2017X.3.1
+   cuda/9.0.184                         totalview/2017.0.12
+   cuda/9.1.76                          totalview/2017.1.21
+   cuda/9.1.85                          totalview/2017.2.11
+   cuda/9.2.64                          totalview/2017.3.8
+   cuda/9.2.88                          totalview/2018X.2.1
+   cuda/9.2.148                (L,D)    totalview/2018.0.5
+   deprecated                           totalview/2018.1.12           (D)
+   essl/beta-6.1.0                      valgrind/3.13.0
+   essl/6.1                             valgrind/3.14.0               (D)
+   essl/6.1.0-1                (D)      xl/beta-2017.03.28
+   experimental                         xl/beta-2017.04.11
+   fftw/3.3.8-clang-2018.05.23          xl/beta-2017.05.08
+   fftw/3.3.8-gcc-4.9.3                 xl/beta-2017.06.07
+   fftw/3.3.8-xl-2018.06.27             xl/beta-2017.06.14
+   fftw/3.3.8                  (D)      xl/beta-2017.06.29
+   flex/2.6.4                           xl/beta-2017.07.28
+   gcc/4.8-redhat                       xl/beta-2017.09.13
+   gcc/4.9.3                   (D)      xl/beta-2017.10.13
+   gcc/7.2.1-redhat                     xl/beta-2017.11.28
+   gcc/7.3.1                            xl/beta-2018.02.05
+   git/2.9.3                            xl/beta-2018.02.22
+   gmake/4.2.1                          xl/beta-2018.03.21
+   gnuplot/5.0.0                        xl/beta-2018.04.06
+   gsl/2.3                              xl/beta-2018.06.01
+   gsl/2.4                              xl/beta-2018.06.27
+   gsl/2.5                     (D)      xl/beta-2018.07.17
+   ibmppt/alpha-2.4.0                   xl/beta-2018.08.08
+   ibmppt/beta-2.4.0                    xl/beta-2018.08.24
+   ibmppt/beta2-2.4.0                   xl/beta-2018.09.13
+   ibmppt/2.3                  (D)      xl/beta-2018.09.26
+   ibmppt/2.4.0                         xl/beta-2018.10.10            (L,D)
+   ibmppt/2.4.0.1                       xl/2016.12.02
+   ibmppt/2.4.0.2                       xl/2018.04.29
+   jsrun/2017.09.21                     xl/2018.05.18
+
+-------------------- /usr/share/lmod/lmod/modulefiles/Core ---------------------
+   lmod/6.5    settarg/6.5
+
+  Where:
+   D:  Default Module
+   L:  Module is loaded
+
+Use "module spider" to find all possible modules.
+Use "module keyword key1 key2 ..." to search for all possible modules matching
+any of the "keys".
+

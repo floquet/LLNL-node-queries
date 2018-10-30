@@ -1,5 +1,5 @@
 uname variables
-Thu Oct 25 14:48:11 PDT 2018
+Tue Oct 30 08:21:18 PDT 2018
 
 -m   machine name:          ppc64le
 -n   network node hostname: rzansel61
