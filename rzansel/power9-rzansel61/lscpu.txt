@@ -1,5 +1,5 @@
 lscpu for rzansel, node rzansel61
-Mon Nov  5 09:38:16 PST 2018
+Mon Nov  5 09:38:38 PST 2018
 
 Architecture:          ppc64le
 Byte Order:            Little Endian
