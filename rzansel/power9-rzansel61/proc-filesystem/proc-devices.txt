@@ -1,6 +1,6 @@
 cat /proc/devices for rzansel, node rzansel61
 displays the various character and block devices currently configured
-Tue Oct 30 08:21:18 PDT 2018
+Mon Nov  5 09:38:16 PST 2018
 
 Character devices:
   1 mem
@@ -33,9 +33,9 @@ Character devices:
 236 infiniband_mad
 237 mlx5_fpga_tools
 238 nvidia-uvm
-239 uio
-240 nvidia-nvlink
-241 cxl
+239 cxl
+240 uio
+241 nvidia-nvlink
 242 nvme
 243 ipmidev
 244 ptp

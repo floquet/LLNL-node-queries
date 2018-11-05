@@ -1,15 +1,15 @@
 cat /proc/partitions for rzansel, node rzansel61
 partition block allocation information
-Tue Oct 30 08:21:18 PDT 2018
+Mon Nov  5 09:38:16 PST 2018
 
 major minor  #blocks  name
 
-   8        0 1953514584 sda
    8       16 1953514584 sdb
    8       17       8192 sdb1
    8       18     524288 sdb2
    8       19    4194304 sdb3
    8       20          1 sdb4
    8       21 1948785664 sdb5
- 259        0 1562813784 nvme0n1
+   8        0 1953514584 sda
  253        0 1948782592 dm-0
+ 259        0 1562813784 nvme0n1

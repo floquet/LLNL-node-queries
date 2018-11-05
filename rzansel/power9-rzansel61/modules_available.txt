@@ -1,8 +1,8 @@
 modules available 
-Tue Oct 30 08:21:18 PDT 2018
+Mon Nov  5 09:38:16 PST 2018
 
 
---------------- /usr/tce/modulefiles/Compiler/xl/beta-2018.10.10 ---------------
+--------------- /usr/tce/modulefiles/Compiler/xl/beta-2018.10.29 ---------------
    spectrum-mpi/rolling-release (L,D)    spectrum-mpi/2018.08.02
    spectrum-mpi/2018.04.27               spectrum-mpi/2018.08.13
    spectrum-mpi/2018.06.01               spectrum-mpi/2018.08.30
@@ -60,10 +60,10 @@ Tue Oct 30 08:21:18 PDT 2018
    ibmppt/2.4.0                        xl/beta-2018.08.24
    ibmppt/2.4.0.1             (D)      xl/beta-2018.09.13
    ibmppt/2.4.0.2                      xl/beta-2018.09.26
-   lalloc/1.0                          xl/beta-2018.10.10            (L,D)
-   lalloc/2.0                 (D)      xl/2018.04.29
-   lapack/3.8.0-gcc-4.9.3              xl/2018.05.18
-   lapack/3.8.0-xl-2018.08.24 (D)
+   lalloc/1.0                          xl/beta-2018.10.10
+   lalloc/2.0                 (D)      xl/beta-2018.10.29            (L,D)
+   lapack/3.8.0-gcc-4.9.3              xl/2018.04.29
+   lapack/3.8.0-xl-2018.08.24 (D)      xl/2018.05.18
 
 -------------------- /usr/share/lmod/lmod/modulefiles/Core ---------------------
    lmod/6.5.1    settarg/6.5.1
