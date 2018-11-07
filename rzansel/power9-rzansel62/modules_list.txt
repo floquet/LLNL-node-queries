@@ -1,7 +1,4 @@
 module list
-Thu Oct 18 13:47:54 PDT 2018
+Wed Nov  7 09:28:11 PST 2018
 
-
-Currently Loaded Modules:
-  1) cuda/9.2.148   2) StdEnv   3) gcc/7.3.1   4) spectrum-mpi/rolling-release
-
+/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash/core-scripts/modules.sh: line 23: module: command not found

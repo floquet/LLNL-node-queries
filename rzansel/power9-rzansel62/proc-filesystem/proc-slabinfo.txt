@@ -2,10 +2,10 @@ cat /proc/slabinfo for rzansel, node rzansel62
 full information about memory usage on the slab level
 full information about memory usage on the slab level
 full information about memory usage on the slab level
-Thu Oct 18 13:47:53 PDT 2018
+Wed Nov  7 09:28:11 PST 2018
+Wed Nov  7 09:28:11 PST 2018
+Wed Nov  7 09:28:11 PST 2018
 
-Thu Oct 18 13:47:53 PDT 2018
-Thu Oct 18 13:47:53 PDT 2018
 cat: /proc/slabinfo: Permission denied
 
 

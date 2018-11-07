@@ -1,5 +1,5 @@
 alias assignments on rzansel
-Thu Oct 18 13:47:54 PDT 2018
+Wed Nov  7 09:28:11 PST 2018
 
 alias again='cd ../; rm -rf build; mkdir build;  cd build'
 alias bcat='cat    /g/g13/topa1/.bashrc'
@@ -25,10 +25,10 @@ alias disk_total='echo "total disk usage for $(pwd):";    du -shm'
 alias ebf='echo '\''${bash_file}:'\'';  echo '\''.bashrc'\'''
 alias echocf='echo $cflags'
 alias echogf='echo $gflags'
-alias emp='echo '\''${MODULEPATH}:'\''; echo '\''/p/gpfs1/topa1/spack/spack.power9.zoltan/share/spack/modules/linux-rhel7-ppc64le:/usr/tce/modulefiles/MPI/gcc/7.3.1/spectrum-mpi/rolling-release:/usr/tce/modulefiles/Compiler/gcc/7.3.1:/p/gpfs1/topa1/spack/spack.power9.hypre/share/spack/modules/linux-rhel7-ppc64le:/usr/tcetmp/modulefiles/Core:/usr/apps/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core'\'''
-alias ep='echo '\''${PATH}:'\'';       echo '\''/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin:/p/gpfs1/topa1/spack/spack.power9.zoltan/bin:/usr/tce/packages/spectrum-mpi/spectrum-mpi-rolling-release-gcc-7.3.1/bin:/usr/tce/packages/gcc/gcc-7.3.1/bin:/p/gpfs1/topa1/spack/spack.power9.hypre/bin:/usr/tce/packages/cuda/cuda-9.2.148/bin:/usr/tcetmp/bin:/usr/lib64/qt-3.3/bin:/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/etc:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibm/spectrum_mpi/jsm_pmix/bin:/opt/ibm/bb/bin:/opt/ibm/flightlog/bin:/opt/ibutils/bin:.'\'''
+alias emp='echo '\''${MODULEPATH}:'\''; echo '\'''\'''
+alias ep='echo '\''${PATH}:'\'';       echo '\''/usr/local/bin:/usr/bin'\'''
 alias epa='echo '\''${partition}:'\'';  echo '\''power9'\'''
-alias esp='echo '\''${SPACK_ROOT}:'\''; echo '\''/p/gpfs1/topa1/spack/spack.power9.zoltan'\'''
+alias esp='echo '\''${SPACK_ROOT}:'\''; echo '\'''\'''
 alias finder='echo '\''find . -name liblocaepetra.so'\'';  find . -name '\''liblocaepetra.so'\'''
 alias ga='ssh -l dantopa -XY ga-fey'
 alias gobash='cd /usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash; pwd'
@@ -50,9 +50,9 @@ alias goperformance='cd /usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_B
 alias goray='echo '\''ssh ray: <password><pin>'\''; ssh ray'
 alias gorepos='cd /usr/workspace/wsrzc/topa1/repos;               pwd'
 alias gosbatch='gospack; cd sbatch-output; pwd'
-alias goscratch='cd /p/gpfs1/topa1;             pwd'
+alias goscratch='cd /p/gscratchrzm/topa1;             pwd'
 alias goseelap='cd /usr/workspace/wsrzc/topa1/repos/Bitbucket/LLNL-lap/rzansel/power9; pwd'
-alias gospack='cd /p/gpfs1/topa1/spack; pwd'
+alias gospack='cd /usr/workspace/wsrzc/topa1/spack-home; pwd'
 alias gospackp='echo '\''. share/spack/setup-env.sh'\'';. share/spack/setup-env.sh; echo '\''l-spack'\''; l-spack'
 alias gosweep='cd /usr/workspace/wsrzc/topa1/repos/Github/node-queries/control/sweep;         pwd'
 alias gotopa='cd /usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking/topa/spack/bash; pwd'

@@ -1,0 +1,88 @@
+modules available 
+Wed Nov  7 09:28:35 PST 2018
+
+
+ /usr/workspace/wsrzc/topa1/spack-home/spack.rzansel.zoltan/share/spack/modules/linux-rhel7-ppc64le 
+   cmake/3.12.3-gcc-4.9.3           netlib-lapack/3.7.1-xl-16.2
+   cmake/3.12.3-gcc-7.3.1           netlib-lapack/3.8.0-gcc-4.9.3
+   cmake/3.12.3-xl-16.1             netlib-lapack/3.8.0-xl-16.1
+   cmake/3.12.3-xl-16.2             netlib-lapack/3.8.0-xl-16.2   (D)
+   netlib-lapack/3.6.1-gcc-4.9.3    openblas/0.3.2-gcc-4.9.3
+   netlib-lapack/3.7.1-gcc-4.9.3    openblas/0.3.3-gcc-4.9.3      (D)
+   netlib-lapack/3.7.1-xl-16.1
+
+--------------- /usr/tce/modulefiles/Compiler/xl/beta-2018.10.29 ---------------
+   spectrum-mpi/rolling-release (L,D)    spectrum-mpi/2018.08.02
+   spectrum-mpi/2018.04.27               spectrum-mpi/2018.08.13
+   spectrum-mpi/2018.06.01               spectrum-mpi/2018.08.30
+   spectrum-mpi/2018.06.07               spectrum-mpi/2018.10.10
+   spectrum-mpi/2018.07.12
+
+------------------------- /usr/tcetmp/modulefiles/Core -------------------------
+   StdEnv                     (L)      lapack/3.8.0-P8-gcc-4.9.3
+   archer/1.0.0                        lapack/3.8.0-P8-xl-2018.08.24
+   clang/coral-2017.11.09              lapack/3.8.0-P9-gcc-4.9.3
+   clang/coral-2017.12.06              lapack/3.8.0-P9-xl-2018.08.24
+   clang/coral-2018.04.17              lmod/7.4.17                   (D)
+   clang/coral-2018.05.18              lrun/2018.07.22               (D)
+   clang/coral-2018.05.22              lrun/2018.10.18
+   clang/coral-2018.05.23              makedepend/1.0.5
+   clang/coral-2018.08.08     (D)      memcheckview/3.13.0
+   clang/upstream-2018.09.24           memcheckview/3.14.0           (D)
+   clang/upstream-2018.10.02           petsc/3.7.6
+   clang/upstream-2018.10.19           petsc/3.8.3
+   clang/6.0.0                         petsc/3.9.0                   (D)
+   cmake/3.7.2                         pgi/17.4
+   cmake/3.8.2                         pgi/17.7
+   cmake/3.9.2                (D)      pgi/17.9
+   cmake/3.12.1                        pgi/17.10
+   coredump/cuda_fullcore              pgi/18.1
+   coredump/cuda_lwcore                pgi/18.3
+   coredump/fullcore                   pgi/18.4
+   coredump/lwcore            (D)      pgi/18.5                      (D)
+   coredump/lwcore2                    pgi/18.7
+   cuda/9.0.176                        python/2.7.13
+   cuda/9.0.184                        python/2.7.14                 (D)
+   cuda/9.1.76                         python/3.6.4
+   cuda/9.1.85                         scorep/3.0.0
+   cuda/9.2.64                         tau/2.26.2
+   cuda/9.2.88                         tau/2.26.3                    (D)
+   cuda/9.2.148               (L,D)    totalview/2016.07.22
+   debugCQEmpi                         totalview/2017.0.12
+   essl/sys-default                    totalview/2017.1.21
+   essl/6.1.0                          totalview/2017.2.11
+   essl/6.1.0-1               (D)      totalview/2018X.2.1
+   fftw/3.3.8                          totalview/2018.0.5
+   flex/2.6.4                          totalview/2018.1.12           (D)
+   gcc/4.9.3                  (D)      valgrind/3.13.0
+   gcc/7.2.1-redhat                    valgrind/3.14.0               (D)
+   gcc/7.3.1                           vampir/9.5
+   git/2.9.3                           xl/beta-2017.11.28
+   gmake/4.2.1                         xl/beta-2018.02.05
+   gsl/2.3                             xl/beta-2018.02.22
+   gsl/2.4                             xl/beta-2018.03.21
+   gsl/2.5                    (D)      xl/beta-2018.04.06
+   hwloc/1.11.10-cuda                  xl/beta-2018.06.01
+   ibmppt/alpha-2.4.0                  xl/beta-2018.06.27
+   ibmppt/beta-2.4.0                   xl/beta-2018.07.17
+   ibmppt/beta2-2.4.0                  xl/beta-2018.08.08
+   ibmppt/2.3                          xl/beta-2018.08.24
+   ibmppt/2.4.0                        xl/beta-2018.09.13
+   ibmppt/2.4.0.1             (D)      xl/beta-2018.09.26
+   ibmppt/2.4.0.2                      xl/beta-2018.10.10
+   lalloc/1.0                          xl/beta-2018.10.29            (L,D)
+   lalloc/2.0                 (D)      xl/beta-2018.11.02
+   lapack/3.8.0-gcc-4.9.3              xl/2018.04.29
+   lapack/3.8.0-xl-2018.08.24 (D)      xl/2018.05.18
+
+-------------------- /usr/share/lmod/lmod/modulefiles/Core ---------------------
+   lmod/6.5.1    settarg/6.5.1
+
+  Where:
+   D:  Default Module
+   L:  Module is loaded
+
+Use "module spider" to find all possible modules.
+Use "module keyword key1 key2 ..." to search for all possible modules matching
+any of the "keys".
+

@@ -1,6 +1,6 @@
 cat /proc/crypto for rzansel, node rzansel62
 lists all installed cryptographic ciphers used by the Linux kernel
-Thu Oct 18 13:47:53 PDT 2018
+Wed Nov  7 09:28:11 PST 2018
 
 name         : gcm(aes)
 driver       : gcm_base(ctr(aes-generic),ghash-generic)

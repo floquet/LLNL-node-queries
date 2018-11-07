@@ -1,302 +1,76 @@
 environment variables
-Thu Oct 18 13:47:54 PDT 2018
+Wed Nov  7 09:28:11 PST 2018
 
-shell = /usr/bin/bash
+shell = bash
 
 dir_sweep=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/control/sweep
-MANPATH=/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-rolling-release/share/man:/usr/tce/packages/gcc/gcc-7.3.1/man:/usr/tce/packages/cuda/cuda-9.2.148/doc/man:/usr/tcetmp/man:/usr/share/lmod/lmod/share/man:/opt/ibm/spectrumcomputing/lsf/10.1/man:/usr/man:/usr/share/man:/usr/local/man:/usr/X11R6/man:/usr/lib64/mvapich/default/man:/opt/ibm/spectrum_mpi/jsm_pmix/share/man
-bold=[1m
+bold=
 dir_batch_scripts=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/control/batch-scripts
 partition=power9
-LSB_EXEC_CLUSTER=rzansel
-SPACK_ROOT=/p/gpfs1/topa1/spack/spack.power9.zoltan
-_ModuleTable003_=ImxvYWRPcmRlciJdPTEscHJvcFQ9e30sWyJzaG9ydCJdPSJjdWRhIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sZ2NjPXtbIkZOIl09Ii91c3IvdGNldG1wL21vZHVsZWZpbGVzL0NvcmUvZ2NjLzcuMy4xLmx1YSIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09ImdjYy83LjMuMSIsWyJsb2FkT3JkZXIiXT0zLHByb3BUPXt9LFsic2hvcnQiXT0iZ2NjIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sWyJzcGVjdHJ1bS1tcGkiXT17WyJGTiJdPSIvdXNyL3RjZS9tb2R1bGVmaWxlcy9Db21waWxlci9nY2MvNy4zLjEvc3BlY3RydW0tbXBpL3JvbGxpbmctcmVsZWFzZS5sdWEiLFsiZGVmYXVsdCJdPTEsWyJmdWxsTmFtZSJdPSJzcGVjdHJ1bS1tcGkvcm9sbGluZy1yZWxlYXNlIixbImxv
-LMOD_ANCIENT_TIME=3600
-LMOD_FAMILY_CUDA=cuda
-HOSTNAME=rzansel62
 gflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
-thisArch=linux-rhel7-ppc64le
-LSB_EFFECTIVE_RSRCREQ=1*{select[(LN) && (type == any)] order[r15s:pg] span[hosts=1]}+40*{select[(CN) && (type == any)] order[r15s:pg] span[ptile=40]}
 my_log=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel62/environment-variables.txt
-LSF_LOGDIR=/opt/ibm/spectrumcomputing/lsf/log
-LSF_LIM_API_NTRIES=1
 SHELL=/bin/bash
-TERM=xterm-256color
-LSB_BATCH_JID=16331
-HISTSIZE=50
 fortran_compiler_mpi_cray=ftn
-WISECONFIGDIR=/usr/share/wise2/
-LMOD_DEFAULT_MODULEPATH=/p/gpfs1/topa1/spack/spack.power9.zoltan/share/spack/modules/linux-rhel7-ppc64le:/p/gpfs1/topa1/spack/spack.power9.hypre/share/spack/modules/linux-rhel7-ppc64le:/usr/tcetmp/modulefiles/Core:/usr/apps/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
-SSH_CLIENT=134.9.48.244 48294 22
 dir_batch_files=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/control/batch-files
 dir_wsdb=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking/topa/wsdb
-LMOD_SYSTEM_DEFAULT_MODULES=StdEnv
-MODULEPATH_ROOT=/usr/share/modulefiles
-TMPDIR=/var/tmp
+SSH_CLIENT=192.168.64.61 41936 22
 fortran_compiler_caf=caf
-myc=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking/topa/wsdb/test-compilers/verify-c-compiler.c
-LSB_TRAPSIGS=trap # 15 10 12 2 1
-LS_EXECCWD=/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-rolling-release/share
 dir_performance=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking
-LS_JOBPID=73135
 llnl_bash=/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash
-LMOD_PKG=/usr/share/lmod/lmod
-LSB_MAX_NUM_PROCESSORS=41
-LSB_JOBRES_CALLBACK=41979@rzansel62
 vault=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel62/dir-configuration
-LSF_SERVERDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/etc
-QTDIR=/usr/lib64/qt-3.3
-LSB_JOBID=16331
-LSB_JOB_EXECUSER=topa1
-dir_yaml=/p/gpfs1/topa1/spack/spack.power9.zoltan/etc/spack/defaults
 node_queries=/usr/workspace/wsrzc/topa1/repos/Github/node-queries
-LMOD_SHORT_TIME=60
-LMOD_VERSION=6.5.1
-QTINC=/usr/lib64/qt-3.3/include
-LSB_JOBRES_PID=73135
-SSH_TTY=/dev/pts/6
 os=linux
-LSB_JOBNAME=/usr/bin/bash
-SPACK_SHELL=bash
 lap=/usr/workspace/wsrzc/topa1/repos/Bitbucket/LLNL-lap
 nagflags=-g -C=all -colour -compatible -f2008 -free -gc -gline -info -nan -O2 -pg -time -v -V
-LC_ALL=C
-BSUB_BLOCK_EXEC_HOST=
 gflags48=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all
 myssh=ssh -l dantopa -XY
-LSF_LIBDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/lib
-QT_GRAPHICSSYSTEM_CHECKED=1
-normal=(B[m
-OPAL_PREFIX=/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-rolling-release
-CUDA_HOME=/usr/tce/packages/cuda/cuda-9.2.148
-LSB_PROJECT_NAME=default
+normal=
 USER=topa1
-LD_LIBRARY_PATH=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/lib:/usr/tce/packages/cuda/cuda-9.2.148/lib64
-LS_COLORS=rs=0:di=38;5;27:ln=38;5;51:mh=44;38;5;15:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=05;48;5;232;38;5;15:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;34:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.Z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.axv=38;5;13:*.anx=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.axa=38;5;45:*.oga=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
-LMOD_sys=Linux
-SBD_KRB5CCNAME_VAL=
 moniker=dantopa
-LSB_EEXEC_REAL_UID=
-ENV=/g/g13/topa1/.bashrc
 TargetFile=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel62/proc-filesystem/proc-panic-oom.txt
 gcc_system_compiler=gcc@4.9.3
-PFTP_CONFIG_FILENAME=/etc/pftp_config
-LSB_XFJOB=Y
-_ModuleTable004_=YWRPcmRlciJdPTQscHJvcFQ9e30sWyJzaG9ydCJdPSJzcGVjdHJ1bS1tcGkiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSx9LG1wYXRoQT17Ii9wL2dwZnMxL3RvcGExL3NwYWNrL3NwYWNrLnBvd2VyOS56b2x0YW4vc2hhcmUvc3BhY2svbW9kdWxlcy9saW51eC1yaGVsNy1wcGM2NGxlIiwiL3Vzci90Y2UvbW9kdWxlZmlsZXMvTVBJL2djYy83LjMuMS9zcGVjdHJ1bS1tcGkvcm9sbGluZy1yZWxlYXNlIiwiL3Vzci90Y2UvbW9kdWxlZmlsZXMvQ29tcGlsZXIvZ2NjLzcuMy4xIiwiL3AvZ3BmczEvdG9wYTEvc3BhY2svc3BhY2sucG93ZXI5Lmh5cHJlL3NoYXJlL3NwYWNrL21vZHVsZXMvbGludXgtcmhlbDctcHBjNjRsZSIsIi91c3IvdGNldG1wL21vZHVsZWZpbGVzL0NvcmUiLCIv
 lap_scripts=/usr/workspace/wsrzc/topa1/repos/Bitbucket/LLNL-lap/scripts
-HOST_GRP=linux
-HOSTTYPE=LINUXPPC64LE
-LSF_INVOKE_CMD=bsub
 data=/usr/workspace/wsrzc/topa1
-LS_EXEC_T=START
-LSF_VERSION=34
-LS_SUBCWD=/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-rolling-release/share
-LSB_SUB_RES_REQ=1*{select[LN]span[hosts=1]} + 40*{select[CN]span[ptile=40]}
-LSB_UNIXGROUP_INT=topa1
 bitbucket=/usr/workspace/wsrzc/topa1/repos/Bitbucket
-LMOD_PREPEND_BLOCK=normal
-LSB_HOSTS=rzansel62 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18 rzansel18
 host_name=rzansel
-LSB_JOBFILENAME=/g/g13/topa1/.lsbatch/1539895651.16331
-MAIL=/usr/spool/mail/topa1
-PATH=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin:/p/gpfs1/topa1/spack/spack.power9.zoltan/bin:/usr/tce/packages/spectrum-mpi/spectrum-mpi-rolling-release-gcc-7.3.1/bin:/usr/tce/packages/gcc/gcc-7.3.1/bin:/p/gpfs1/topa1/spack/spack.power9.hypre/bin:/usr/tce/packages/cuda/cuda-9.2.148/bin:/usr/tcetmp/bin:/usr/lib64/qt-3.3/bin:/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/etc:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibm/spectrum_mpi/jsm_pmix/bin:/opt/ibm/bb/bin:/opt/ibm/flightlog/bin:/opt/ibutils/bin:.
-_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09NCxiYXNlTXBhdGhBPXsiL3AvZ3BmczEvdG9wYTEvc3BhY2svc3BhY2sucG93ZXI5LnpvbHRhbi9zaGFyZS9zcGFjay9tb2R1bGVzL2xpbnV4LXJoZWw3LXBwYzY0bGUiLCIvcC9ncGZzMS90b3BhMS9zcGFjay9zcGFjay5wb3dlcjkuaHlwcmUvc2hhcmUvc3BhY2svbW9kdWxlcy9saW51eC1yaGVsNy1wcGM2NGxlIiwiL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvYXBwcy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsiY19yZWJ1aWxkVGltZSJd
 gflags45=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens 
-LSB_JOBINDEX=0
-scratch=/p/gpfs1/topa1
-LCSCHEDCLUSTER=rzansel
+MAIL=/var/mail/topa1
+PATH=/usr/local/bin:/usr/bin
+scratch=/p/gscratchrzm/topa1
 dir_control=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/control
 gflags47=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination
-LSB_EXIT_PRE_ABORT=99
-LMOD_SETTARG_CMD=:
-LSB_JOBEXIT_STAT=0
-INPUTRC=/etc/inputrc
-PWD=/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-rolling-release/share
-_LMFILES_=/usr/tcetmp/modulefiles/Core/cuda/9.2.148.lua:/usr/tcetmp/modulefiles/Core/StdEnv.lua:/usr/tcetmp/modulefiles/Core/gcc/7.3.1.lua:/usr/tce/modulefiles/Compiler/gcc/7.3.1/spectrum-mpi/rolling-release.lua
-mySpack=/p/gpfs1/topa1/spack
-LSB_INTERACTIVE=Y
-EDITOR=/bin/vi
+PWD=/g/g13/topa1
+mySpack=/usr/workspace/wsrzc/topa1/spack-home
 dir_batch_output=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/control/batch-output
 file_hwloc=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel62/hwloc-info.txt
-LANG=en_US.UTF-8
-LSB_RES_GET_FANOUT_INFO=Y
-MODULEPATH=/p/gpfs1/topa1/spack/spack.power9.zoltan/share/spack/modules/linux-rhel7-ppc64le:/usr/tce/modulefiles/MPI/gcc/7.3.1/spectrum-mpi/rolling-release:/usr/tce/modulefiles/Compiler/gcc/7.3.1:/p/gpfs1/topa1/spack/spack.power9.hypre/share/spack/modules/linux-rhel7-ppc64le:/usr/tcetmp/modulefiles/Core:/usr/apps/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core
 github=/usr/workspace/wsrzc/topa1/repos/Github
-LSB_CHKFILENAME=/g/g13/topa1/.lsbatch/1539895651.16331
-_ModuleTable_Sz_=5
-GLOGIN=1
-LOADEDMODULES=cuda/9.2.148:StdEnv:gcc/7.3.1:spectrum-mpi/rolling-release
-KDEDIRS=/usr
-LSB_DJOB_HOSTFILE=/g/g13/topa1/.lsbatch/1539895651.16331.hostfile
-bash_scripts=/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash
-ego=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel
 fortran_compiler_gnu=gfortran
-PS1=\[\033[00;35m\]\u\[\033[00m\]@\[\033[00;35m\]\H\[\033[00m\]:\[\033[00;33m\]\W\[\033[00m\] $\033[00;36m 
-LSF_JOB_TIMESTAMP_VALUE=1539895651
-BBPATH=/mnt/bb_cc64e8f9b58f92174b0e699b2eadefc0
-_ModuleTable005_=dXNyL2FwcHMvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvdXNyL3RjZXRtcC9tb2R1bGVmaWxlcy9Db3JlOi91c3IvYXBwcy9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4Oi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZTovdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIixbInZlcnNpb24iXT0yLH0=
-LMOD_CMD=/usr/share/lmod/lmod/libexec/lmod
-LSB_AFFINITY_HOSTFILE=/g/g13/topa1/.lsbatch/1539895651.16331.hostAffinityFile
-LSF_BINDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin
-LSB_EXEC_HOSTTYPE=UNKNOWN_AUTO_DETECT
-LSB_DJOB_NUMPROC=41
-SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
-HISTCONTROL=ignoredups
+ego=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel
+bash_scripts=/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash
 whoami=rzansel, node rzansel62
-ENVIRONMENT=INTERACTIVE
-SHLVL=3
-dirProc=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel62/proc-filesystem
 llnl_ssh=ssh -l topa1 -X
+dirProc=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel62/proc-filesystem
+SHLVL=1
 HOME=/g/g13/topa1
-TACC_FAMILY_COMPILER=gcc
 id=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel62
 repos=/usr/workspace/wsrzc/topa1/repos
-JOB_TERMINATE_INTERVAL=10
-BINARY_TYPE_HPC=
-_ModuleTable002_=PTMwMCxbImNfc2hvcnRUaW1lIl09MTQuMzA0MTEwMDUwMjAxLGZhbWlseT17WyJjb21waWxlciJdPSJnY2MiLFsiY3VkYSJdPSJjdWRhIixbIm1waSJdPSJzcGVjdHJ1bS1tcGkiLH0saW5hY3RpdmU9e30sbVQ9e1N0ZEVudj17WyJGTiJdPSIvdXNyL3RjZXRtcC9tb2R1bGVmaWxlcy9Db3JlL1N0ZEVudi5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJTdGRFbnYiLFsibG9hZE9yZGVyIl09Mixwcm9wVD17fSxbInNob3J0Il09IlN0ZEVudiIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LGN1ZGE9e1siRk4iXT0iL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZS9jdWRhLzkuMi4xNDgubHVhIixbImRlZmF1bHQiXT0xLFsiZnVsbE5hbWUiXT0iY3VkYS85LjIuMTQ4Iixb
 cflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived -fcoarray=lib
-CSM_ALLOCATION_ID=14937
-LSB_ACCT_FILE=/tmp/16331.tmpdir/.1539895651.16331.acct
-LSB_SUB_HOST=rzansel61
 me=dantopa@lanl.gov
-BASH_ENV=/usr/share/lmod/lmod/init/bash
-LSFUSER=topa1
-LSB_SUB_USER=topa1
-__LSF_JOB_TMPDIR__=/tmp/16331.tmpdir
 LOGNAME=topa1
-LMOD_arch=ppc64le
-MPI_ROOT=/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-rolling-release
-TACC_FAMILY_MPI=spectrum-mpi
-LSB_MCPU_HOSTS=rzansel62 1 rzansel18 40 
-LSB_QUEUE=pdebug
-LSB_OUTDIR=/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-rolling-release/share
 prefix=rzansel-power9-rzansel62
-QTLIB=/usr/lib64/qt-3.3/lib
-CVS_RSH=ssh
-SSH_CONNECTION=134.9.48.244 48294 134.9.48.65 22
-XDG_DATA_DIRS=/g/g13/topa1/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
 core=/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash/core-scripts
-XLSF_UIDDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/lib/uid
+SSH_CONNECTION=192.168.64.61 41936 192.168.64.62 22
 crayflags=-g -fbacktrace
 node_name=rzansel62
-MODULESHOME=/usr/share/lmod/lmod
-SYS_TYPE=blueos_3_ppc64le_ib_p9
-LESSOPEN=||/usr/bin/lesspipe.sh %s
-LSF_CGROUP_TOPDIR_KEY=rzansel
 gflags4=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5
 llnl_moniker=topa1
-LMOD_FAMILY_COMPILER=gcc
 gflags5=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto
-LMOD_FULL_SETTARG_SUPPORT=no
-LSB_XFER_OP=
-DISPLAY=192.168.64.62:11.0
 gflags6=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra
-LSB_EEXEC_REAL_GID=
+DISPLAY=192.168.64.62:15.0
 gflags7=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
-QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
-LMOD_DIR=/usr/share/lmod/lmod/libexec
-TACC_FAMILY_CUDA=cuda
-LSF_ENVDIR=/opt/ibm/spectrumcomputing/lsf/conf
-LSB_SHMODE=y
-DK_NODE=/p/gpfs1/topa1/spack/spack.power9.zoltan/share/spack/dotkit/linux-rhel7-ppc64le:/p/gpfs1/topa1/spack/spack.power9.hypre/share/spack/dotkit/linux-rhel7-ppc64le
-HISTFILE=/g/g13/topa1/.bash_history
 fortran_compiler_mpi_gnu=mpif90
-LMOD_COLORIZE=yes
-LMOD_FAMILY_MPI=spectrum-mpi
-LSB_DJOB_RANKFILE=/g/g13/topa1/.lsbatch/1539895651.16331.hostfile
-bash_file=.bashrc
 dir_topa_bash=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking/topa/spack/bash
-BASH_FUNC_module()=() {  eval $($LMOD_CMD bash "$@");
- [ $? = 0 ] && eval $(${LMOD_SETTARG_CMD:-:} -s sh)
-}
-BASH_FUNC_spack()=() {  if [ -n "${ZSH_VERSION:-}" ]; then
- emulate -L sh;
- fi;
- args=("$@");
- _sp_flags="";
- while [[ "$1" =~ ^- ]]; do
- _sp_flags="$_sp_flags $1";
- shift;
- done;
- if [[ ( ! -z "$_sp_flags" ) && ( "$_sp_flags" =~ '.*h.*' || "$_sp_flags" =~ '.*V.*' ) ]]; then
- command spack $_sp_flags "$@";
- return;
- fi;
- _sp_subcommand="";
- if [ -n "$1" ]; then
- _sp_subcommand="$1";
- shift;
- fi;
- _sp_spec=("$@");
- case $_sp_subcommand in 
- "cd")
- _sp_arg="";
- if [ -n "$1" ]; then
- _sp_arg="$1";
- shift;
- fi;
- if [ "$_sp_arg" = "-h" ]; then
- command spack cd -h;
- else
- LOC="$(spack location $_sp_arg "$@")";
- if [[ -d "$LOC" ]]; then
- cd "$LOC";
- else
- return 1;
- fi;
- fi;
- return
- ;;
- "use" | "unuse" | "load" | "unload")
- _sp_subcommand_args="";
- _sp_module_args="";
- while [[ "$1" =~ ^- ]]; do
- if [ "$1" = "-r" -o "$1" = "--dependencies" ]; then
- _sp_subcommand_args="$_sp_subcommand_args $1";
- else
- _sp_module_args="$_sp_module_args $1";
- fi;
- shift;
- done;
- _sp_spec=("$@");
- case $_sp_subcommand in 
- "use")
- if _sp_full_spec=$(command spack $_sp_flags module dotkit find $_sp_subcommand_args "${_sp_spec[@]}"); then
- use $_sp_module_args $_sp_full_spec;
- else
- $(exit 1);
- fi
- ;;
- "unuse")
- if _sp_full_spec=$(command spack $_sp_flags module dotkit find $_sp_subcommand_args "${_sp_spec[@]}"); then
- unuse $_sp_module_args $_sp_full_spec;
- else
- $(exit 1);
- fi
- ;;
- "load")
- if _sp_full_spec=$(command spack $_sp_flags module tcl find $_sp_subcommand_args "${_sp_spec[@]}"); then
- module load $_sp_module_args $_sp_full_spec;
- else
- $(exit 1);
- fi
- ;;
- "unload")
- if _sp_full_spec=$(command spack $_sp_flags module tcl find $_sp_subcommand_args "${_sp_spec[@]}"); then
- module unload $_sp_module_args $_sp_full_spec;
- else
- $(exit 1);
- fi
- ;;
- esac
- ;;
- *)
- command spack "${args[@]}"
- ;;
- esac
-}
-BASH_FUNC_ml()=() {  eval $($LMOD_DIR/ml_cmd "$@")
-}
+bash_file=.bashrc
 _=/usr/bin/env
 
 /usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash/core-scripts/environment.sh
