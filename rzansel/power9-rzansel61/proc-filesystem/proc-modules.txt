@@ -1,6 +1,6 @@
 cat /proc/modules for rzansel, node rzansel61
 all modules loaded into the kernel
-Mon Nov  5 09:38:38 PST 2018
+Wed Nov  7 09:29:25 PST 2018
 
 fuse 141383 1 - Live 0xc008000018aa0000
 mmfs26 2564017 2 - Live 0xc008000011250000 (OE)
@@ -31,7 +31,7 @@ nf_log_ipv4 6700 4 - Live 0xc008000011bf0000
 nf_log_common 6014 1 nf_log_ipv4, Live 0xc008000011aa0000
 xt_LOG 3162 4 - Live 0xc008000011a10000
 xt_multiport 4044 9 - Live 0xc0080000117e0000
-nvidia_uvm 963954 0 - Live 0xc008000011650000 (POE)
+nvidia_uvm 963954 4 - Live 0xc008000011650000 (POE)
 kvm_hv 139485 0 - Live 0xc008000011610000
 kvm 259190 1 kvm_hv, Live 0xc008000011160000
 i2c_dev 13822 0 - Live 0xc008000010cb0000
@@ -65,7 +65,7 @@ jbd2 144938 1 ext4, Live 0xc00800001e8e0000
 sd_mod 55031 4 - Live 0xc00800001e7b0000
 nvidia_drm 50539 0 - Live 0xc00800001d1d0000 (POE)
 nvidia_modeset 1264774 1 nvidia_drm, Live 0xc00800001cec0000 (POE)
-nvidia 17513183 93 nv_peer_mem,nvidia_uvm,nvidia_modeset, Live 0xc008000019070000 (POE)
+nvidia 17513183 195 nv_peer_mem,nvidia_uvm,nvidia_modeset, Live 0xc008000019070000 (POE)
 ast 98742 1 - Live 0xc0080000173f0000
 bnx2x 1012877 0 - Live 0xc008000017010000
 i2c_algo_bit 11175 1 ast, Live 0xc008000016f90000

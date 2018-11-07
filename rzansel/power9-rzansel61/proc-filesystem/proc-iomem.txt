@@ -1,6 +1,6 @@
 cat /proc/iomem for rzansel, node rzansel61
 current map of the system's memory for each physical device
-Mon Nov  5 09:38:38 PST 2018
+Wed Nov  7 09:29:25 PST 2018
 
 00000000-00000000 : System RAM
 00000000-00000000 : System RAM

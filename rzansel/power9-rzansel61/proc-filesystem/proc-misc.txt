@@ -1,6 +1,6 @@
 cat /proc/misc for rzansel, node rzansel61
 miscellaneous drivers registered on the miscellaneous major device, which is device number 10
-Mon Nov  5 09:38:38 PST 2018
+Wed Nov  7 09:29:25 PST 2018
 
 229 fuse
  56 rdma_cm
