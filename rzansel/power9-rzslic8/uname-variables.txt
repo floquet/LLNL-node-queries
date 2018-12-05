@@ -1,0 +1,14 @@
+uname variables
+Wed Dec  5 08:51:44 PST 2018
+
+-m   machine name:          x86_64
+-n   network node hostname: rzslic8
+-i   hardware platform:     x86_64
+-p   processor type:        x86_64
+-o   operating system:      GNU/Linux
+-svr kernel name:           Linux 3.10.0-862.14.4.1chaos.ch6.x86_64 #1 SMP Wed Sep 26 12:27:08 PDT 2018
+
+uname -a:
+Linux rzslic8 3.10.0-862.14.4.1chaos.ch6.x86_64 #1 SMP Wed Sep 26 12:27:08 PDT 2018 x86_64 x86_64 x86_64 GNU/Linux
+
+${BASH_SOURCE[0]} = /usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash/core-scripts/uname.sh

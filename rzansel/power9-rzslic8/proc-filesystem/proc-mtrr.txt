@@ -1,0 +1,6 @@
+cat /proc/mtrr for rzansel, node rzslic8
+current Memory Type Range Registers (MTRRs) in use with the system
+Wed Dec  5 08:51:44 PST 2018
+
+reg00: base=0x080000000 ( 2048MB), size= 2048MB, count=1: uncachable
+reg01: base=0x380000000000 (58720256MB), size=524288MB, count=1: uncachable

@@ -1,0 +1,7 @@
+cat /proc/partitions for rzansel, node rzslic8
+partition block allocation information
+Wed Dec  5 08:51:44 PST 2018
+
+major minor  #blocks  name
+
+   8        0  104857600 sda

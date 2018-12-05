@@ -1,0 +1,5 @@
+cat /proc/fb for rzansel, node rzslic8
+frame buffer devices
+Wed Dec  5 08:51:44 PST 2018
+
+0 mgadrmfb

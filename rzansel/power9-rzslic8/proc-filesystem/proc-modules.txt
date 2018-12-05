@@ -1,0 +1,152 @@
+cat /proc/modules for rzansel, node rzslic8
+all modules loaded into the kernel
+Wed Dec  5 08:51:44 PST 2018
+
+osc 375742 182 - Live 0xffffffffc0fa4000 (OE)
+mgc 93866 4 - Live 0xffffffffc0eba000 (OE)
+lustre 836453 22 - Live 0xffffffffc14c0000 (OE)
+lmv 232696 5 lustre, Live 0xffffffffc0f6a000 (OE)
+mdc 177533 39 lustre, Live 0xffffffffc0e8d000 (OE)
+lov 301134 17 lustre, Live 0xffffffffc0e2f000 (OE)
+fid 90341 1 mdc, Live 0xffffffffc0e17000 (OE)
+fld 89956 2 lmv,fid, Live 0xffffffffc0e00000 (OE)
+ptlrpc 2073721 8 osc,mgc,lustre,lmv,mdc,lov,fid,fld, Live 0xffffffffc12c4000 (OE)
+obdclass 2070019 171 osc,mgc,lustre,lmv,mdc,lov,fid,fld,ptlrpc, Live 0xffffffffc10c9000 (OE)
+ksocklnd 179507 1 - Live 0xffffffffc0ce2000 (OE)
+ko2iblnd 233777 1 - Live 0xffffffffc0dc5000 (OE)
+lnet 449127 8 osc,mgc,lustre,ptlrpc,obdclass,ksocklnd,ko2iblnd, Live 0xffffffffc0d56000 (OE)
+sha512_ssse3 42080 0 - Live 0xffffffffc0b74000
+sha512_generic 13131 1 sha512_ssse3, Live 0xffffffffc0b36000
+crypto_null 12840 0 - Live 0xffffffffc0b31000
+libcfs 395823 13 osc,mgc,lustre,lmv,mdc,lov,fid,fld,ptlrpc,obdclass,ksocklnd,ko2iblnd,lnet, Live 0xffffffffc0c80000 (OE)
+bonding 149868 0 - Live 0xffffffffc0c08000
+rpcrdma 86643 0 - Live 0xffffffffc0bf1000
+rdma_ucm 26889 0 - Live 0xffffffffc0be9000
+ib_ucm 22636 0 - Live 0xffffffffc0b6d000
+ib_uverbs 78543 2 rdma_ucm,ib_ucm, Live 0xffffffffc0bbf000
+ib_ipoib 115042 0 - Live 0xffffffffc0b90000
+ib_iser 47861 0 - Live 0xffffffffc0b04000
+ib_umad 22119 0 - Live 0xffffffffc0af9000
+rdma_cm 59529 4 ko2iblnd,rpcrdma,rdma_ucm,ib_iser, Live 0xffffffffc0b80000
+iw_cm 43514 1 rdma_cm, Live 0xffffffffc0bb3000
+iw_cxgb4 199896 0 - Live 0xffffffffc0b3b000
+iw_cxgb3 126070 0 - Live 0xffffffffc0b11000
+ib_cm 51741 3 ib_ucm,ib_ipoib,rdma_cm, Live 0xffffffffc0aeb000
+mlx5_ib 190696 0 - Live 0xffffffffc0d26000
+sb_edac 32034 0 - Live 0xffffffffc1082000
+intel_powerclamp 14419 0 - Live 0xffffffffc101e000
+coretemp 13444 0 - Live 0xffffffffc10c4000
+intel_rapl 19542 0 - Live 0xffffffffc0c7a000
+iosf_mbi 14990 1 intel_rapl, Live 0xffffffffc0c75000
+kvm 586705 0 - Live 0xffffffffc0ed9000
+irqbypass 13503 1 kvm, Live 0xffffffffc0d21000
+ib_core 236827 14 ko2iblnd,rpcrdma,rdma_ucm,ib_ucm,ib_uverbs,ib_ipoib,ib_iser,ib_umad,rdma_cm,iw_cm,iw_cxgb4,iw_cxgb3,ib_cm,mlx5_ib, Live 0xffffffffc0c3a000
+nf_log_ipv4 12767 4 - Live 0xffffffffc0a67000
+nf_log_common 13317 1 nf_log_ipv4, Live 0xffffffffc0a31000
+xt_LOG 12690 4 - Live 0xffffffffc0a62000
+nf_conntrack_ipv4 15053 1 - Live 0xffffffffc0a2c000
+nf_defrag_ipv4 12729 1 nf_conntrack_ipv4, Live 0xffffffffc0a27000
+xt_multiport 12798 9 - Live 0xffffffffc0a18000
+xt_owner 12534 45 - Live 0xffffffffc0a13000
+xt_conntrack 12760 1 - Live 0xffffffffc0591000
+joydev 17344 0 - Live 0xffffffffc0a08000
+mlx5_core 489503 1 mlx5_ib, Live 0xffffffffc0a72000
+nf_conntrack 137191 2 nf_conntrack_ipv4,xt_conntrack, Live 0xffffffffc0a3f000
+libcrc32c 12644 1 nf_conntrack, Live 0xffffffffc0a0e000
+mlxfw 18227 1 mlx5_core, Live 0xffffffffc0a39000
+devlink 42368 1 mlx5_core, Live 0xffffffffc09fc000
+iTCO_wdt 13480 0 - Live 0xffffffffc0721000
+iptable_filter 12810 1 - Live 0xffffffffc092f000
+iTCO_vendor_support 13718 1 iTCO_wdt, Live 0xffffffffc06e7000
+ioatdma 67809 0 - Live 0xffffffffc09ea000
+sg 40721 0 - Live 0xffffffffc09df000
+pcspkr 12718 0 - Live 0xffffffffc0a6d000
+shpchp 37047 0 - Live 0xffffffffc093b000
+lpc_ich 21086 0 - Live 0xffffffffc0934000
+i2c_i801 22550 0 - Live 0xffffffffc06e0000
+ipmi_si 57587 0 - Live 0xffffffffc0819000
+acpi_power_meter 18104 0 - Live 0xffffffffc0a21000
+acpi_cpufreq 19775 0 - Live 0xffffffffc06da000
+sch_fq_codel 17571 200 - Live 0xffffffffc061e000
+msr_safe 19623 0 - Live 0xffffffffc06d4000 (OE)
+binfmt_misc 17468 1 - Live 0xffffffffc051a000
+ip_tables 27126 1 iptable_filter, Live 0xffffffffc0543000
+nfsv3 43750 8 - Live 0xffffffffc06c8000
+nfs_acl 12837 1 nfsv3, Live 0xffffffffc0515000
+rpcsec_gss_krb5 35549 0 - Live 0xffffffffc060f000
+auth_rpcgss 59545 1 rpcsec_gss_krb5, Live 0xffffffffc059b000
+nfsv4 587513 0 - Live 0xffffffffc094e000
+dns_resolver 13140 1 nfsv4, Live 0xffffffffc04da000
+nfs 265754 45 nfsv3,nfsv4, Live 0xffffffffc07d7000
+lockd 97926 2 nfsv3,nfs, Live 0xffffffffc06af000
+grace 13515 1 lockd, Live 0xffffffffc04a0000
+fscache 65026 2 nfsv4,nfs, Live 0xffffffffc069e000
+overlay 72006 1 - Live 0xffffffffc057e000 (T)
+ext4 575938 1 - Live 0xffffffffc08a1000
+mbcache 14958 1 ext4, Live 0xffffffffc049b000
+jbd2 107174 1 ext4, Live 0xffffffffc0527000
+sd_mod 46322 1 - Live 0xffffffffc0485000
+crc_t10dif 12912 1 sd_mod, Live 0xffffffffc0408000
+crct10dif_generic 12647 0 - Live 0xffffffffc03a7000
+be2iscsi 116353 0 - Live 0xffffffffc04e9000
+bnx2i 54815 0 - Live 0xffffffffc0442000
+cnic 67460 1 bnx2i, Live 0xffffffffc04c8000
+uio 19338 1 cnic, Live 0xffffffffc0415000
+cxgb4i 45537 0 - Live 0xffffffffc0478000
+cxgb4 292409 2 iw_cxgb4,cxgb4i, Live 0xffffffffc0655000
+cxgb3i 32791 0 - Live 0xffffffffc0466000
+cxgb3 160445 2 iw_cxgb3,cxgb3i, Live 0xffffffffc062c000
+mdio 13807 1 cxgb3, Live 0xffffffffc041c000
+libcxgbi 58734 2 cxgb4i,cxgb3i, Live 0xffffffffc0432000
+libcxgb 15319 3 iw_cxgb4,cxgb3i,libcxgbi, Live 0xffffffffc0421000
+qla4xxx 290594 0 - Live 0xffffffffc0859000
+mgag200 41138 1 - Live 0xffffffffc03fc000
+iscsi_boot_sysfs 16000 2 be2iscsi,qla4xxx, Live 0xffffffffc0410000
+drm_kms_helper 177166 1 mgag200, Live 0xffffffffc0551000
+8021q 33159 0 - Live 0xffffffffc03f2000
+garp 14384 1 8021q, Live 0xffffffffc03a2000
+mrp 18542 1 8021q, Live 0xffffffffc0399000
+syscopyarea 12529 1 drm_kms_helper, Live 0xffffffffc037d000
+stp 12976 1 garp, Live 0xffffffffc036c000
+sysfillrect 12701 1 drm_kms_helper, Live 0xffffffffc035f000
+crct10dif_pclmul 14268 1 - Live 0xffffffffc0522000
+crct10dif_common 12595 3 crc_t10dif,crct10dif_generic,crct10dif_pclmul, Live 0xffffffffc054c000
+sysimgblt 12640 1 drm_kms_helper, Live 0xffffffffc042d000
+llc 14552 2 garp,stp, Live 0xffffffffc0428000
+crc32_pclmul 13133 0 - Live 0xffffffffc0619000
+fb_sys_fops 12703 1 drm_kms_helper, Live 0xffffffffc0510000
+crc32c_intel 22094 5 - Live 0xffffffffc0947000
+ttm 103605 1 mgag200, Live 0xffffffffc04a5000
+ghash_clmulni_intel 13273 0 - Live 0xffffffffc0371000
+ahci 34056 0 - Live 0xffffffffc045c000
+dm_multipath 27792 0 - Live 0xffffffffc03ea000
+aesni_intel 189415 0 - Live 0xffffffffc0829000
+igb 210385 0 - Live 0xffffffffc06ec000
+ixgbe 329961 0 - Live 0xffffffffc0785000 (OE)
+lrw 13286 1 aesni_intel, Live 0xffffffffc0376000
+i40e 365781 0 - Live 0xffffffffc072a000 (OE)
+gf128mul 15139 1 lrw, Live 0xffffffffc0596000
+glue_helper 13990 1 aesni_intel, Live 0xffffffffc04c3000
+dca 15130 3 ioatdma,igb,ixgbe, Live 0xffffffffc0496000
+drm 402084 4 mgag200,drm_kms_helper,ttm, Live 0xffffffffc05ab000
+ablk_helper 13597 1 aesni_intel, Live 0xffffffffc0627000
+mxm_wmi 13021 0 - Live 0xffffffffc0507000
+libahci 31992 1 ahci, Live 0xffffffffc04e0000
+ptp 19231 5 mlx5_core,cxgb4,i40e,igb,ixgbe, Live 0xffffffffc0472000
+cryptd 20510 3 ghash_clmulni_intel,aesni_intel,ablk_helper, Live 0xffffffffc0455000
+libata 243070 2 ahci,libahci, Live 0xffffffffc03ad000
+pps_core 19057 1 ptp, Live 0xffffffffc0366000
+i2c_algo_bit 13413 2 mgag200,igb, Live 0xffffffffc02a1000
+i2c_core 63151 6 i2c_i801,mgag200,drm_kms_helper,igb,drm,i2c_algo_bit, Live 0xffffffffc0388000
+ipmi_devintf 17603 0 - Live 0xffffffffc0382000
+ipmi_msghandler 46607 2 ipmi_si,ipmi_devintf, Live 0xffffffffc0352000
+wmi 19086 1 mxm_wmi, Live 0xffffffffc02e6000
+sunrpc 357540 98 rpcrdma,nfsv3,nfs_acl,rpcsec_gss_krb5,auth_rpcgss,nfsv4,nfs,lockd, Live 0xffffffffc02f9000
+dm_mirror 22289 0 - Live 0xffffffffc02f2000
+dm_region_hash 20813 1 dm_mirror, Live 0xffffffffc02df000
+dm_log 18411 2 dm_mirror,dm_region_hash, Live 0xffffffffc02ec000
+dm_mod 123901 3 dm_multipath,dm_mirror,dm_log, Live 0xffffffffc02bf000
+iscsi_tcp 18333 2 - Live 0xffffffffc02b5000
+libiscsi_tcp 25146 4 cxgb4i,cxgb3i,libcxgbi,iscsi_tcp, Live 0xffffffffc0299000
+libiscsi 57233 9 ib_iser,be2iscsi,bnx2i,cxgb4i,cxgb3i,libcxgbi,qla4xxx,iscsi_tcp,libiscsi_tcp, Live 0xffffffffc02a6000
+scsi_transport_iscsi 99909 8 ib_iser,be2iscsi,bnx2i,libcxgbi,qla4xxx,iscsi_tcp,libiscsi, Live 0xffffffffc027f000

@@ -1,0 +1,154 @@
+cat /proc/iomem for rzansel, node rzslic8
+current map of the system's memory for each physical device
+Wed Dec  5 08:51:44 PST 2018
+
+00000000-00000fff : reserved
+00001000-0009cfff : System RAM
+0009d000-0009ffff : reserved
+000a0000-000bffff : PCI Bus 0000:00
+000c0000-000c7fff : Video ROM
+000c8000-000c8dff : Adapter ROM
+000cd800-000ce7ff : Adapter ROM
+000ce800-000cf7ff : Adapter ROM
+000e0000-000fffff : reserved
+  000f0000-000fffff : System ROM
+00100000-79fa1fff : System RAM
+  24000000-37ffffff : Crash kernel
+79fa2000-7ac50fff : reserved
+  7a5e1018-7a5e1067 : APEI ERST
+  7a5e1070-7a5e1077 : APEI ERST
+  7a5e1078-7a5e3017 : APEI ERST
+7ac51000-7b680fff : ACPI Non-volatile Storage
+7b681000-7b7ccfff : ACPI Tables
+7b7cd000-7b7fffff : System RAM
+7b800000-8fffffff : reserved
+  80000000-8fffffff : PCI MMCONFIG 0000 [bus 00-ff]
+90000000-c7ffbfff : PCI Bus 0000:00
+  90000000-90ffffff : PCI Bus 0000:07
+    90000000-90ffffff : 0000:07:00.0
+      90000000-90ffffff : mgadrmfb_vram
+  91000000-918fffff : PCI Bus 0000:07
+    91000000-917fffff : 0000:07:00.0
+    91800000-91803fff : 0000:07:00.0
+      91800000-91803fff : mgadrmfb_mmio
+    91810000-9181ffff : 0000:07:00.0
+  91900000-919fffff : PCI Bus 0000:03
+    91900000-9191ffff : 0000:03:00.3
+      91900000-9191ffff : igb
+    91920000-9193ffff : 0000:03:00.0
+      91920000-9193ffff : igb
+    91940000-91943fff : 0000:03:00.3
+      91940000-91943fff : igb
+    91944000-91947fff : 0000:03:00.0
+      91944000-91947fff : igb
+  91a00000-91a007ff : 0000:00:11.4
+    91a00000-91a007ff : ahci
+  91a01000-91a013ff : 0000:00:1d.0
+    91a01000-91a013ff : ehci_hcd
+  91a02000-91a023ff : 0000:00:1a.0
+    91a02000-91a023ff : ehci_hcd
+  91a04000-91a047ff : 0000:00:1f.2
+    91a04000-91a047ff : ahci
+  91a05000-91a05fff : 0000:00:11.1
+  91a06000-91a06fff : 0000:00:05.4
+  91b00000-91cfffff : PCI Bus 0000:05
+    91b00000-91bfffff : 0000:05:00.0
+    91c00000-91cfffff : 0000:05:00.1
+c8000000-fbffbfff : PCI Bus 0000:80
+  c8000000-c83fffff : PCI Bus 0000:85
+    c8000000-c80fffff : 0000:85:00.0
+    c8100000-c81fffff : 0000:85:00.0
+    c8200000-c82fffff : 0000:85:00.1
+    c8300000-c83fffff : 0000:85:00.1
+  c8400000-c8400fff : 0000:80:05.4
+  c8500000-c85fffff : PCI Bus 0000:81
+    c8500000-c857ffff : 0000:81:00.0
+  c8600000-c86fffff : PCI Bus 0000:83
+    c8600000-c86fffff : 0000:83:00.0
+fec00000-fecfffff : PNP0003:00
+  fec00000-fec003ff : IOAPIC 0
+  fec01000-fec013ff : IOAPIC 1
+  fec40000-fec403ff : IOAPIC 2
+fed00000-fed003ff : HPET 0
+  fed00000-fed003ff : PNP0103:00
+fed12000-fed1200f : pnp 00:01
+fed12010-fed1201f : pnp 00:01
+fed1b000-fed1bfff : pnp 00:01
+fed1c000-fed1ffff : reserved
+  fed1f410-fed1f414 : iTCO_wdt.0.auto
+fed45000-fed8bfff : pnp 00:01
+fee00000-feefffff : pnp 00:01
+  fee00000-fee00fff : Local APIC
+ff400000-ffffffff : reserved
+100000000-407fffffff : System RAM
+  1b48a00000-1b4914f335 : Kernel code
+  1b4914f336-1b4974f9ff : Kernel data
+  1b49925000-1b49c2ffff : Kernel bss
+380000000000-383fffffffff : PCI Bus 0000:00
+  383ffa000000-383ffdffffff : PCI Bus 0000:05
+    383ffa000000-383ffbffffff : 0000:05:00.1
+      383ffa000000-383ffbffffff : mlx5_core
+    383ffc000000-383ffdffffff : 0000:05:00.0
+      383ffc000000-383ffdffffff : mlx5_core
+  383ffe000000-383ffe0fffff : PCI Bus 0000:03
+    383ffe000000-383ffe01ffff : 0000:03:00.3
+    383ffe020000-383ffe03ffff : 0000:03:00.3
+    383ffe040000-383ffe05ffff : 0000:03:00.0
+    383ffe060000-383ffe07ffff : 0000:03:00.0
+  383ffe100000-383ffe10ffff : 0000:00:14.0
+    383ffe100000-383ffe10ffff : xhci-hcd
+  383ffe110000-383ffe113fff : 0000:00:04.7
+    383ffe110000-383ffe113fff : ioatdma
+  383ffe114000-383ffe117fff : 0000:00:04.6
+    383ffe114000-383ffe117fff : ioatdma
+  383ffe118000-383ffe11bfff : 0000:00:04.5
+    383ffe118000-383ffe11bfff : ioatdma
+  383ffe11c000-383ffe11ffff : 0000:00:04.4
+    383ffe11c000-383ffe11ffff : ioatdma
+  383ffe120000-383ffe123fff : 0000:00:04.3
+    383ffe120000-383ffe123fff : ioatdma
+  383ffe124000-383ffe127fff : 0000:00:04.2
+    383ffe124000-383ffe127fff : ioatdma
+  383ffe128000-383ffe12bfff : 0000:00:04.1
+    383ffe128000-383ffe12bfff : ioatdma
+  383ffe12c000-383ffe12ffff : 0000:00:04.0
+    383ffe12c000-383ffe12ffff : ioatdma
+  383ffe131000-383ffe1310ff : 0000:00:1f.3
+  383ffe132000-383ffe13200f : 0000:00:16.1
+  383ffe133000-383ffe13300f : 0000:00:16.0
+384000000000-387fffffffff : PCI Bus 0000:80
+  387ffc000000-387ffdffffff : PCI Bus 0000:83
+    387ffc000000-387ffdffffff : 0000:83:00.0
+      387ffc000000-387ffdffffff : mlx5_core
+  387ffe000000-387fff2fffff : PCI Bus 0000:81
+    387ffe000000-387ffe7fffff : 0000:81:00.0
+      387ffe000000-387ffe7fffff : i40e
+    387ffe800000-387ffeffffff : 0000:81:00.0
+    387fff000000-387fff007fff : 0000:81:00.0
+      387fff000000-387fff007fff : i40e
+    387fff008000-387fff207fff : 0000:81:00.0
+  387fff300000-387fff4fffff : PCI Bus 0000:85
+    387fff300000-387fff37ffff : 0000:85:00.1
+      387fff300000-387fff37ffff : ixgbe
+    387fff380000-387fff3fffff : 0000:85:00.0
+      387fff380000-387fff3fffff : ixgbe
+    387fff400000-387fff403fff : 0000:85:00.1
+      387fff400000-387fff403fff : ixgbe
+    387fff404000-387fff407fff : 0000:85:00.0
+      387fff404000-387fff407fff : ixgbe
+  387fff500000-387fff503fff : 0000:80:04.7
+    387fff500000-387fff503fff : ioatdma
+  387fff504000-387fff507fff : 0000:80:04.6
+    387fff504000-387fff507fff : ioatdma
+  387fff508000-387fff50bfff : 0000:80:04.5
+    387fff508000-387fff50bfff : ioatdma
+  387fff50c000-387fff50ffff : 0000:80:04.4
+    387fff50c000-387fff50ffff : ioatdma
+  387fff510000-387fff513fff : 0000:80:04.3
+    387fff510000-387fff513fff : ioatdma
+  387fff514000-387fff517fff : 0000:80:04.2
+    387fff514000-387fff517fff : ioatdma
+  387fff518000-387fff51bfff : 0000:80:04.1
+    387fff518000-387fff51bfff : ioatdma
+  387fff51c000-387fff51ffff : 0000:80:04.0
+    387fff51c000-387fff51ffff : ioatdma

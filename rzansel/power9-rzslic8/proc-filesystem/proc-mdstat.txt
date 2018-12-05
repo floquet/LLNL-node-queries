@@ -1,0 +1,6 @@
+cat /proc/mdstat for rzansel, node rzslic8
+current information for multiple-disk, RAID configurations
+Wed Dec  5 08:51:44 PST 2018
+
+Personalities : 
+unused devices: <none>

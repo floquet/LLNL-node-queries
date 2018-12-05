@@ -1,0 +1,8 @@
+cat /proc/scsi/scsi for rzansel, node rzslic8
+list of every recognized SCSI device
+Wed Dec  5 08:51:44 PST 2018
+
+Attached devices:
+Host: scsi10 Channel: 00 Id: 00 Lun: 00
+  Vendor: LIO-ORG  Model: FILEIO           Rev: 4.0 
+  Type:   Direct-Access                    ANSI  SCSI revision: 05

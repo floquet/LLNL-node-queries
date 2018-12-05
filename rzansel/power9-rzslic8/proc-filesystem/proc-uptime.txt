@@ -1,0 +1,5 @@
+cat /proc/uptime for rzansel, node rzslic8
+uptime since restart
+Wed Dec  5 08:51:44 PST 2018
+
+88296.53 6354103.04

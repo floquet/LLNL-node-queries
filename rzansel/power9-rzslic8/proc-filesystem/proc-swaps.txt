@@ -1,0 +1,5 @@
+cat /proc/swaps for rzansel, node rzslic8
+measures swap space and its utilization
+Wed Dec  5 08:51:44 PST 2018
+
+Filename				Type		Size	Used	Priority

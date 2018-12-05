@@ -1,0 +1,8 @@
+
+Wed Dec  5 08:51:44 PST 2018
+cat /proc/sys/vm/panic_on_oom
+0
+
+Wed Dec  5 08:51:44 PST 2018
+cat /proc/sys/vm/panic_on_oom
+0

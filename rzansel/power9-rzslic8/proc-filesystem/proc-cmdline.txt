@@ -1,0 +1,5 @@
+cat /proc/cmdline for rzansel, node rzslic8
+parameters passed to the kernel when it is started
+Wed Dec  5 08:51:44 PST 2018
+
+initrd=initramfs ip=dhcp root=LABEL=/ netroot=iscsi:192.168.80.1::811:0:iqn.2006-04.gov.llnl:lc.rzslic:compute-3.3-5.1-15413.x86-64 intel_pstate=disable processor.ignore_ppc=1 console=ttyS0,115200n8 crashkernel=320M audit=1 intel_idle.max_cstate=0 BOOT_IMAGE=vmlinuz BOOTIF=01-a4-bf-01-56-71-46 
