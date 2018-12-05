@@ -1,6 +1,6 @@
 cat /proc/mounts for rzansel, node rzansel61
 all mounts in use
-Wed Nov  7 09:29:25 PST 2018
+Wed Dec  5 08:53:44 PST 2018
 
 sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
 proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
@@ -69,7 +69,8 @@ rz-nfs2-nfs.llnl.gov:/rz_gapps /usr/gapps nfs rw,nosuid,relatime,vers=3,rsize=65
 rz-nfs2-nfs.llnl.gov:/rz_gdata /usr/gdata nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.4,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.4 0 0
 rz-nfs2-nfs.llnl.gov:/rz_mic_bdiv /usr/mic/bdiv nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.4,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.4 0 0
 rz-nfs2-nfs.llnl.gov:/rz_mic_dvsviz /usr/mic/dvsviz nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.4,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.4 0 0
-pepe2-nfs.llnl.gov:/rz_wsc /usr/workspace/wsrzc nfs rw,nosuid,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.2,mountvers=3,mountport=4048,mountproto=tcp,local_lock=none,addr=134.9.13.2 0 0
-pepe1-nfs.llnl.gov:/rz_wsd /usr/workspace/wsrzd nfs rw,nosuid,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.1,mountvers=3,mountport=4048,mountproto=tcp,local_lock=none,addr=134.9.13.1 0 0
 gpfs1 /p/gpfs1 gpfs rw,relatime 0 0
 fusectl /sys/fs/fuse/connections fusectl rw,relatime 0 0
+animal3-nfs.llnl.gov:/rz_ws1 /usr/WS1 nfs rw,nosuid,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.176,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.176 0 0
+animal4-nfs.llnl.gov:/rz_ws2 /usr/WS2 nfs rw,nosuid,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.177,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.177 0 0
+animal3-nfs.llnl.gov:/rz_workspace /usr/workspace nfs rw,nosuid,nodev,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.176,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.176 0 0

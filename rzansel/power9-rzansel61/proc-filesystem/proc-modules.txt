@@ -1,15 +1,15 @@
 cat /proc/modules for rzansel, node rzansel61
 all modules loaded into the kernel
-Wed Nov  7 09:29:25 PST 2018
+Wed Dec  5 08:53:44 PST 2018
 
 fuse 141383 1 - Live 0xc008000018aa0000
 mmfs26 2564017 2 - Live 0xc008000011250000 (OE)
-mmfslinux 645652 21 mmfs26, Live 0xc0080000109c0000 (OE)
+mmfslinux 645652 23 mmfs26, Live 0xc0080000109c0000 (OE)
 tracedev 52649 3 mmfs26,mmfslinux, Live 0xc008000010520000 (OE)
 xt_owner 3008 7 - Live 0xc00800000e4b0000
-nfsv3 56418 6 - Live 0xc00800000e430000
+nfsv3 56418 8 - Live 0xc00800000e430000
 nfs_acl 4893 1 nfsv3, Live 0xc00800000e1d0000
-nfs 361328 39 nfsv3, Live 0xc00800000dfc0000
+nfs 361328 42 nfsv3, Live 0xc00800000dfc0000
 lockd 135003 2 nfsv3,nfs, Live 0xc00800000de30000
 grace 4005 1 lockd, Live 0xc00800000d470000
 fscache 86060 1 nfs, Live 0xc00800000dd70000
@@ -31,7 +31,7 @@ nf_log_ipv4 6700 4 - Live 0xc008000011bf0000
 nf_log_common 6014 1 nf_log_ipv4, Live 0xc008000011aa0000
 xt_LOG 3162 4 - Live 0xc008000011a10000
 xt_multiport 4044 9 - Live 0xc0080000117e0000
-nvidia_uvm 963954 4 - Live 0xc008000011650000 (POE)
+nvidia_uvm 963954 0 - Live 0xc008000011650000 (POE)
 kvm_hv 139485 0 - Live 0xc008000011610000
 kvm 259190 1 kvm_hv, Live 0xc008000011160000
 i2c_dev 13822 0 - Live 0xc008000010cb0000
@@ -54,7 +54,7 @@ i2c_opal 6055 0 - Live 0xc00800000d990000
 uio 15500 1 uio_pdrv_genirq, Live 0xc00800000d6f0000
 mtd 85057 5 ofpart,powernv_flash, Live 0xc00800000d620000
 auth_rpcgss 75761 0 - Live 0xc00800000d590000
-sunrpc 510879 80 nfsv3,nfs_acl,nfs,lockd,auth_rpcgss, Live 0xc00800000d490000
+sunrpc 510879 91 nfsv3,nfs_acl,nfs,lockd,auth_rpcgss, Live 0xc00800000d490000
 sch_fq_codel 14133 66 - Live 0xc00800000d450000
 knem 43564 0 - Live 0xc00800000d3f0000 (OE)
 binfmt_misc 16644 1 - Live 0xc00800000d380000
@@ -65,7 +65,7 @@ jbd2 144938 1 ext4, Live 0xc00800001e8e0000
 sd_mod 55031 4 - Live 0xc00800001e7b0000
 nvidia_drm 50539 0 - Live 0xc00800001d1d0000 (POE)
 nvidia_modeset 1264774 1 nvidia_drm, Live 0xc00800001cec0000 (POE)
-nvidia 17513183 195 nv_peer_mem,nvidia_uvm,nvidia_modeset, Live 0xc008000019070000 (POE)
+nvidia 17513183 93 nv_peer_mem,nvidia_uvm,nvidia_modeset, Live 0xc008000019070000 (POE)
 ast 98742 1 - Live 0xc0080000173f0000
 bnx2x 1012877 0 - Live 0xc008000017010000
 i2c_algo_bit 11175 1 ast, Live 0xc008000016f90000

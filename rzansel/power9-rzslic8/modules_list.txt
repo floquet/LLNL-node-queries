@@ -1,0 +1,7 @@
+module list
+Wed Dec  5 08:51:59 PST 2018
+
+
+Currently Loaded Modules:
+  1) intel/18.0.1   2) mvapich2/2.2   3) texlive/2016   4) StdEnv
+
