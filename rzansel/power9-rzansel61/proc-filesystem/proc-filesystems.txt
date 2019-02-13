@@ -1,6 +1,6 @@
 cat /proc/filesystems for rzansel, node rzansel61
 file system types currently supported by the kernel
-Wed Dec  5 08:54:14 PST 2018
+Wed Feb 13 11:33:53 PST 2019
 
 nodev	sysfs
 nodev	rootfs
@@ -27,11 +27,8 @@ nodev	mqueue
 	ext3
 	ext2
 	ext4
-nodev	binfmt_misc
 nodev	rpc_pipefs
+nodev	binfmt_misc
 nodev	nfs
 nodev	nfs4
 nodev	gpfs
-	fuseblk
-nodev	fuse
-nodev	fusectl

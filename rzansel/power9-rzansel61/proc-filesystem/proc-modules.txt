@@ -1,93 +1,93 @@
 cat /proc/modules for rzansel, node rzansel61
 all modules loaded into the kernel
-Wed Dec  5 08:54:14 PST 2018
+Wed Feb 13 11:33:53 PST 2019
 
-fuse 141383 1 - Live 0xc008000018aa0000
-mmfs26 2564017 2 - Live 0xc008000011250000 (OE)
-mmfslinux 645652 23 mmfs26, Live 0xc0080000109c0000 (OE)
-tracedev 52649 3 mmfs26,mmfslinux, Live 0xc008000010520000 (OE)
-xt_owner 3008 7 - Live 0xc00800000e4b0000
-nfsv3 56418 8 - Live 0xc00800000e430000
-nfs_acl 4893 1 nfsv3, Live 0xc00800000e1d0000
-nfs 361328 42 nfsv3, Live 0xc00800000dfc0000
-lockd 135003 2 nfsv3,nfs, Live 0xc00800000de30000
-grace 4005 1 lockd, Live 0xc00800000d470000
-fscache 86060 1 nfs, Live 0xc00800000dd70000
-nv_peer_mem 7394 0 - Live 0xc008000013a60000 (OE)
-rdma_ucm 26302 0 - Live 0xc008000013500000 (OE)
-ib_ucm 19568 0 - Live 0xc0080000134a0000 (OE)
-rdma_cm 72406 1 rdma_ucm, Live 0xc008000013430000 (OE)
-iw_cm 43539 1 rdma_cm, Live 0xc0080000133c0000 (OE)
-ib_ipoib 201917 0 - Live 0xc008000013320000 (OE)
-ib_cm 53494 3 ib_ucm,rdma_cm,ib_ipoib, Live 0xc008000013270000 (OE)
-ib_uverbs 126526 34 rdma_ucm,ib_ucm, Live 0xc0080000131f0000 (OE)
-ib_umad 21415 0 - Live 0xc008000013160000 (OE)
-mlx5_fpga_tools 13476 0 - Live 0xc008000013100000 (OE)
-mlx5_ib 324955 0 - Live 0xc008000012570000 (OE)
-mlx4_en 176739 0 - Live 0xc008000011ec0000 (OE)
-mlx4_ib 256703 0 - Live 0xc008000012160000 (OE)
-mlx4_core 436281 2 mlx4_en,mlx4_ib, Live 0xc008000012060000 (OE)
-nf_log_ipv4 6700 4 - Live 0xc008000011bf0000
-nf_log_common 6014 1 nf_log_ipv4, Live 0xc008000011aa0000
-xt_LOG 3162 4 - Live 0xc008000011a10000
-xt_multiport 4044 9 - Live 0xc0080000117e0000
-nvidia_uvm 963954 0 - Live 0xc008000011650000 (POE)
-kvm_hv 139485 0 - Live 0xc008000011610000
-kvm 259190 1 kvm_hv, Live 0xc008000011160000
-i2c_dev 13822 0 - Live 0xc008000010cb0000
-iptable_filter 3596 1 - Live 0xc008000010890000
-ib_core 365252 11 nv_peer_mem,rdma_ucm,ib_ucm,rdma_cm,iw_cm,ib_ipoib,ib_cm,ib_uverbs,ib_umad,mlx5_ib,mlx4_ib, Live 0xc008000010580000 (OE)
-mlx5_core 1023063 2 mlx5_fpga_tools,mlx5_ib, Live 0xc0080000102a0000 (OE)
-mlxfw 16431 1 mlx5_core, Live 0xc00800000fa50000 (OE)
-devlink 51618 4 mlx4_en,mlx4_ib,mlx4_core,mlx5_core, Live 0xc00800000f8d0000
-cxl 269354 2 mlx5_ib,mlx5_core, Live 0xc00800000f610000
-at24 13120 0 - Live 0xc00800000efd0000
-sg 49058 0 - Live 0xc00800000e9f0000
-shpchp 43264 0 - Live 0xc00800000e6f0000
-ipmi_powernv 6831 0 - Live 0xc00800000e4d0000
-ibmpowernv 7993 0 - Live 0xc00800000e470000
-ofpart 5556 0 - Live 0xc00800000e410000
-powernv_flash 6327 1 - Live 0xc00800000e3b0000
-opal_prd 8266 1 - Live 0xc00800000e350000
-uio_pdrv_genirq 5900 0 - Live 0xc00800000def0000
-i2c_opal 6055 0 - Live 0xc00800000d990000
-uio 15500 1 uio_pdrv_genirq, Live 0xc00800000d6f0000
-mtd 85057 5 ofpart,powernv_flash, Live 0xc00800000d620000
-auth_rpcgss 75761 0 - Live 0xc00800000d590000
-sunrpc 510879 91 nfsv3,nfs_acl,nfs,lockd,auth_rpcgss, Live 0xc00800000d490000
-sch_fq_codel 14133 66 - Live 0xc00800000d450000
-knem 43564 0 - Live 0xc00800000d3f0000 (OE)
-binfmt_misc 16644 1 - Live 0xc00800000d380000
-ip_tables 26459 1 iptable_filter, Live 0xc00800000d210000
-ext4 843323 2 - Live 0xc00800001eb00000
-mbcache 10510 1 ext4, Live 0xc00800001e960000
-jbd2 144938 1 ext4, Live 0xc00800001e8e0000
-sd_mod 55031 4 - Live 0xc00800001e7b0000
-nvidia_drm 50539 0 - Live 0xc00800001d1d0000 (POE)
-nvidia_modeset 1264774 1 nvidia_drm, Live 0xc00800001cec0000 (POE)
-nvidia 17513183 93 nv_peer_mem,nvidia_uvm,nvidia_modeset, Live 0xc008000019070000 (POE)
-ast 98742 1 - Live 0xc0080000173f0000
-bnx2x 1012877 0 - Live 0xc008000017010000
-i2c_algo_bit 11175 1 ast, Live 0xc008000016f90000
-drm_kms_helper 241525 2 nvidia_drm,ast, Live 0xc008000012a00000
-ttm 175633 1 ast, Live 0xc0080000127f0000
-syscopyarea 4333 1 drm_kms_helper, Live 0xc0080000125e0000
-sysfillrect 5273 1 drm_kms_helper, Live 0xc0080000124c0000
-sysimgblt 3164 1 drm_kms_helper, Live 0xc008000012310000
-fb_sys_fops 2711 1 drm_kms_helper, Live 0xc0080000121c0000
-drm 554190 5 nvidia_drm,ast,drm_kms_helper,ttm, Live 0xc008000011fc0000
-ahci 23563 3 - Live 0xc008000011f80000
-libahci 49574 1 ahci, Live 0xc008000011f10000
-libata 407409 2 ahci,libahci, Live 0xc008000011e40000
-nvme 41980 0 - Live 0xc008000011d90000 (OE)
-tg3 250777 0 - Live 0xc008000011d20000
-nvme_core 64034 1 nvme, Live 0xc008000011af0000 (OE)
-mlx_compat 3831 17 rdma_ucm,ib_ucm,rdma_cm,iw_cm,ib_ipoib,ib_cm,ib_uverbs,ib_umad,mlx5_fpga_tools,mlx5_ib,mlx4_en,mlx4_ib,mlx4_core,ib_core,mlx5_core,nvme,nvme_core, Live 0xc008000011a80000 (OE)
-ipmi_devintf 12783 0 - Live 0xc008000011810000
-ipmi_msghandler 67259 3 ipmi_powernv,nvidia,ipmi_devintf, Live 0xc0080000115e0000
-i2c_core 97495 8 i2c_dev,at24,i2c_opal,nvidia,ast,i2c_algo_bit,drm_kms_helper,drm, Live 0xc008000011590000
-mdio 8641 1 bnx2x, Live 0xc008000010cf0000
-libcrc32c 2202 1 bnx2x, Live 0xc008000010b40000
+mmfs26 2569208 2 - Live 0xc008000013270000 (OE)
+mmfslinux 644740 21 mmfs26, Live 0xc008000011a60000 (OE)
+tracedev 52649 3 mmfs26,mmfslinux, Live 0xc008000011500000 (OE)
+xt_owner 3008 7 - Live 0xc00800000fa70000
+nv_rsync_mem 16029 1 - Live 0xc00800000d1d0000 (OE)
+nfsv3 56418 6 - Live 0xc00800000f1e0000
+nfs_acl 4893 1 nfsv3, Live 0xc00800000eef0000
+nfs 361328 39 nfsv3, Live 0xc00800000ece0000
+lockd 135003 2 nfsv3,nfs, Live 0xc00800000ebd0000
+grace 4005 1 lockd, Live 0xc00800000eab0000
+fscache 86060 1 nfs, Live 0xc00800000d990000
+nv_peer_mem 7394 0 - Live 0xc0080000115d0000 (OE)
+rdma_ucm 26302 0 - Live 0xc008000011de0000 (OE)
+ib_ucm 19568 0 - Live 0xc008000011d80000 (OE)
+rdma_cm 72406 1 rdma_ucm, Live 0xc008000011d10000 (OE)
+iw_cm 43539 1 rdma_cm, Live 0xc008000011ca0000 (OE)
+ib_ipoib 201917 0 - Live 0xc008000011c00000 (OE)
+ib_cm 53494 3 ib_ucm,rdma_cm,ib_ipoib, Live 0xc008000011b50000 (OE)
+ib_uverbs 126526 34 rdma_ucm,ib_ucm, Live 0xc008000011a00000 (OE)
+ib_umad 21415 0 - Live 0xc008000011900000 (OE)
+mlx5_fpga_tools 13476 0 - Live 0xc008000011860000 (OE)
+mlx5_ib 325211 0 - Live 0xc008000011550000 (OE)
+nf_log_ipv4 6700 4 - Live 0xc008000011250000
+nf_log_common 6014 1 nf_log_ipv4, Live 0xc0080000111f0000
+xt_LOG 3162 4 - Live 0xc008000010b80000
+xt_multiport 4044 9 - Live 0xc008000010700000
+mlx4_en 176739 0 - Live 0xc008000010da0000 (OE)
+mlx4_ib 256703 0 - Live 0xc008000010ca0000 (OE)
+mlx4_core 436281 2 mlx4_en,mlx4_ib, Live 0xc0080000109a0000 (OE)
+nvidia_uvm 964557 0 - Live 0xc008000010020000 (POE)
+kvm_hv 139485 0 - Live 0xc00800000fe00000
+kvm 259190 1 kvm_hv, Live 0xc00800000fd40000
+iptable_filter 3596 1 - Live 0xc00800000fb80000
+i2c_dev 13822 0 - Live 0xc00800000faa0000
+ib_core 365252 12 nv_rsync_mem,nv_peer_mem,rdma_ucm,ib_ucm,rdma_cm,iw_cm,ib_ipoib,ib_cm,ib_uverbs,ib_umad,mlx5_ib,mlx4_ib, Live 0xc00800000f400000 (OE)
+at24 13120 0 - Live 0xc00800000eb60000
+sg 49058 0 - Live 0xc00800000eae0000
+mlx5_core 1023063 2 mlx5_fpga_tools,mlx5_ib, Live 0xc00800000e570000 (OE)
+ofpart 5556 0 - Live 0xc00800000e530000
+mlxfw 16431 1 mlx5_core, Live 0xc00800000dd70000 (OE)
+devlink 51618 4 mlx4_en,mlx4_ib,mlx4_core,mlx5_core, Live 0xc00800000dba0000
+cxl 269354 2 mlx5_ib,mlx5_core, Live 0xc00800000d9c0000
+shpchp 43264 0 - Live 0xc00800000d440000
+powernv_flash 6327 1 - Live 0xc00800000d2e0000
+mtd 85057 5 ofpart,powernv_flash, Live 0xc00800000d270000
+opal_prd 8266 1 - Live 0xc00800000d230000
+uio_pdrv_genirq 5900 0 - Live 0xc00800001f1a0000
+ibmpowernv 7993 0 - Live 0xc00800001eca0000
+ipmi_powernv 6831 0 - Live 0xc00800001eae0000
+i2c_opal 6055 0 - Live 0xc00800001ea40000
+uio 15500 1 uio_pdrv_genirq, Live 0xc00800001e9c0000
+knem 43564 0 - Live 0xc00800001e8a0000 (OE)
+binfmt_misc 16644 1 - Live 0xc00800001e830000
+auth_rpcgss 75761 0 - Live 0xc00800001e7c0000
+sunrpc 510879 80 nfsv3,nfs_acl,nfs,lockd,auth_rpcgss, Live 0xc00800001e6c0000
+sch_fq_codel 14133 66 - Live 0xc00800001e5b0000
+ip_tables 26459 1 iptable_filter, Live 0xc00800001e510000
+ext4 843323 2 - Live 0xc00800001e3c0000
+mbcache 10510 1 ext4, Live 0xc00800001e220000
+jbd2 144938 1 ext4, Live 0xc00800001e1a0000
+sd_mod 55031 4 - Live 0xc00800001e070000
+nvidia_drm 50539 0 - Live 0xc00800001a820000 (POE)
+nvidia_modeset 1264774 1 nvidia_drm, Live 0xc00800001a660000 (POE)
+nvidia 17512159 94 nv_rsync_mem,nv_peer_mem,nvidia_uvm,nvidia_modeset, Live 0xc008000018ff0000 (POE)
+ast 98742 1 - Live 0xc008000015cb0000
+bnx2x 1012877 0 - Live 0xc008000015890000
+i2c_algo_bit 11175 1 ast, Live 0xc0080000140b0000
+drm_kms_helper 241525 2 nvidia_drm,ast, Live 0xc0080000126a0000
+syscopyarea 4333 1 drm_kms_helper, Live 0xc008000012540000
+sysfillrect 5273 1 drm_kms_helper, Live 0xc008000012460000
+sysimgblt 3164 1 drm_kms_helper, Live 0xc008000012400000
+ttm 175633 1 ast, Live 0xc0080000123a0000
+fb_sys_fops 2711 1 drm_kms_helper, Live 0xc008000012340000
+drm 554190 5 nvidia_drm,ast,drm_kms_helper,ttm, Live 0xc008000012140000
+ahci 23563 3 - Live 0xc008000012100000
+libahci 49574 1 ahci, Live 0xc008000012090000
+libata 407409 2 ahci,libahci, Live 0xc008000011fc0000
+tg3 250226 0 - Live 0xc008000011ee0000
+ipmi_devintf 12783 0 - Live 0xc008000011a40000
+nvme 41980 0 - Live 0xc0080000119e0000 (OE)
+nvme_core 64034 1 nvme, Live 0xc008000011930000 (OE)
+ipmi_msghandler 67259 3 ipmi_powernv,nvidia,ipmi_devintf, Live 0xc008000011890000
+mlx_compat 3831 17 rdma_ucm,ib_ucm,rdma_cm,iw_cm,ib_ipoib,ib_cm,ib_uverbs,ib_umad,mlx5_fpga_tools,mlx5_ib,mlx4_en,mlx4_ib,mlx4_core,ib_core,mlx5_core,nvme,nvme_core, Live 0xc008000011820000 (OE)
+i2c_core 97495 8 i2c_dev,at24,i2c_opal,nvidia,ast,i2c_algo_bit,drm_kms_helper,drm, Live 0xc0080000115f0000
+mdio 8641 1 bnx2x, Live 0xc008000010d20000
+libcrc32c 2202 1 bnx2x, Live 0xc008000010ba0000
 ptp 19205 4 mlx4_en,mlx5_core,bnx2x,tg3, Live 0xc008000010a80000
 pps_core 17660 1 ptp, Live 0xc0080000108c0000
 dm_mirror 22853 0 - Live 0xc008000010740000

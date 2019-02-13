@@ -1,38 +1,38 @@
 cat /proc/meminfo for rzansel, node rzansel61
 valuable information about the system's RAM usage
-Wed Dec  5 08:54:14 PST 2018
+Wed Feb 13 11:33:53 PST 2019
 
 MemTotal:       598037696 kB
-MemFree:        219203392 kB
-MemAvailable:   534066432 kB
-Buffers:          436736 kB
-Cached:         340812416 kB
+MemFree:        245898048 kB
+MemAvailable:   568051904 kB
+Buffers:          709568 kB
+Cached:         320792640 kB
 SwapCached:            0 kB
-Active:         81997056 kB
-Inactive:       265433664 kB
-Active(anon):   30985152 kB
-Inactive(anon):  5484608 kB
-Active(file):   51011904 kB
-Inactive(file): 259949056 kB
+Active:         163362752 kB
+Inactive:       161870656 kB
+Active(anon):    3874944 kB
+Inactive(anon):    84608 kB
+Active(file):   159487808 kB
+Inactive(file): 161786048 kB
 Unevictable:    16777216 kB
 Mlocked:        16777216 kB
 SwapTotal:       4194240 kB
 SwapFree:        4194240 kB
-Dirty:              2496 kB
-Writeback:             0 kB
-AnonPages:      22965504 kB
-Mapped:          2048704 kB
-Shmem:          30288448 kB
-Slab:            9728704 kB
-SReclaimable:    6489920 kB
-SUnreclaim:      3238784 kB
-KernelStack:       94208 kB
-PageTables:        88704 kB
+Dirty:              3200 kB
+Writeback:           256 kB
+AnonPages:      20515200 kB
+Mapped:          1834432 kB
+Shmem:            228480 kB
+Slab:            5558464 kB
+SReclaimable:    3467840 kB
+SUnreclaim:      2090624 kB
+KernelStack:       52480 kB
+PageTables:        84864 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:    303213056 kB
-Committed_AS:   55940352 kB
+Committed_AS:   24054016 kB
 VmallocTotal:   549755813888 kB
 VmallocUsed:           0 kB
 VmallocChunk:          0 kB
@@ -41,7 +41,7 @@ AnonHugePages:    262144 kB
 ShmemHugePages:        0 kB
 ShmemPmdMapped:        0 kB
 CmaTotal:       26853376 kB
-CmaFree:        26845248 kB
+CmaFree:        26853376 kB
 HugePages_Total:       0
 HugePages_Free:        0
 HugePages_Rsvd:        0

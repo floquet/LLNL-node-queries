@@ -1,10 +1,10 @@
 cat /proc/mounts for rzansel, node rzansel61
 all mounts in use
-Wed Dec  5 08:54:14 PST 2018
+Wed Feb 13 11:33:53 PST 2019
 
 sysfs /sys sysfs rw,nosuid,nodev,noexec,relatime 0 0
 proc /proc proc rw,nosuid,nodev,noexec,relatime 0 0
-devtmpfs /dev devtmpfs rw,nosuid,size=252537664k,nr_inodes=3945901,mode=755 0 0
+devtmpfs /dev devtmpfs rw,nosuid,size=252537408k,nr_inodes=3945897,mode=755 0 0
 securityfs /sys/kernel/security securityfs rw,nosuid,nodev,noexec,relatime 0 0
 tmpfs /dev/shm tmpfs rw,nosuid,nodev,size=265988672k,nr_inodes=4156073 0 0
 devpts /dev/pts devpts rw,nosuid,noexec,relatime,gid=5,mode=620,ptmxmode=000 0 0
@@ -13,21 +13,21 @@ tmpfs /sys/fs/cgroup tmpfs ro,nosuid,nodev,noexec,size=265988672k,nr_inodes=4156
 cgroup /sys/fs/cgroup/systemd cgroup rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd 0 0
 pstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0
 cgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0
+cgroup /sys/fs/cgroup/pids cgroup rw,nosuid,nodev,noexec,relatime,pids 0 0
 cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
 cgroup /sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0
-cgroup /sys/fs/cgroup/net_cls,net_prio cgroup rw,nosuid,nodev,noexec,relatime,net_cls,net_prio 0 0
-cgroup /sys/fs/cgroup/cpuset cgroup rw,nosuid,nodev,noexec,relatime,cpuset 0 0
-cgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
-cgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb 0 0
 cgroup /sys/fs/cgroup/memory cgroup rw,nosuid,nodev,noexec,relatime,memory 0 0
 cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
-cgroup /sys/fs/cgroup/pids cgroup rw,nosuid,nodev,noexec,relatime,pids 0 0
+cgroup /sys/fs/cgroup/net_cls,net_prio cgroup rw,nosuid,nodev,noexec,relatime,net_cls,net_prio 0 0
+cgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb 0 0
+cgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
+cgroup /sys/fs/cgroup/cpuset cgroup rw,nosuid,nodev,noexec,relatime,cpuset 0 0
 configfs /sys/kernel/config configfs rw,relatime 0 0
 /dev/mapper/system-root / ext4 rw,relatime,data=ordered 0 0
-systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=26,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=27682 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=25,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=30753 0 0
 mqueue /dev/mqueue mqueue rw,relatime 0 0
-hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
 debugfs /sys/kernel/debug debugfs rw,relatime 0 0
+hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
 binfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,relatime 0 0
 /dev/sdb2 /boot ext3 rw,relatime,data=ordered 0 0
 sunrpc /var/lib/nfs/rpc_pipefs rpc_pipefs rw,relatime 0 0
@@ -39,10 +39,10 @@ rz-nfs2-nfs.llnl.gov:/rz_give /usr/give nfs rw,nosuid,relatime,vers=3,rsize=6553
 rz-nfs2-nfs.llnl.gov:/rz_global /usr/global nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.4,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.4 0 0
 lsfmaster:/var/lib/lsf /var/lib/lsf nfs rw,nosuid,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=192.168.64.59,mountvers=3,mountport=20048,mountproto=tcp,local_lock=none,addr=192.168.64.59 0 0
 izrz-nfs1-nfs.llnl.gov:/collab_repo_ng /collab/repo nfs ro,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.11,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.11 0 0
+animal3-nfs.llnl.gov:/rz_sonar /usr/sonar nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.176,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.176 0 0
 rz-nfs2-nfs.llnl.gov:/rz_g0 /g/g0 nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.4,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.4 0 0
 cfhost:/usr/tce /usr/tce nfs ro,nosuid,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=192.168.64.59,mountvers=3,mountport=20048,mountproto=tcp,local_lock=none,addr=192.168.64.59 0 0
 cfhost:/usr/tcetmp /usr/tcetmp nfs rw,nosuid,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=192.168.64.59,mountvers=3,mountport=20048,mountproto=tcp,local_lock=none,addr=192.168.64.59 0 0
-pepe1-nfs.llnl.gov:/rz_tmp2 /nfs/tmp2 nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.1,mountvers=3,mountport=4048,mountproto=tcp,local_lock=none,addr=134.9.13.1 0 0
 rz-nfs2-nfs.llnl.gov:/rz_g10 /g/g10 nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.4,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.4 0 0
 rz-nfs1-nfs.llnl.gov:/rz_g11 /g/g11 nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.3,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.3 0 0
 rz-nfs2-nfs.llnl.gov:/rz_g12 /g/g12 nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.4,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.4 0 0
@@ -68,9 +68,7 @@ rz-nfs2-nfs.llnl.gov:/rz_dvsprod /usr/dvsprod nfs rw,nosuid,relatime,vers=3,rsiz
 rz-nfs2-nfs.llnl.gov:/rz_gapps /usr/gapps nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.4,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.4 0 0
 rz-nfs2-nfs.llnl.gov:/rz_gdata /usr/gdata nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.4,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.4 0 0
 rz-nfs2-nfs.llnl.gov:/rz_mic_bdiv /usr/mic/bdiv nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.4,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.4 0 0
-rz-nfs2-nfs.llnl.gov:/rz_mic_dvsviz /usr/mic/dvsviz nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.4,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.4 0 0
-gpfs1 /p/gpfs1 gpfs rw,relatime 0 0
-fusectl /sys/fs/fuse/connections fusectl rw,relatime 0 0
-animal3-nfs.llnl.gov:/rz_ws1 /usr/WS1 nfs rw,nosuid,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.176,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.176 0 0
-animal4-nfs.llnl.gov:/rz_ws2 /usr/WS2 nfs rw,nosuid,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.177,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.177 0 0
+animal3-nfs.llnl.gov:/rz_ws1 /usr/WS1 nfs rw,nosuid,nodev,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.176,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.176 0 0
+animal4-nfs.llnl.gov:/rz_ws2 /usr/WS2 nfs rw,nosuid,nodev,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.177,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.177 0 0
 animal3-nfs.llnl.gov:/rz_workspace /usr/workspace nfs rw,nosuid,nodev,relatime,vers=3,rsize=32768,wsize=32768,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.176,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.176 0 0
+gpfs1 /p/gpfs1 gpfs rw,relatime 0 0
