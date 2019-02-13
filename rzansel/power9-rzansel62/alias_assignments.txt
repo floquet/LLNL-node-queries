@@ -1,5 +1,5 @@
 alias assignments on rzansel
-Wed Nov  7 09:28:11 PST 2018
+Wed Feb 13 12:56:06 PST 2019
 
 alias again='cd ../; rm -rf build; mkdir build;  cd build'
 alias bcat='cat    /g/g13/topa1/.bashrc'
@@ -33,7 +33,7 @@ alias finder='echo '\''find . -name liblocaepetra.so'\'';  find . -name '\''libl
 alias ga='ssh -l dantopa -XY ga-fey'
 alias gobash='cd /usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash; pwd'
 alias gobf='cd /usr/workspace/wsrzc/topa1/repos/Github/node-queries/control/batch-files;   pwd'
-alias gobitbucket='cd /usr/workspace/wsrzc/topa1/repos/Github; pwd'
+alias gobitbucket='cd /usr/workspace/wsrzc/topa1/repos/Bitbucket; pwd'
 alias gobo='cd /usr/workspace/wsrzc/topa1/repos/Github/node-queries/control/batch-output;  pwd'
 alias gobs='cd /usr/workspace/wsrzc/topa1/repos/Github/node-queries/control/batch-scripts; pwd'
 alias gocontrol='cd /usr/workspace/wsrzc/topa1/repos/Github/node-queries/control;       pwd'

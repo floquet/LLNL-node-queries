@@ -1,0 +1,6 @@
+cat /proc/mdstat for rzansel, node rzansel27
+current information for multiple-disk, RAID configurations
+Wed Feb 13 12:56:37 PST 2019
+
+Personalities : 
+unused devices: <none>

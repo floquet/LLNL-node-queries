@@ -1,0 +1,1 @@
+grep -i 'model name' /proc/cpuinfo | sort | uniq

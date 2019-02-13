@@ -1,0 +1,13 @@
+cat /proc/slabinfo for rzansel, node rzansel27
+full information about memory usage on the slab level
+full information about memory usage on the slab level
+full information about memory usage on the slab level
+Wed Feb 13 12:56:37 PST 2019
+Wed Feb 13 12:56:37 PST 2019
+Wed Feb 13 12:56:37 PST 2019
+
+
+
+cat: /proc/slabinfo: Permission denied
+cat: /proc/slabinfo: Permission denied
+cat: /proc/slabinfo: Permission denied

@@ -1,6 +1,6 @@
 cat /proc/devices for rzansel, node rzansel62
 displays the various character and block devices currently configured
-Wed Nov  7 09:28:11 PST 2018
+Wed Feb 13 12:56:06 PST 2019
 
 Character devices:
   1 mem
@@ -49,9 +49,10 @@ Character devices:
 252 dax
 253 tpm
 254 gpiochip
-508 ss
-509 kdump
-510 trace
+507 ss
+508 kdump
+509 trace
+510 nv_rsync_mem
 511 infiniband_cm
 
 Block devices:
