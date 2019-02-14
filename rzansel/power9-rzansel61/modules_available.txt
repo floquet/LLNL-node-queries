@@ -1,15 +1,15 @@
 modules available 
-Wed Feb 13 11:52:17 PST 2019
+Thu Feb 14 09:22:52 PST 2019
 
 
------------------ /usr/tce/modulefiles/Compiler/xl/2019.02.07 ------------------
+------------------- /usr/tce/modulefiles/Compiler/pgi/18.10 --------------------
    spectrum-mpi/rolling-release (L,D)    spectrum-mpi/2018.08.30
    spectrum-mpi/2018.04.27               spectrum-mpi/2018.10.10
    spectrum-mpi/2018.06.01               spectrum-mpi/2018.11.14
    spectrum-mpi/2018.06.07               spectrum-mpi/2018.12.14
-   spectrum-mpi/2018.07.12               spectrum-mpi/2019.01.22
-   spectrum-mpi/2018.08.02               spectrum-mpi/2019.01.30
-   spectrum-mpi/2018.08.13
+   spectrum-mpi/2018.07.12               spectrum-mpi/2019.01.18
+   spectrum-mpi/2018.08.02               spectrum-mpi/2019.01.22
+   spectrum-mpi/2018.08.13               spectrum-mpi/2019.01.30
 
 ------------------------- /usr/tcetmp/modulefiles/Core -------------------------
    StdEnv                     (L)      lapack/3.8.0-P8-gcc-4.9.3
@@ -34,7 +34,7 @@ Wed Feb 13 11:52:17 PST 2019
    coredump/lwcore2                    pgi/18.4
    cuda/9.0.176                        pgi/18.5
    cuda/9.0.184                        pgi/18.7
-   cuda/9.1.76                         pgi/18.10                     (D)
+   cuda/9.1.76                         pgi/18.10                     (L,D)
    cuda/9.1.85                         python/2.7.13
    cuda/9.2.64                         python/2.7.14                 (D)
    cuda/9.2.88                         python/3.6.4
@@ -66,7 +66,7 @@ Wed Feb 13 11:52:17 PST 2019
    ibmppt/2.4.0.3                      xl/2018.05.18
    lalloc/1.0                          xl/2018.11.08
    lalloc/2.0                 (D)      xl/2018.11.26
-   lapack/3.8.0-gcc-4.9.3              xl/2019.02.07                 (L,D)
+   lapack/3.8.0-gcc-4.9.3              xl/2019.02.07                 (D)
    lapack/3.8.0-xl-2018.08.24 (D)
 
 -------------------- /usr/share/lmod/lmod/modulefiles/Core ---------------------

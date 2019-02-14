@@ -2,9 +2,9 @@ cat /proc/slabinfo for rzansel, node rzansel61
 full information about memory usage on the slab level
 full information about memory usage on the slab level
 full information about memory usage on the slab level
-Thu Feb 14 09:22:52 PST 2019
-Thu Feb 14 09:22:52 PST 2019
-Thu Feb 14 09:22:52 PST 2019
+Thu Feb 14 14:17:51 PST 2019
+Thu Feb 14 14:17:51 PST 2019
+Thu Feb 14 14:17:51 PST 2019
 
 
 
