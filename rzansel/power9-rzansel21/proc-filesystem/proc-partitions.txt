@@ -1,0 +1,9 @@
+cat /proc/partitions for rzansel, node rzansel21
+partition block allocation information
+Thu Feb 14 08:37:43 PST 2019
+
+major minor  #blocks  name
+
+ 259        0 1562813784 nvme0n1
+ 253        0  157286400 dm-0
+ 253        1   16777216 dm-1

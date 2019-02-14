@@ -1,5 +1,5 @@
 environment variables
-Wed Feb 13 12:56:06 PST 2019
+Thu Feb 14 08:37:29 PST 2019
 
 shell = bash
 
@@ -13,7 +13,7 @@ SHELL=/bin/bash
 fortran_compiler_mpi_cray=ftn
 dir_batch_files=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/control/batch-files
 dir_wsdb=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking/topa/wsdb
-SSH_CLIENT=192.168.64.61 49710 22
+SSH_CLIENT=192.168.64.61 40990 22
 fortran_compiler_caf=caf
 dir_performance=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking
 llnl_bash=/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash
@@ -59,14 +59,14 @@ me=dantopa@lanl.gov
 LOGNAME=topa1
 prefix=rzansel-power9-rzansel62
 core=/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash/core-scripts
-SSH_CONNECTION=192.168.64.61 49710 192.168.64.62 22
+SSH_CONNECTION=192.168.64.61 40990 192.168.64.62 22
 crayflags=-g -fbacktrace
 node_name=rzansel62
 gflags4=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5
 llnl_moniker=topa1
 gflags5=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto
 gflags6=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra
-DISPLAY=192.168.64.62:10.0
+DISPLAY=192.168.64.62:17.0
 gflags7=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
 fortran_compiler_mpi_gnu=mpif90
 dir_topa_bash=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking/topa/spack/bash
