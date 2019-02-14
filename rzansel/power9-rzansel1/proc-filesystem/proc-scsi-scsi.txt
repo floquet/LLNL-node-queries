@@ -1,0 +1,5 @@
+cat /proc/scsi/scsi for rzansel, node rzansel1
+list of every recognized SCSI device
+Thu Feb 14 14:19:38 PST 2019
+
+Attached devices:

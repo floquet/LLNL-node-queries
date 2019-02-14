@@ -44,42 +44,42 @@ revision	: 2.1 (pvr 004e 1201)
 
 processor	: 8
 cpu		: POWER9, altivec supported
-clock		: 3066.000000MHz
+clock		: 3266.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 9
 cpu		: POWER9, altivec supported
-clock		: 3066.000000MHz
+clock		: 3266.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 10
 cpu		: POWER9, altivec supported
-clock		: 3066.000000MHz
+clock		: 3266.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 11
 cpu		: POWER9, altivec supported
-clock		: 3066.000000MHz
+clock		: 3266.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 12
 cpu		: POWER9, altivec supported
-clock		: 3066.000000MHz
+clock		: 3266.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 13
 cpu		: POWER9, altivec supported
-clock		: 3066.000000MHz
+clock		: 3266.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 14
 cpu		: POWER9, altivec supported
-clock		: 3066.000000MHz
+clock		: 3266.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 15
 cpu		: POWER9, altivec supported
-clock		: 3066.000000MHz
+clock		: 3266.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 16
@@ -404,82 +404,82 @@ revision	: 2.1 (pvr 004e 1201)
 
 processor	: 80
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 81
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 82
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 83
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 84
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 85
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 86
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 87
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 88
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 89
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 90
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 91
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 92
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 93
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 94
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 95
 cpu		: POWER9, altivec supported
-clock		: 3800.000000MHz
+clock		: 2300.000000MHz
 revision	: 2.1 (pvr 004e 1201)
 
 processor	: 96
