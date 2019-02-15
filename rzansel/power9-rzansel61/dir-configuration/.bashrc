@@ -47,5 +47,5 @@ alias gozoltan="cd ${mySpack}/spack.rzansel.zoltan; pwd"
 alias quick="source ${lap}/library/patch-zoltan-config.sh"
 alias gomirror="cd /p/gpfs1/topa1/spack/spack.mirror; pwd"
 
-alias grab-compute="echo 'lalloc 2 -W 360'; lalloc 2 -W 360"
+alias grab-compute="echo 'lalloc 1 -W 360'; lalloc 1 -W 360"
 
