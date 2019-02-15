@@ -1,0 +1,16 @@
+
+Fri Feb 15 09:29:43 PST 2019
+cat /proc/sys/vm/panic_on_oom
+0
+
+Fri Feb 15 09:29:43 PST 2019
+cat /proc/sys/vm/panic_on_oom
+0
+
+Fri Feb 15 09:29:45 PST 2019
+cat /proc/sys/vm/panic_on_oom
+0
+
+Fri Feb 15 09:29:45 PST 2019
+cat /proc/sys/vm/panic_on_oom
+0

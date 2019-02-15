@@ -1,5 +1,5 @@
 environment variables
-Thu Feb 14 19:46:39 PST 2019
+Fri Feb 15 09:29:07 PST 2019
 
 shell = bash
 
@@ -13,7 +13,7 @@ SHELL=/bin/bash
 fortran_compiler_mpi_cray=ftn
 dir_batch_files=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/control/batch-files
 dir_wsdb=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking/topa/wsdb
-SSH_CLIENT=192.168.64.61 52562 22
+SSH_CLIENT=192.168.64.61 38486 22
 fortran_compiler_caf=caf
 dir_performance=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking
 llnl_bash=/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash
@@ -59,7 +59,7 @@ me=dantopa@lanl.gov
 LOGNAME=topa1
 prefix=rzansel-power9-rzansel62
 core=/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash/core-scripts
-SSH_CONNECTION=192.168.64.61 52562 192.168.64.62 22
+SSH_CONNECTION=192.168.64.61 38486 192.168.64.62 22
 crayflags=-g -fbacktrace
 node_name=rzansel62
 gflags4=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5

@@ -1,0 +1,5 @@
+cat /proc/execdomains for rzansel, node rzansel6
+execution domains currently supported by the Linux kernel,
+Fri Feb 15 09:29:45 PST 2019
+
+0-0	Linux           	[kernel]

@@ -1,5 +1,5 @@
 environment variables
-Thu Feb 14 16:52:26 PST 2019
+Fri Feb 15 09:28:35 PST 2019
 
 shell = -bash
 
@@ -33,6 +33,7 @@ LMOD_PKG=/usr/share/lmod/lmod
 vault=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel61/dir-configuration
 QTDIR=/usr/lib64/qt-3.3
 LSF_SERVERDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/etc
+OLDPWD=/usr/workspace/wsrzc/topa1/repos/Github
 node_queries=/usr/workspace/wsrzc/topa1/repos/Github/node-queries
 LMOD_VERSION=6.5.1
 QTINC=/usr/lib64/qt-3.3/include
@@ -47,7 +48,6 @@ myssh=ssh -l dantopa -XY
 QT_GRAPHICSSYSTEM_CHECKED=1
 LSF_LIBDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/lib
 normal=(B[m
-OPAL_PREFIX=/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-rolling-release
 CUDA_HOME=/usr/tce/packages/cuda/cuda-9.2.148
 USER=topa1
 LMOD_sys=Linux
@@ -76,7 +76,7 @@ dir_control=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/control
 gflags47=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination
 LMOD_SETTARG_CMD=:
 INPUTRC=/etc/inputrc
-PWD=/g/g13/topa1
+PWD=/usr/workspace/wsrzc/topa1/repos/Github/build-openmpi
 mySpack=/usr/workspace/wsrzc/topa1/spack-home
 _LMFILES_=/usr/tcetmp/modulefiles/Core/xl/2019.02.07.lua:/usr/tce/modulefiles/Compiler/xl/2019.02.07/spectrum-mpi/rolling-release.lua:/usr/tcetmp/modulefiles/Core/cuda/9.2.148.lua:/usr/tcetmp/modulefiles/Core/StdEnv.lua
 EDITOR=/bin/vi

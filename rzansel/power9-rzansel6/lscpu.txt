@@ -1,0 +1,25 @@
+lscpu for rzansel, node rzansel6
+Fri Feb 15 09:29:45 PST 2019
+
+Architecture:          ppc64le
+Byte Order:            Little Endian
+CPU(s):                176
+On-line CPU(s) list:   0-175
+Thread(s) per core:    4
+Core(s) per socket:    22
+Socket(s):             2
+NUMA node(s):          6
+Model:                 2.1 (pvr 004e 1201)
+Model name:            POWER9, altivec supported
+CPU max MHz:           3800.0000
+CPU min MHz:           2300.0000
+L1d cache:             32K
+L1i cache:             32K
+L2 cache:              512K
+L3 cache:              10240K
+NUMA node0 CPU(s):     0-87
+NUMA node8 CPU(s):     88-175
+NUMA node252 CPU(s):   
+NUMA node253 CPU(s):   
+NUMA node254 CPU(s):   
+NUMA node255 CPU(s):   
