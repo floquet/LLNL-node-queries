@@ -1,0 +1,53 @@
+lspci for rzansel, node rzansel14
+Thu Feb 14 19:47:05 PST 2019
+
+0000:00:00.0 PCI bridge: IBM Device 04c1
+0000:01:00.0 Non-Volatile memory controller: Samsung Electronics Co Ltd NVMe SSD Controller 172Xa (rev 01)
+0001:00:00.0 PCI bridge: IBM Device 04c1
+0001:01:00.0 USB controller: Texas Instruments TUSB73x0 SuperSpeed USB 3.0 xHCI Host Controller (rev 02)
+0002:00:00.0 PCI bridge: IBM Device 04c1
+0002:01:00.0 PCI bridge: ASPEED Technology, Inc. AST1150 PCI-to-PCI Bridge (rev 04)
+0002:02:00.0 VGA compatible controller: ASPEED Technology, Inc. ASPEED Graphics Family (rev 41)
+0003:00:00.0 PCI bridge: IBM Device 04c1
+0003:01:00.0 Infiniband controller: Mellanox Technologies MT28800 Family [ConnectX-5 Ex]
+0003:01:00.1 Infiniband controller: Mellanox Technologies MT28800 Family [ConnectX-5 Ex]
+0004:00:00.0 PCI bridge: IBM Device 04c1
+0004:01:00.0 PCI bridge: PLX Technology, Inc. Device 8725 (rev ca)
+0004:01:00.1 System peripheral: PLX Technology, Inc. Device 87d0 (rev ca)
+0004:01:00.2 System peripheral: PLX Technology, Inc. Device 87d0 (rev ca)
+0004:01:00.3 System peripheral: PLX Technology, Inc. Device 87d0 (rev ca)
+0004:01:00.4 System peripheral: PLX Technology, Inc. Device 87d0 (rev ca)
+0004:02:02.0 PCI bridge: PLX Technology, Inc. Device 8725 (rev ca)
+0004:02:0a.0 PCI bridge: PLX Technology, Inc. Device 8725 (rev ca)
+0004:02:0b.0 PCI bridge: PLX Technology, Inc. Device 8725 (rev ca)
+0004:02:0c.0 PCI bridge: PLX Technology, Inc. Device 8725 (rev ca)
+0004:03:00.0 SATA controller: Marvell Technology Group Ltd. 88SE9235 PCIe 2.0 x2 4-port SATA 6 Gb/s Controller (rev 11)
+0004:04:00.0 3D controller: NVIDIA Corporation GV100GL [Tesla V100 SXM2] (rev a1)
+0004:05:00.0 3D controller: NVIDIA Corporation GV100GL [Tesla V100 SXM2] (rev a1)
+0005:00:00.0 PCI bridge: IBM Device 04c1
+0005:01:00.0 Ethernet controller: Broadcom Limited NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+0005:01:00.1 Ethernet controller: Broadcom Limited NetXtreme BCM5719 Gigabit Ethernet PCIe (rev 01)
+0006:00:00.0 Bridge: IBM Device 04ea (rev 01)
+0006:00:00.1 Bridge: IBM Device 04ea (rev 01)
+0006:00:00.2 Bridge: IBM Device 04ea (rev 01)
+0006:00:01.0 Bridge: IBM Device 04ea (rev 01)
+0006:00:01.1 Bridge: IBM Device 04ea (rev 01)
+0006:00:01.2 Bridge: IBM Device 04ea (rev 01)
+0007:00:00.0 Bridge: IBM Device 04ea (rev 01)
+0007:00:00.1 Bridge: IBM Device 04ea (rev 01)
+0007:00:00.2 Bridge: IBM Device 04ea (rev 01)
+0007:00:01.0 Bridge: IBM Device 04ea (rev 01)
+0007:00:01.1 Bridge: IBM Device 04ea (rev 01)
+0007:00:01.2 Bridge: IBM Device 04ea (rev 01)
+0030:00:00.0 PCI bridge: IBM Device 04c1
+0033:00:00.0 PCI bridge: IBM Device 04c1
+0033:01:00.0 Infiniband controller: Mellanox Technologies MT28800 Family [ConnectX-5 Ex]
+0033:01:00.1 Infiniband controller: Mellanox Technologies MT28800 Family [ConnectX-5 Ex]
+0034:00:00.0 PCI bridge: IBM Device 04c1
+0035:00:00.0 PCI bridge: IBM Device 04c1
+0035:01:00.0 PCI bridge: PLX Technology, Inc. Device 8725 (rev ca)
+0035:02:04.0 PCI bridge: PLX Technology, Inc. Device 8725 (rev ca)
+0035:02:05.0 PCI bridge: PLX Technology, Inc. Device 8725 (rev ca)
+0035:02:0d.0 PCI bridge: PLX Technology, Inc. Device 8725 (rev ca)
+0035:03:00.0 3D controller: NVIDIA Corporation GV100GL [Tesla V100 SXM2] (rev a1)
+0035:04:00.0 3D controller: NVIDIA Corporation GV100GL [Tesla V100 SXM2] (rev a1)

@@ -1,6 +1,6 @@
 cat /proc/modules for rzansel, node rzansel62
 all modules loaded into the kernel
-Thu Feb 14 14:19:13 PST 2019
+Thu Feb 14 19:46:39 PST 2019
 
 mmfs26 2569208 2 - Live 0xc008000012bb0000 (OE)
 mmfslinux 644740 14 mmfs26, Live 0xc008000011a30000 (OE)
@@ -20,7 +20,7 @@ rdma_cm 72406 1 rdma_ucm, Live 0xc008000012ac0000 (OE)
 iw_cm 43539 1 rdma_cm, Live 0xc008000012a50000 (OE)
 ib_ipoib 201917 0 - Live 0xc0080000128c0000 (OE)
 ib_cm 53494 3 ib_ucm,rdma_cm,ib_ipoib, Live 0xc008000012810000 (OE)
-ib_uverbs 126526 46 rdma_ucm,ib_ucm, Live 0xc0080000123a0000 (OE)
+ib_uverbs 126526 34 rdma_ucm,ib_ucm, Live 0xc0080000123a0000 (OE)
 ib_umad 21415 0 - Live 0xc008000012010000 (OE)
 mlx5_fpga_tools 13476 0 - Live 0xc008000011f80000 (OE)
 mlx5_ib 325211 0 - Live 0xc008000011d10000 (OE)

@@ -1,0 +1,62 @@
+cat /proc/devices for rzansel, node rzansel14
+displays the various character and block devices currently configured
+Thu Feb 14 19:47:05 PST 2019
+
+Character devices:
+  1 mem
+  4 /dev/vc/0
+  4 tty
+  4 ttyS
+  5 /dev/tty
+  5 /dev/console
+  5 /dev/ptmx
+  7 vcs
+ 10 misc
+ 13 input
+ 29 fb
+ 89 i2c
+ 90 mtd
+128 ptm
+136 pts
+162 raw
+180 usb
+188 ttyUSB
+189 usb_device
+195 nvidia-frontend
+226 drm
+229 hvc
+231 infiniband_mad
+231 infiniband_verbs
+231 infiniband_cm
+235 infiniband_mad
+236 mlx5_fpga_tools
+237 nvidia-uvm
+238 uio
+239 export_layout
+240 nvidia-nvlink
+241 cxl
+242 ptp
+243 ipmidev
+244 pps
+245 nvme
+246 hidraw
+247 usbmon
+248 bsg
+249 hmm_device
+250 watchdog
+251 rtc
+252 dax
+253 tpm
+254 gpiochip
+506 ss
+507 kdump
+508 trace
+509 nv_rsync_mem
+510 infiniband_cm
+511 infiniband_verbs
+
+Block devices:
+  9 md
+253 device-mapper
+254 mdp
+259 blkext

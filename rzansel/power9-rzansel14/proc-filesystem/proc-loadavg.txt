@@ -1,0 +1,5 @@
+cat /proc/loadavg for rzansel, node rzansel14
+load average in regard to both the CPU and IO over time
+Thu Feb 14 19:47:05 PST 2019
+
+0.07 0.07 0.02 6/2139 175760
