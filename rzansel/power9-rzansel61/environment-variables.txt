@@ -1,5 +1,5 @@
 environment variables
-Fri Feb 15 09:28:35 PST 2019
+Wed Feb 20 14:33:13 PST 2019
 
 shell = -bash
 
@@ -8,7 +8,7 @@ bold=[1m
 dir_batch_scripts=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/control/batch-scripts
 MANPATH=/usr/tce/packages/cuda/cuda-9.2.148/doc/man:/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-rolling-release/share/man:/usr/tce/packages/xl/xl-2019.02.07/xlf/16.1.1/man/en_US:/usr/tce/packages/xl/xl-2019.02.07/xlC/16.1.1/man/en_US:/usr/tcetmp/man:/usr/share/lmod/lmod/share/man:/opt/ibm/spectrumcomputing/lsf/10.1/man:/usr/man:/usr/share/man:/usr/local/man:/usr/X11R6/man:/usr/lib64/mvapich/default/man:/opt/ibm/spectrum_mpi/jsm_pmix/share/man
 partition=power9
-_ModuleTable003_=IixbImRlZmF1bHQiXT0wLFsiZnVsbE5hbWUiXT0ic3BlY3RydW0tbXBpL3JvbGxpbmctcmVsZWFzZSIsWyJsb2FkT3JkZXIiXT0yLHByb3BUPXt9LFsic2hvcnQiXT0ic3BlY3RydW0tbXBpIixbInN0YXR1cyJdPSJhY3RpdmUiLH0seGw9e1siRk4iXT0iL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZS94bC8yMDE5LjAyLjA3Lmx1YSIsWyJkZWZhdWx0Il09MSxbImZ1bGxOYW1lIl09InhsLzIwMTkuMDIuMDciLFsibG9hZE9yZGVyIl09MSxwcm9wVD17fSxbInNob3J0Il09InhsIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sfSxtcGF0aEE9eyIvdXNyL3RjZS9tb2R1bGVmaWxlcy9NUEkveGwvMjAxOS4wMi4wNy9zcGVjdHJ1bS1tcGkvcm9sbGluZy1yZWxlYXNlIiwiL3Vzci90
+_ModuleTable003_=LFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJzcGVjdHJ1bS1tcGkvcm9sbGluZy1yZWxlYXNlIixbImxvYWRPcmRlciJdPTIscHJvcFQ9e30sWyJzaG9ydCJdPSJzcGVjdHJ1bS1tcGkiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSx4bD17WyJGTiJdPSIvdXNyL3RjZXRtcC9tb2R1bGVmaWxlcy9Db3JlL3hsLzIwMTkuMDIuMDcubHVhIixbImRlZmF1bHQiXT0xLFsiZnVsbE5hbWUiXT0ieGwvMjAxOS4wMi4wNyIsWyJsb2FkT3JkZXIiXT0xLHByb3BUPXt9LFsic2hvcnQiXT0ieGwiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSx9LG1wYXRoQT17Ii91c3IvdGNlL21vZHVsZWZpbGVzL01QSS94bC8yMDE5LjAyLjA3L3NwZWN0cnVtLW1waS9yb2xsaW5nLXJlbGVhc2UiLCIvdXNyL3Rj
 LMOD_FAMILY_CUDA=cuda
 LMOD_ANCIENT_TIME=3600
 HOSTNAME=rzansel61
@@ -25,7 +25,7 @@ LMOD_DEFAULT_MODULEPATH=/usr/tcetmp/modulefiles/Core:/usr/apps/modulefiles:/usr/
 LMOD_SYSTEM_DEFAULT_MODULES=StdEnv
 MODULEPATH_ROOT=/usr/share/modulefiles
 TMPDIR=/var/tmp
-SSH_CLIENT=134.9.48.238 54928 22
+SSH_CLIENT=134.9.48.238 45824 22
 fortran_compiler_caf=caf
 dir_performance=/usr/workspace/wsrzc/topa1/repos/Bitbucket/Performance_Benchmarking
 llnl_bash=/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash
@@ -33,13 +33,12 @@ LMOD_PKG=/usr/share/lmod/lmod
 vault=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel61/dir-configuration
 QTDIR=/usr/lib64/qt-3.3
 LSF_SERVERDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/etc
-OLDPWD=/usr/workspace/wsrzc/topa1/repos/Github
 node_queries=/usr/workspace/wsrzc/topa1/repos/Github/node-queries
 LMOD_VERSION=6.5.1
 QTINC=/usr/lib64/qt-3.3/include
 LMOD_SHORT_TIME=60
 os=linux
-SSH_TTY=/dev/pts/71
+SSH_TTY=/dev/pts/67
 lap=/usr/workspace/wsrzc/topa1/repos/Bitbucket/LLNL-lap
 nagflags=-g -C=all -colour -compatible -f2008 -free -gc -gline -info -nan -O2 -pg -time -v -V
 LC_ALL=C
@@ -48,6 +47,7 @@ myssh=ssh -l dantopa -XY
 QT_GRAPHICSSYSTEM_CHECKED=1
 LSF_LIBDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/lib
 normal=(B[m
+OPAL_PREFIX=/usr/tce/packages/spectrum-mpi/ibm/spectrum-mpi-rolling-release
 CUDA_HOME=/usr/tce/packages/cuda/cuda-9.2.148
 USER=topa1
 LMOD_sys=Linux
@@ -59,7 +59,7 @@ gcc_system_compiler=gcc@4.9.3
 PFTP_CONFIG_FILENAME=/etc/pftp_config
 ENV=/g/g13/topa1/.bashrc
 lap_scripts=/usr/workspace/wsrzc/topa1/repos/Bitbucket/LLNL-lap/scripts
-_ModuleTable004_=Y2UvbW9kdWxlZmlsZXMvQ29tcGlsZXIveGwvMjAxOS4wMi4wNyIsIi91c3IvdGNldG1wL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL2FwcHMvbW9kdWxlZmlsZXMiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4IiwiL3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlIiwiL3Vzci9zaGFyZS9sbW9kL2xtb2QvbW9kdWxlZmlsZXMvQ29yZSIsfSxbInN5c3RlbUJhc2VNUEFUSCJdPSIvdXNyL3RjZXRtcC9tb2R1bGVmaWxlcy9Db3JlOi91c3IvYXBwcy9tb2R1bGVmaWxlczovdXNyL3NoYXJlL21vZHVsZWZpbGVzL0xpbnV4Oi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvQ29yZTovdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIixbInZlcnNpb24iXT0yLH0=
+_ModuleTable004_=ZS9tb2R1bGVmaWxlcy9Db21waWxlci94bC8yMDE5LjAyLjA3IiwiL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvYXBwcy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsic3lzdGVtQmFzZU1QQVRIIl09Ii91c3IvdGNldG1wL21vZHVsZWZpbGVzL0NvcmU6L3Vzci9hcHBzL21vZHVsZWZpbGVzOi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXg6L3Vzci9zaGFyZS9tb2R1bGVmaWxlcy9Db3JlOi91c3Ivc2hhcmUvbG1vZC9sbW9kL21vZHVsZWZpbGVzL0NvcmUiLFsidmVyc2lvbiJdPTIsfQ==
 HOST_GRP=linux
 data=/usr/workspace/wsrzc/topa1
 bitbucket=/usr/workspace/wsrzc/topa1/repos/Bitbucket
@@ -67,7 +67,7 @@ LMOD_PREPEND_BLOCK=normal
 host_name=rzansel
 NLSPATH=/usr/tce/packages/xl/xl-2019.02.07/msg/%L/%N:/usr/tce/packages/xl/xl-2019.02.07/xlC/16.1.1/msg/%L/%N:/usr/tce/packages/xl/xl-2019.02.07/xlf/16.1.1/msg/%L/%N
 gflags45=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens 
-_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09NCxiYXNlTXBhdGhBPXsiL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvYXBwcy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsiY19yZWJ1aWxkVGltZSJdPTMwMCxbImNfc2hvcnRUaW1lIl09MC42Njg3ODgxOTQ2NTYzNyxmYW1pbHk9e1siY29tcGlsZXIiXT0ieGwiLFsiY3VkYSJdPSJjdWRhIixbIm1waSJdPSJzcGVjdHJ1bS1tcGkiLH0saW5hY3RpdmU9e30sbVQ9e1N0ZEVudj17WyJGTiJdPSIvdXNyL3RjZXRtcC9tb2R1bGVmaWxlcy9Db3Jl
+_ModuleTable001_=X01vZHVsZVRhYmxlXz17WyJhY3RpdmVTaXplIl09NCxiYXNlTXBhdGhBPXsiL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZSIsIi91c3IvYXBwcy9tb2R1bGVmaWxlcyIsIi91c3Ivc2hhcmUvbW9kdWxlZmlsZXMvTGludXgiLCIvdXNyL3NoYXJlL21vZHVsZWZpbGVzL0NvcmUiLCIvdXNyL3NoYXJlL2xtb2QvbG1vZC9tb2R1bGVmaWxlcy9Db3JlIix9LFsiY19yZWJ1aWxkVGltZSJdPTMwMCxbImNfc2hvcnRUaW1lIl09MC42NjA4NTIxOTM4MzI0LGZhbWlseT17WyJjb21waWxlciJdPSJ4bCIsWyJjdWRhIl09ImN1ZGEiLFsibXBpIl09InNwZWN0cnVtLW1waSIsfSxpbmFjdGl2ZT17fSxtVD17U3RkRW52PXtbIkZOIl09Ii91c3IvdGNldG1wL21vZHVsZWZpbGVzL0NvcmUv
 MAIL=/usr/spool/mail/topa1
 PATH=/usr/tce/packages/cuda/cuda-9.2.148/bin:/usr/tce/packages/spectrum-mpi/spectrum-mpi-rolling-release-xl-2019.02.07/bin:/usr/tce/packages/xl/xl-2019.02.07/bin:/usr/tcetmp/bin:/usr/lib64/qt-3.3/bin:/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/etc:/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibm/spectrum_mpi/jsm_pmix/bin:/opt/ibm/bb/bin:/opt/ibm/flightlog/bin:/opt/ibutils/bin:.
 scratch=/p/gscratchrzm/topa1
@@ -76,7 +76,7 @@ dir_control=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/control
 gflags47=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination
 LMOD_SETTARG_CMD=:
 INPUTRC=/etc/inputrc
-PWD=/usr/workspace/wsrzc/topa1/repos/Github/build-openmpi
+PWD=/g/g13/topa1
 mySpack=/usr/workspace/wsrzc/topa1/spack-home
 _LMFILES_=/usr/tcetmp/modulefiles/Core/xl/2019.02.07.lua:/usr/tce/modulefiles/Compiler/xl/2019.02.07/spectrum-mpi/rolling-release.lua:/usr/tcetmp/modulefiles/Core/cuda/9.2.148.lua:/usr/tcetmp/modulefiles/Core/StdEnv.lua
 EDITOR=/bin/vi
@@ -107,7 +107,7 @@ TACC_FAMILY_COMPILER=xl
 id=/usr/workspace/wsrzc/topa1/repos/Github/node-queries/rzansel/power9-rzansel61
 repos=/usr/workspace/wsrzc/topa1/repos
 cflags=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived -fcoarray=lib
-_ModuleTable002_=L1N0ZEVudi5sdWEiLFsiZGVmYXVsdCJdPTAsWyJmdWxsTmFtZSJdPSJTdGRFbnYiLFsibG9hZE9yZGVyIl09NCxwcm9wVD17fSxbInNob3J0Il09IlN0ZEVudiIsWyJzdGF0dXMiXT0iYWN0aXZlIix9LGN1ZGE9e1siRk4iXT0iL3Vzci90Y2V0bXAvbW9kdWxlZmlsZXMvQ29yZS9jdWRhLzkuMi4xNDgubHVhIixbImRlZmF1bHQiXT0xLFsiZnVsbE5hbWUiXT0iY3VkYS85LjIuMTQ4IixbImxvYWRPcmRlciJdPTMscHJvcFQ9e30sWyJzaG9ydCJdPSJjdWRhIixbInN0YXR1cyJdPSJhY3RpdmUiLH0sWyJzcGVjdHJ1bS1tcGkiXT17WyJGTiJdPSIvdXNyL3RjZS9tb2R1bGVmaWxlcy9Db21waWxlci94bC8yMDE5LjAyLjA3L3NwZWN0cnVtLW1waS9yb2xsaW5nLXJlbGVhc2UubHVh
+_ModuleTable002_=U3RkRW52Lmx1YSIsWyJkZWZhdWx0Il09MCxbImZ1bGxOYW1lIl09IlN0ZEVudiIsWyJsb2FkT3JkZXIiXT00LHByb3BUPXt9LFsic2hvcnQiXT0iU3RkRW52IixbInN0YXR1cyJdPSJhY3RpdmUiLH0sY3VkYT17WyJGTiJdPSIvdXNyL3RjZXRtcC9tb2R1bGVmaWxlcy9Db3JlL2N1ZGEvOS4yLjE0OC5sdWEiLFsiZGVmYXVsdCJdPTEsWyJmdWxsTmFtZSJdPSJjdWRhLzkuMi4xNDgiLFsibG9hZE9yZGVyIl09Myxwcm9wVD17fSxbInNob3J0Il09ImN1ZGEiLFsic3RhdHVzIl09ImFjdGl2ZSIsfSxbInNwZWN0cnVtLW1waSJdPXtbIkZOIl09Ii91c3IvdGNlL21vZHVsZWZpbGVzL0NvbXBpbGVyL3hsLzIwMTkuMDIuMDcvc3BlY3RydW0tbXBpL3JvbGxpbmctcmVsZWFzZS5sdWEi
 BINARY_TYPE_HPC=
 me=dantopa@lanl.gov
 BASH_ENV=/usr/share/lmod/lmod/init/bash
@@ -121,7 +121,7 @@ CVS_RSH=ssh
 core=/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash/core-scripts
 XLSF_UIDDIR=/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/lib/uid
 XDG_DATA_DIRS=/g/g13/topa1/.local/share/flatpak/exports/share/:/var/lib/flatpak/exports/share/:/usr/local/share/:/usr/share/
-SSH_CONNECTION=134.9.48.238 54928 134.9.48.65 22
+SSH_CONNECTION=134.9.48.238 45824 134.9.48.65 22
 crayflags=-g -fbacktrace
 node_name=rzansel61
 MODULESHOME=/usr/share/lmod/lmod
@@ -133,7 +133,7 @@ gflags5=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing
 LMOD_FAMILY_COMPILER=xl
 LMOD_FULL_SETTARG_SUPPORT=no
 gflags6=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra
-DISPLAY=192.168.64.61:43.0
+DISPLAY=192.168.64.61:61.0
 gflags7=-g -ffpe-trap=denormal,invalid,zero -fbacktrace -Wall -Wextra -Waliasing -Wsurprising -Wimplicit-procedure -Wintrinsics-std -Og -pedantic -fmax-errors=5 -fcheck=all -fcheck=do -fcheck=pointer -fno-protect-parens  -Wfunction-elimination -faggressive-function-elimination -Wc-binding-type -Wrealloc-lhs-all -Wuse-without-only -fdiagnostics-color=auto  -Wconversion-extra  -finit-derived
 QT_PLUGIN_PATH=/usr/lib64/kde4/plugins:/usr/lib/kde4/plugins
 TACC_FAMILY_CUDA=cuda
