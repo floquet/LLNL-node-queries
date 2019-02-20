@@ -1,38 +1,38 @@
 cat /proc/meminfo for rzansel, node rzansel61
 valuable information about the system's RAM usage
-Fri Feb 15 09:28:34 PST 2019
+Wed Feb 20 14:33:13 PST 2019
 
 MemTotal:       598037696 kB
-MemFree:        202159488 kB
-MemAvailable:   564747392 kB
-Buffers:          743680 kB
-Cached:         360428672 kB
+MemFree:        185676288 kB
+MemAvailable:   566667008 kB
+Buffers:          526912 kB
+Cached:         378819264 kB
 SwapCached:            0 kB
-Active:         145324864 kB
-Inactive:       222184128 kB
-Active(anon):    6434368 kB
-Inactive(anon):   253312 kB
-Active(file):   138890496 kB
-Inactive(file): 221930816 kB
+Active:         108409344 kB
+Inactive:       274838912 kB
+Active(anon):    3970176 kB
+Inactive(anon):   717760 kB
+Active(file):   104439168 kB
+Inactive(file): 274121152 kB
 Unevictable:    16777216 kB
 Mlocked:        16777216 kB
 SwapTotal:       4194240 kB
 SwapFree:        4194240 kB
-Dirty:              3200 kB
-Writeback:           256 kB
-AnonPages:      23127040 kB
-Mapped:          2120896 kB
-Shmem:            351424 kB
-Slab:            6639424 kB
-SReclaimable:    4354432 kB
-SUnreclaim:      2284992 kB
-KernelStack:       57904 kB
-PageTables:       102336 kB
+Dirty:              3776 kB
+Writeback:             0 kB
+AnonPages:      20691136 kB
+Mapped:          2260864 kB
+Shmem:            786048 kB
+Slab:            7377536 kB
+SReclaimable:    5018240 kB
+SUnreclaim:      2359296 kB
+KernelStack:       54304 kB
+PageTables:        87424 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:    303213056 kB
-Committed_AS:   32209728 kB
+Committed_AS:   25110144 kB
 VmallocTotal:   549755813888 kB
 VmallocUsed:           0 kB
 VmallocChunk:          0 kB
@@ -41,7 +41,7 @@ AnonHugePages:    262144 kB
 ShmemHugePages:        0 kB
 ShmemPmdMapped:        0 kB
 CmaTotal:       26853376 kB
-CmaFree:        26853056 kB
+CmaFree:        26852928 kB
 HugePages_Total:       0
 HugePages_Free:        0
 HugePages_Rsvd:        0
