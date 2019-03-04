@@ -1,5 +1,5 @@
 cat /proc/cmdline for rzansel, node rzansel14
 parameters passed to the kernel when it is started
-Thu Feb 14 19:47:05 PST 2019
+Sun Mar  3 18:08:32 PST 2019
 
-imgurl=http://192.168.64.59:80//install/llnl/netboot-compute/blueos-3.2-21-2019-02-08T10_57_08/image/rootimg.cpio.gz XCAT=192.168.64.59:3001 NODE=rzansel14 FC=0 XCATHTTPPORT=80 BOOTIF=70:e2:84:14:c0:d2  selinux=0  installmode=nvme-lv rootlimit=150.00g swappartsize=16.00g
+imgurl=http://192.168.64.59:80//install/llnl/netboot-compute/blueos-3.2-22-2019-02-21T17_47_03/image/rootimg.cpio.gz XCAT=192.168.64.59:3001 NODE=rzansel14 FC=0 XCATHTTPPORT=80 BOOTIF=70:e2:84:14:c0:d2  selinux=0  installmode=nvme-lv rootlimit=150.00g swappartsize=16.00g

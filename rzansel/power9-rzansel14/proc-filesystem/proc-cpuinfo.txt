@@ -1,6 +1,6 @@
 cat /proc/cpuinfo for rzansel, node rzansel14
 type of processor used
-Thu Feb 14 19:47:05 PST 2019
+Sun Mar  3 18:08:32 PST 2019
 
 processor	: 0
 cpu		: POWER9, altivec supported

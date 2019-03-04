@@ -1,6 +1,6 @@
 cat /proc/mounts for rzansel, node rzansel14
 all mounts in use
-Thu Feb 14 19:47:05 PST 2019
+Sun Mar  3 18:08:32 PST 2019
 
 sysfs /sys sysfs rw,relatime 0 0
 proc /proc proc rw,relatime 0 0
@@ -12,24 +12,24 @@ tmpfs /run tmpfs rw,nosuid,nodev,size=133919552k,nr_inodes=2092493,mode=755 0 0
 tmpfs /sys/fs/cgroup tmpfs ro,nosuid,nodev,noexec,size=133919552k,nr_inodes=2092493,mode=755 0 0
 cgroup /sys/fs/cgroup/systemd cgroup rw,nosuid,nodev,noexec,relatime,xattr,release_agent=/usr/lib/systemd/systemd-cgroups-agent,name=systemd 0 0
 pstore /sys/fs/pstore pstore rw,nosuid,nodev,noexec,relatime 0 0
-cgroup /sys/fs/cgroup/net_cls,net_prio cgroup rw,nosuid,nodev,noexec,relatime,net_cls,net_prio 0 0
-cgroup /sys/fs/cgroup/cpuset cgroup rw,nosuid,nodev,noexec,relatime,cpuset 0 0
-cgroup /sys/fs/cgroup/pids cgroup rw,nosuid,nodev,noexec,relatime,pids 0 0
+cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
 cgroup /sys/fs/cgroup/devices cgroup rw,nosuid,nodev,noexec,relatime,devices 0 0
 cgroup /sys/fs/cgroup/perf_event cgroup rw,nosuid,nodev,noexec,relatime,perf_event 0 0
-cgroup /sys/fs/cgroup/freezer cgroup rw,nosuid,nodev,noexec,relatime,freezer 0 0
-cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
-cgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb 0 0
 cgroup /sys/fs/cgroup/memory cgroup rw,nosuid,nodev,noexec,relatime,memory 0 0
 cgroup /sys/fs/cgroup/blkio cgroup rw,nosuid,nodev,noexec,relatime,blkio 0 0
+cgroup /sys/fs/cgroup/net_cls,net_prio cgroup rw,nosuid,nodev,noexec,relatime,net_cls,net_prio 0 0
+cgroup /sys/fs/cgroup/pids cgroup rw,nosuid,nodev,noexec,relatime,pids 0 0
+cgroup /sys/fs/cgroup/cpuset cgroup rw,nosuid,nodev,noexec,relatime,cpuset 0 0
+cgroup /sys/fs/cgroup/cpu,cpuacct cgroup rw,nosuid,nodev,noexec,relatime,cpu,cpuacct 0 0
+cgroup /sys/fs/cgroup/hugetlb cgroup rw,nosuid,nodev,noexec,relatime,hugetlb 0 0
 configfs /sys/kernel/config configfs rw,relatime 0 0
 /dev/mapper/bb-rootlv / ext4 rw,relatime,data=ordered 0 0
 rw /.sllocal/log tmpfs rw,relatime,size=133919552k,nr_inodes=2092493 0 0
 rpc_pipefs /var/lib/nfs/rpc_pipefs rpc_pipefs rw,relatime 0 0
-debugfs /sys/kernel/debug debugfs rw,relatime 0 0
+systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=30,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=31790 0 0
 mqueue /dev/mqueue mqueue rw,relatime 0 0
+debugfs /sys/kernel/debug debugfs rw,relatime 0 0
 hugetlbfs /dev/hugepages hugetlbfs rw,relatime,pagesize=2M 0 0
-systemd-1 /proc/sys/fs/binfmt_misc autofs rw,relatime,fd=32,pgrp=1,timeout=0,minproto=5,maxproto=5,direct,pipe_ino=15396 0 0
 binfmt_misc /proc/sys/fs/binfmt_misc binfmt_misc rw,relatime 0 0
 cfhost:/var/cfengine/inputs /var/cfengine/inputs nfs ro,nosuid,relatime,vers=3,rsize=1048576,wsize=1048576,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=192.168.64.59,mountvers=3,mountport=20048,mountproto=tcp,local_lock=none,addr=192.168.64.59 0 0
 izrz-nfs1-nfs.llnl.gov:/collab_gapps /collab/usr/gapps nfs rw,nosuid,relatime,vers=3,rsize=65536,wsize=65536,namlen=255,hard,proto=tcp,timeo=600,retrans=2,sec=sys,mountaddr=134.9.13.11,mountvers=3,mountport=635,mountproto=tcp,local_lock=none,addr=134.9.13.11 0 0

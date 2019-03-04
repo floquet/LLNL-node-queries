@@ -1,3 +1,4 @@
 modules available 
-Wed Feb 20 14:34:48 PST 2019
+Sun Mar  3 18:08:27 PST 2019
 
+/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash/core-scripts/modules.sh: line 15: module: command not found
