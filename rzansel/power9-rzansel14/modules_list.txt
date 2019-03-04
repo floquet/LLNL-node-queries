@@ -1,4 +1,8 @@
 module list
-Sun Mar  3 18:08:31 PST 2019
+Sun Mar  3 18:08:33 PST 2019
 
-/usr/workspace/wsrzc/topa1/repos/Github/LLNL-bash/core-scripts/modules.sh: line 23: module: command not found
+
+Currently Loaded Modules:
+  1) xl/2019.02.07                  3) cuda/9.2.148
+  2) spectrum-mpi/rolling-release   4) StdEnv
+

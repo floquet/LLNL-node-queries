@@ -1,0 +1,17 @@
+cat /proc/misc for rzansel, node rzansel15
+miscellaneous drivers registered on the miscellaneous major device, which is device number 10
+Sun Mar  3 18:26:00 PST 2019
+
+ 56 rdma_cm
+232 kvm
+ 57 opal-prd
+ 58 knem
+236 device-mapper
+ 59 memory_bandwidth
+ 60 network_throughput
+ 61 network_latency
+ 62 cpu_dma_latency
+183 hw_random
+235 autofs
+144 nvram
+ 63 vga_arbiter

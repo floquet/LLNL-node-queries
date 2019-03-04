@@ -1,0 +1,5 @@
+cat /proc/cmdline for rzansel, node rzansel15
+parameters passed to the kernel when it is started
+Sun Mar  3 18:26:00 PST 2019
+
+imgurl=http://192.168.64.59:80//install/llnl/netboot-compute/blueos-3.2-22-2019-02-21T17_47_03/image/rootimg.cpio.gz XCAT=192.168.64.59:3001 NODE=rzansel15 FC=0 XCATHTTPPORT=80 BOOTIF=70:e2:84:14:c2:e2  selinux=0  installmode=nvme-lv rootlimit=150.00g swappartsize=16.00g

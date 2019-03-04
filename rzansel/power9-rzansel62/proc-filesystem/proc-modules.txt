@@ -1,6 +1,6 @@
 cat /proc/modules for rzansel, node rzansel62
 all modules loaded into the kernel
-Sun Mar  3 18:08:30 PST 2019
+Sun Mar  3 18:25:57 PST 2019
 
 udp_diag 5414 0 - Live 0xc00800001ddb0000
 inet_diag 21125 1 udp_diag, Live 0xc00800001dd50000

@@ -1,6 +1,6 @@
 cat /proc/swaps for rzansel, node rzansel62
 measures swap space and its utilization
-Sun Mar  3 18:08:30 PST 2019
+Sun Mar  3 18:25:57 PST 2019
 
 Filename				Type		Size	Used	Priority
 /dev/sda3                               partition	4194240	0	-2

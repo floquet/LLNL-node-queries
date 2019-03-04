@@ -1,0 +1,5 @@
+cat /proc/version for rzansel, node rzansel15
+version of the Linux kernel, gcc version used to compile the kernel, time of kernel compilation, kernel compiler's user name 
+Sun Mar  3 18:26:00 PST 2019
+
+Linux version 4.14.0-49.18.1.bl6.ppc64le (mockbuild@builder1-ppc64le.buildfarm) (gcc version 4.8.5 20150623 (Red Hat 4.8.5-36) (GCC)) #1 SMP Tue Dec 11 16:29:11 PST 2018
