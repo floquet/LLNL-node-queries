@@ -1,5 +1,5 @@
 alias assignments on rzansel
-Tue Mar  5 11:26:42 PST 2019
+Tue Mar  5 11:27:02 PST 2019
 
 alias again='cd ../; rm -rf build; mkdir build;  cd build'
 alias bcat='cat    /g/g13/topa1/.bashrc'
