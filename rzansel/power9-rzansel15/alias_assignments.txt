@@ -1,5 +1,5 @@
 alias assignments on rzansel
-Sun Mar  3 18:25:58 PST 2019
+Sun Mar  3 18:26:01 PST 2019
 
 alias again='cd ../; rm -rf build; mkdir build;  cd build'
 alias bcat='cat    /g/g13/topa1/.bashrc'
@@ -25,8 +25,8 @@ alias disk_total='echo "total disk usage for $(pwd):";    du -shm'
 alias ebf='echo '\''${bash_file}:'\'';  echo '\''.bashrc'\'''
 alias echocf='echo $cflags'
 alias echogf='echo $gflags'
-alias emp='echo '\''${MODULEPATH}:'\''; echo '\'''\'''
-alias ep='echo '\''${PATH}:'\'';       echo '\''/usr/local/bin:/usr/bin'\'''
+alias emp='echo '\''${MODULEPATH}:'\''; echo '\''/usr/tce/modulefiles/MPI/xl/2019.02.07/spectrum-mpi/rolling-release:/usr/tce/modulefiles/Compiler/xl/2019.02.07:/usr/tcetmp/modulefiles/Core:/usr/apps/modulefiles:/usr/share/modulefiles/Linux:/usr/share/modulefiles/Core:/usr/share/lmod/lmod/modulefiles/Core'\'''
+alias ep='echo '\''${PATH}:'\'';       echo '\''/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/bin:/usr/tce/packages/cuda/cuda-9.2.148/bin:/usr/tce/packages/spectrum-mpi/spectrum-mpi-rolling-release-xl-2019.02.07/bin:/usr/tce/packages/xl/xl-2019.02.07/bin:/usr/tcetmp/bin:/usr/lib64/qt-3.3/bin:/opt/ibm/spectrumcomputing/lsf/10.1/linux3.10-glibc2.17-ppc64le-csm/etc:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/sbin:/opt/ibm/spectrum_mpi/jsm_pmix/bin:/opt/ibm/bb/bin:/opt/ibm/flightlog/bin:/opt/ibutils/bin:.:.'\'''
 alias epa='echo '\''${partition}:'\'';  echo '\''power9'\'''
 alias esp='echo '\''${SPACK_ROOT}:'\''; echo '\'''\'''
 alias finder='echo '\''find . -name liblocaepetra.so'\'';  find . -name '\''liblocaepetra.so'\'''
