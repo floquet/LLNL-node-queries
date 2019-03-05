@@ -1,6 +1,6 @@
 cat /proc/locks for rzansel, node rzansel61
 files currently locked by the kernel
-Tue Mar  5 11:26:41 PST 2019
+Tue Mar  5 11:27:02 PST 2019
 
 2: POSIX  ADVISORY  WRITE 118927 00:4e:-9203947652088914073 0 EOF
 3: FLOCK  ADVISORY  WRITE 7796 00:17:42377 0 EOF
