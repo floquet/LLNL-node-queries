@@ -1,38 +1,38 @@
 cat /proc/meminfo for rzansel, node rzansel61
 valuable information about the system's RAM usage
-Tue Mar  5 11:27:02 PST 2019
+Thu Mar 14 12:38:01 PDT 2019
 
 MemTotal:       598037696 kB
-MemFree:        125321216 kB
-MemAvailable:   557927744 kB
-Buffers:          484032 kB
-Cached:         429228032 kB
+MemFree:        81059648 kB
+MemAvailable:   567901184 kB
+Buffers:          400064 kB
+Cached:         482137152 kB
 SwapCached:            0 kB
-Active:         67460992 kB
-Inactive:       373912192 kB
-Active(anon):   11663744 kB
-Inactive(anon):  1357888 kB
-Active(file):   55797248 kB
-Inactive(file): 372554304 kB
+Active:         17593856 kB
+Inactive:       466954944 kB
+Active(anon):    2179520 kB
+Inactive(anon):  1644096 kB
+Active(file):   15414336 kB
+Inactive(file): 465310848 kB
 Unevictable:    16777216 kB
 Mlocked:        16777216 kB
 SwapTotal:       4194240 kB
 SwapFree:        4194240 kB
-Dirty:              3136 kB
+Dirty:              2560 kB
 Writeback:             0 kB
-AnonPages:      28438336 kB
-Mapped:          2442176 kB
-Shmem:           1360768 kB
-Slab:            9449088 kB
-SReclaimable:    6842816 kB
-SUnreclaim:      2606272 kB
-KernelStack:       59200 kB
-PageTables:       111168 kB
+AnonPages:      18794432 kB
+Mapped:          1640512 kB
+Shmem:           1812224 kB
+Slab:           11295488 kB
+SReclaimable:    8704192 kB
+SUnreclaim:      2591296 kB
+KernelStack:       42048 kB
+PageTables:        66752 kB
 NFS_Unstable:          0 kB
 Bounce:                0 kB
 WritebackTmp:          0 kB
 CommitLimit:    303213056 kB
-Committed_AS:   33503680 kB
+Committed_AS:   22380672 kB
 VmallocTotal:   549755813888 kB
 VmallocUsed:           0 kB
 VmallocChunk:          0 kB
@@ -41,7 +41,7 @@ AnonHugePages:    262144 kB
 ShmemHugePages:        0 kB
 ShmemPmdMapped:        0 kB
 CmaTotal:       26853376 kB
-CmaFree:        26840640 kB
+CmaFree:         9448640 kB
 HugePages_Total:       0
 HugePages_Free:        0
 HugePages_Rsvd:        0
